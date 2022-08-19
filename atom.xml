@@ -6,7 +6,7 @@
   <link href="https://ptshucn.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://ptshucn.gitee.io/"/>
-  <updated>2022-08-19T12:26:46.199Z</updated>
+  <updated>2022-08-19T13:41:17.796Z</updated>
   <id>https://ptshucn.gitee.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Github与Gitee的连接</title>
+    <link href="https://ptshucn.gitee.io/2022/08/19/Github%E4%B8%8EGitee%E7%9A%84%E8%BF%9E%E6%8E%A5/"/>
+    <id>https://ptshucn.gitee.io/2022/08/19/Github%E4%B8%8EGitee%E7%9A%84%E8%BF%9E%E6%8E%A5/</id>
+    <published>2022-08-19T13:39:46.000Z</published>
+    <updated>2022-08-19T13:41:17.796Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="连接-Github"><a href="#连接-Github" class="headerlink" title="连接 Github"></a>连接 Github</h1><p>右键 -&gt; Git Bash Here，设置用户名和邮箱：<br>git config –global user.name “GitHub 用户名”<br>git config –global user.email “GitHub 邮箱”<br>创建 SSH 密匙：<br>输入 ssh-keygen -t rsa -C “GitHub 邮箱”，然后一路回车。</p><span id="more"></span><p>添加密匙：</p><p>进入 [C:\Users\用户名.ssh] 目录（要勾选显示“隐藏的项目”），用记事本打开公钥 id_rsa.pub 文件并复制里面的内容。</p><p>登陆 GitHub ，进入 Settings 页面，选择左边栏的 SSH and GPG keys，点击 New SSH key。</p><p>Title 随便取个名字，粘贴复制的 id_rsa.pub 内容到 Key 中，点击 Add SSH key 完成添加。</p><p>验证连接：</p><p>打开 Git Bash，输入 ssh -T <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#x6f;&#x6d;</a> 出现 “Are you sure……”，输入 yes 回车确认。</p><p>显示 “Hi xxx! You’ve successfully……” 即连接成功。</p><h1 id="连接-Gitee"><a href="#连接-Gitee" class="headerlink" title="连接 Gitee"></a>连接 Gitee</h1><p>修改根目录_config.yml配置<br>deploy:<br>type: git<br>repo: <a href="https://gitee.com/ptshucn/ptshucn.git">https://gitee.com/ptshucn/ptshucn.git</a> （将地址换成自己的地址）<br>branch: master</p><p>然后在blog的根目录执行命令：</p><p>npm install hexo-deployer-git –save # 安装git插件</p><p>git config –global user.email <a href="mailto:&#122;&#x73;&#107;&#97;&#110;&#x67;&#x40;&#x71;&#113;&#x2e;&#99;&#x6f;&#109;">&#122;&#x73;&#107;&#97;&#110;&#x67;&#x40;&#x71;&#113;&#x2e;&#99;&#x6f;&#109;</a> # 设置gitee邮箱（gitee的注册邮箱）</p><p>git config –global user.name ‘ptshucn’ # 设置用户名（git的注册昵称）</p><p>hexo deploy # 上传到gitee</p><p>然后选择gitee pages服务，然后选择开启 或 更新即可。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;连接-Github&quot;&gt;&lt;a href=&quot;#连接-Github&quot; class=&quot;headerlink&quot; title=&quot;连接 Github&quot;&gt;&lt;/a&gt;连接 Github&lt;/h1&gt;&lt;p&gt;右键 -&amp;gt; Git Bash Here，设置用户名和邮箱：&lt;br&gt;git config –global user.name “GitHub 用户名”&lt;br&gt;git config –global user.email “GitHub 邮箱”&lt;br&gt;创建 SSH 密匙：&lt;br&gt;输入 ssh-keygen -t rsa -C “GitHub 邮箱”，然后一路回车。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Github使用" scheme="https://ptshucn.gitee.io/categories/Github%E4%BD%BF%E7%94%A8/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>node_modules瘦身方法</title>
