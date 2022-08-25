@@ -94,7 +94,7 @@
 
   <url>
     <loc>https://www.ptsh.cf/</loc>
-    <lastmod>2022-08-21</lastmod>
+    <lastmod>2022-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,21 +102,21 @@
   
   <url>
     <loc>https://www.ptsh.cf/tags/Hexo/</loc>
-    <lastmod>2022-08-21</lastmod>
+    <lastmod>2022-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/Github/</loc>
-    <lastmod>2022-08-21</lastmod>
+    <lastmod>2022-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2022-08-21</lastmod>
+    <lastmod>2022-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -125,7 +125,7 @@
   
   <url>
     <loc>https://www.ptsh.cf/categories/Github%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2022-08-21</lastmod>
+    <lastmod>2022-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
