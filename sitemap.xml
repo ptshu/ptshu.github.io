@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://www.ptsh.cf/2022/08/07/%E6%88%91%E7%9A%84%E5%9F%9F%E5%90%8D/</loc>
+    
+    <lastmod>2022-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ptsh.cf/2022/08/08/Hexo+Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2022-09-29</lastmod>
@@ -41,15 +50,6 @@
     <loc>https://www.ptsh.cf/2022/09/02/win7%E6%96%B0%E6%B5%8B%E8%AF%95/</loc>
     
     <lastmod>2022-09-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ptsh.cf/2022/08/07/%E6%88%91%E7%9A%84%E5%9F%9F%E5%90%8D/</loc>
-    
-    <lastmod>2022-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
