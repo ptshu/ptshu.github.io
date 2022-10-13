@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ptsh.cf/2022/10/13/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%BB%98%E8%AE%A4%E9%A1%B5%E9%9D%A2%E8%AE%BE%E7%BD%AE%E4%B8%BA%E7%A9%BA%E7%99%BD%E9%A1%B5/</loc>
+    
+    <lastmod>2022-10-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ptsh.cf/2022/10/13/%E6%9E%81%E7%8B%90GitLab%E4%B8%8EGitLab%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
     <lastmod>2022-10-13</lastmod>
@@ -157,10 +166,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.ptsh.cf/tags/%E7%A9%BA%E7%99%BD%E9%A1%B5/</loc>
+    <lastmod>2022-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://www.ptsh.cf/categories/Github%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2022-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ptsh.cf/categories/%E6%99%BA%E8%83%BD%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2022-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
