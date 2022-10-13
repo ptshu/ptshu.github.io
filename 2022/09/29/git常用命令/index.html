@@ -149,9 +149,10 @@
       
         <h1 id="配置github用户信息"><a href="#配置github用户信息" class="headerlink" title="配置github用户信息"></a>配置github用户信息</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;zskang@qq.com&quot;</span><br><span class="line">git config --global user.name &quot;ptshu&quot;</span><br></pre></td></tr></table></figure>
 <span id="more"></span>
-<h1 id="配置远程仓库位置"><a href="#配置远程仓库位置" class="headerlink" title="配置远程仓库位置"></a>配置远程仓库位置</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">  git remote add origin https://&lt;your_token&gt;@github.com/&lt;USERNAME&gt;/&lt;REPO&gt;.git   //第一次添加配置</span><br><span class="line">或者</span><br><span class="line">  git remote set-url origin https://&lt;your_token&gt;@github.com/&lt;USERNAME&gt;/&lt;REPO&gt;.git   //已存在而再次更改配置</span><br><span class="line">  git remote set-url origin https://ghp_W42ArMmNdN9PROqD和谐一下2ZAFRaWXGwCyiY0l95jI@github.com/ptshu/hexo.git</span><br></pre></td></tr></table></figure>
+<h1 id="配置远程仓库位置"><a href="#配置远程仓库位置" class="headerlink" title="配置远程仓库位置"></a>配置远程仓库位置</h1><p>  <code>git remote add origin https://&lt;your_token&gt;@github.com/&lt;USERNAME&gt;/&lt;REPO&gt;.git</code>   &#x2F;&#x2F;第一次添加配置<br>或者<br>  <code>git remote set-url origin https://&lt;your_token&gt;@github.com/&lt;USERNAME&gt;/&lt;REPO&gt;.git</code>   &#x2F;&#x2F;已存在而再次更改配置<br>  <code>git remote set-url origin https://ghp_W42ArMmNdN9PROqD和谐一下2ZAFRaWXGwCyiY0l95jI@github.com/ptshu/hexo.git</code></p>
 <h1 id="上传更改文件"><a href="#上传更改文件" class="headerlink" title="上传更改文件"></a>上传更改文件</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;信息&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
 <p>注意:第一次push用”git push -u origin master”<br>git push -u origin master 是将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了。<br>git push origin master 是上传本地当前分支代码到master分支。<br>git push 是上传本地所有分支代码到远程对应的分支上。</p>
+<h1 id="git报错-fatal-unsafe-repository"><a href="#git报错-fatal-unsafe-repository" class="headerlink" title="git报错 fatal: unsafe repository"></a>git报错 fatal: unsafe repository</h1><p>可以：<br><code>git config --global --add safe.directory /目录</code><br>解决思路：<br>按提示执行确实可以短暂避免该问题，但治标不治本，且文件很多时需要一个个敲命令。<br>产生这一问题的本质原因是下载代码的所有权没有转移，即你下载了别人的代码，别人声明该代码所有权。所以，在修改代码时会报以上问题。因此，我们需要做的并不是声称哪目录是安全的，而是要将代码所有权转移。<br>我所查的大部分解决方案即：<br><code>git config --global --add safe.directory &quot;*&quot;</code></p>
 <h1 id="rejected-master-gt-master-fetch-first-问题的解决方案"><a href="#rejected-master-gt-master-fetch-first-问题的解决方案" class="headerlink" title="! [rejected] master -&gt; master (fetch first)问题的解决方案"></a>! [rejected] master -&gt; master (fetch first)问题的解决方案</h1><p>温柔解决法：<br>1.通过git pull 先将本地库更新到与远程库一致的版本，但要注意本地库后来做的修改可能被覆盖，最好使用git fetch(不会自动合并)，查看更新情况再有选择合并，或者先将本地库修改过的文件备份，git pull后再重新修改；</p>
 <p>2.再运行git push即可成功。</p>
 <p>暴力解决法：<br>强制上传方式： git push -f<br>它会忽略版本不一致等问题，谨慎使用，因为会覆盖远程仓库，如果远程仓库有更新或者同伴有修改，会被覆盖掉。</p>
@@ -166,7 +167,7 @@
   <div class="widget-wrap" id="toc-wrap">
     <h3 class="widget-title"><i class="fa fa-toc"></i> 文章目录</h3>
     <div class="widget">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEgithub%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF"><span class="toc-text">配置github用户信息</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E4%BD%8D%E7%BD%AE"><span class="toc-text">配置远程仓库位置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%8A%E4%BC%A0%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6"><span class="toc-text">上传更改文件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#rejected-master-gt-master-fetch-first-%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-text">! [rejected] master -&gt; master (fetch first)问题的解决方案</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#GitHub%E4%B8%AA%E4%BA%BA%E8%AE%BF%E9%97%AE%E4%BB%A4%E7%89%8C%E4%BC%9A%E8%87%AA%E8%A1%8C%E5%88%A0%E9%99%A4%E7%9A%84%E5%8E%9F%E5%9B%A0%EF%BC%9A"><span class="toc-text">GitHub个人访问令牌会自行删除的原因：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E6%9C%AC%E5%9C%B0%E5%88%86%E6%94%AF%E5%90%8D%E7%A7%B0"><span class="toc-text">修改本地分支名称</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#git-pull%E5%91%BD%E4%BB%A4"><span class="toc-text">git pull命令</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEgithub%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF"><span class="toc-text">配置github用户信息</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E4%BD%8D%E7%BD%AE"><span class="toc-text">配置远程仓库位置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%8A%E4%BC%A0%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6"><span class="toc-text">上传更改文件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#git%E6%8A%A5%E9%94%99-fatal-unsafe-repository"><span class="toc-text">git报错 fatal: unsafe repository</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#rejected-master-gt-master-fetch-first-%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-text">! [rejected] master -&gt; master (fetch first)问题的解决方案</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#GitHub%E4%B8%AA%E4%BA%BA%E8%AE%BF%E9%97%AE%E4%BB%A4%E7%89%8C%E4%BC%9A%E8%87%AA%E8%A1%8C%E5%88%A0%E9%99%A4%E7%9A%84%E5%8E%9F%E5%9B%A0%EF%BC%9A"><span class="toc-text">GitHub个人访问令牌会自行删除的原因：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E6%9C%AC%E5%9C%B0%E5%88%86%E6%94%AF%E5%90%8D%E7%A7%B0"><span class="toc-text">修改本地分支名称</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#git-pull%E5%91%BD%E4%BB%A4"><span class="toc-text">git pull命令</span></a></li></ol>
     </div>
   </div>
 
@@ -228,6 +229,15 @@
     </a>
   
   
+    <a href="/2022/10/13/%E6%9E%81%E7%8B%90GitLab%E4%B8%8EGitLab%E7%9A%84%E5%8C%BA%E5%88%AB/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">newer</strong>
+      <div class="article-nav-title">
+        
+          极狐GitLab与GitLab的区别
+        
+      </div>
+    </a>
+  
 </nav>
 
       
@@ -258,6 +268,10 @@
       <ul>
         
           <li>
+            <a href="/2022/10/13/%E6%9E%81%E7%8B%90GitLab%E4%B8%8EGitLab%E7%9A%84%E5%8C%BA%E5%88%AB/">极狐GitLab与GitLab的区别</a>
+          </li>
+        
+          <li>
             <a href="/2022/09/29/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">git常用命令</a>
           </li>
         
@@ -271,10 +285,6 @@
         
           <li>
             <a href="/2022/08/19/Github%E4%B8%8EGitee%E7%9A%84%E8%BF%9E%E6%8E%A5/">Hexo 的Github与Gitee连接</a>
-          </li>
-        
-          <li>
-            <a href="/2022/08/19/node-modules%E7%98%A6%E8%BA%AB%E6%96%B9%E6%B3%95/">node_modules瘦身方法</a>
           </li>
         
       </ul>
@@ -306,7 +316,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-archive"></i> 归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">9</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">10</span></li></ul>
     </div>
   </div>
 
