@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ptsh.cf/2022/10/19/%E4%BD%BF%E7%94%A8Git%E8%BF%9E%E6%8E%A5Gitee/</loc>
+    <loc>https://www.ptsh.cf/2022/08/07/%E8%8F%A9%E6%8F%90%E8%AE%B0%E4%BA%8B%E6%9C%AC/</loc>
     
     <lastmod>2022-10-19</lastmod>
     
@@ -11,18 +11,18 @@
   </url>
   
   <url>
-    <loc>https://www.ptsh.cf/2022/08/07/%E8%8F%A9%E6%8F%90%E8%AE%B0%E4%BA%8B%E6%9C%AC/</loc>
+    <loc>https://www.ptsh.cf/2022/09/29/%E4%BD%BF%E7%94%A8Git%E8%BF%9E%E6%8E%A5Github/</loc>
     
-    <lastmod>2022-10-13</lastmod>
+    <lastmod>2022-10-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.ptsh.cf/2022/09/29/%E4%BD%BF%E7%94%A8Git%E8%BF%9E%E6%8E%A5Github/</loc>
+    <loc>https://www.ptsh.cf/2022/10/19/%E4%BD%BF%E7%94%A8Git%E8%BF%9E%E6%8E%A5Gitee/</loc>
     
-    <lastmod>2022-10-13</lastmod>
+    <lastmod>2022-10-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -175,6 +175,13 @@
   
   <url>
     <loc>https://www.ptsh.cf/categories/Git%E4%B8%8EHexo/</loc>
+    <lastmod>2022-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ptsh.cf/categories/Git/</loc>
     <lastmod>2022-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
