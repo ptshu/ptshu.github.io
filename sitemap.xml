@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ptsh.cf/2022/10/27/%E4%BD%BF%E7%94%A8Edge%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87%E5%92%8C%E5%BE%AE%E4%BF%A1%E8%BD%AC%E6%8D%A2JPG%E6%A0%BC%E5%BC%8F/</loc>
+    
+    <lastmod>2022-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ptsh.cf/2022/08/07/%E8%8F%A9%E6%8F%90%E8%AE%B0%E4%BA%8B%E6%9C%AC/</loc>
     
     <lastmod>2022-10-19</lastmod>
@@ -130,7 +139,7 @@
 
   <url>
     <loc>https://www.ptsh.cf/</loc>
-    <lastmod>2022-10-19</lastmod>
+    <lastmod>2022-10-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,28 +147,28 @@
   
   <url>
     <loc>https://www.ptsh.cf/tags/Hexo/</loc>
-    <lastmod>2022-10-19</lastmod>
+    <lastmod>2022-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/Github/</loc>
-    <lastmod>2022-10-19</lastmod>
+    <lastmod>2022-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2022-10-19</lastmod>
+    <lastmod>2022-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/%E7%A9%BA%E7%99%BD%E9%A1%B5/</loc>
-    <lastmod>2022-10-19</lastmod>
+    <lastmod>2022-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -168,21 +177,21 @@
   
   <url>
     <loc>https://www.ptsh.cf/categories/%E6%99%BA%E8%83%BD%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2022-10-19</lastmod>
+    <lastmod>2022-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/categories/Git%E4%B8%8EHexo/</loc>
-    <lastmod>2022-10-19</lastmod>
+    <lastmod>2022-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/categories/Git/</loc>
-    <lastmod>2022-10-19</lastmod>
+    <lastmod>2022-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
