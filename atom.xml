@@ -6,7 +6,7 @@
   <link href="https://www.ptsh.cf/atom.xml" rel="self"/>
   
   <link href="https://www.ptsh.cf/"/>
-  <updated>2022-10-27T03:00:10.843Z</updated>
+  <updated>2022-11-14T02:22:11.739Z</updated>
   <id>https://www.ptsh.cf/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ddddddd</title>
+    <link href="https://www.ptsh.cf/2022/11/14/ddddddd/"/>
+    <id>https://www.ptsh.cf/2022/11/14/ddddddd/</id>
+    <published>2022-11-14T02:22:11.000Z</published>
+    <updated>2022-11-14T02:22:11.739Z</updated>
+    
+    <content type="html"><![CDATA[<p>文章内容</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;文章内容&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>使用Edge浏览器压缩图片和微信转换JPG格式</title>
