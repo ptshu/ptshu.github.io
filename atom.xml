@@ -6,7 +6,7 @@
   <link href="https://www.ptsh.cf/atom.xml" rel="self"/>
   
   <link href="https://www.ptsh.cf/"/>
-  <updated>2022-11-14T02:25:12.109Z</updated>
+  <updated>2022-11-15T08:24:44.237Z</updated>
   <id>https://www.ptsh.cf/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>windows万能截图工具</title>
+    <link href="https://www.ptsh.cf/2022/11/15/windows%E4%B8%87%E8%83%BD%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7/"/>
+    <id>https://www.ptsh.cf/2022/11/15/windows%E4%B8%87%E8%83%BD%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7/</id>
+    <published>2022-11-15T08:20:40.000Z</published>
+    <updated>2022-11-15T08:24:44.237Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、新建文本文件，打开输入内容“start snippingtool”，保存。<br>2、修改文件名为“截图工具.bat”（注意扩展名为.bat）,保存。<br>3、然后打开“截图工具.bat”文件就可以截图了。</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;1、新建文本文件，打开输入内容“start snippingtool”，保存。&lt;br&gt;2、修改文件名为“截图工具.bat”（注意扩展名为.bat）,保存。&lt;br&gt;3、然后打开“截图工具.bat”文件就可以截图了。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>极狐GitLab搞不定runner注册</title>
