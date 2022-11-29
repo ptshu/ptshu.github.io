@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ptsh.cf/2022/11/07/%E6%9E%81%E7%8B%90GitLab%E4%B8%8EGitLab%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    
+    <lastmod>2022-11-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ptsh.cf/2022/11/07/%E6%88%91%E7%9A%84HEXO%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2022-11-29</lastmod>
@@ -39,15 +48,6 @@
   
   <url>
     <loc>https://www.ptsh.cf/2022/08/16/HEXO%E6%B7%BB%E5%8A%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/</loc>
-    
-    <lastmod>2022-08-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ptsh.cf/2022/08/05/hello-world/</loc>
     
     <lastmod>2022-08-16</lastmod>
     
@@ -132,6 +132,13 @@
   
   <url>
     <loc>https://www.ptsh.cf/categories/hexo/</loc>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ptsh.cf/categories/Git/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
