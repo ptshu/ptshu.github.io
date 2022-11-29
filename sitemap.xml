@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ptsh.cf/2022/08/07/%E8%8F%A9%E6%8F%90%E8%AE%B0%E4%BA%8B%E6%9C%AC/</loc>
+    
+    <lastmod>2022-11-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ptsh.cf/2022/11/15/windows%E4%B8%87%E8%83%BD%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7/</loc>
     
     <lastmod>2022-11-15</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://www.ptsh.cf/2022/11/14/%E6%9E%81%E7%8B%90GitLab%E6%90%9E%E4%B8%8D%E5%AE%9Arunner%E6%B3%A8%E5%86%8C/</loc>
     
     <lastmod>2022-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ptsh.cf/2022/08/07/%E8%8F%A9%E6%8F%90%E8%AE%B0%E4%BA%8B%E6%9C%AC/</loc>
-    
-    <lastmod>2022-10-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -157,7 +157,7 @@
 
   <url>
     <loc>https://www.ptsh.cf/</loc>
-    <lastmod>2022-11-15</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -165,28 +165,28 @@
   
   <url>
     <loc>https://www.ptsh.cf/tags/Hexo/</loc>
-    <lastmod>2022-11-15</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/Github/</loc>
-    <lastmod>2022-11-15</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2022-11-15</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/%E7%A9%BA%E7%99%BD%E9%A1%B5/</loc>
-    <lastmod>2022-11-15</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -195,21 +195,21 @@
   
   <url>
     <loc>https://www.ptsh.cf/categories/%E6%99%BA%E8%83%BD%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2022-11-15</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/categories/Git%E4%B8%8EHexo/</loc>
-    <lastmod>2022-11-15</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/categories/Git/</loc>
-    <lastmod>2022-11-15</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
