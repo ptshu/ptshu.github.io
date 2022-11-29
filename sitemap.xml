@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ptsh.cf/2022/08/07/%E6%88%91%E7%9A%84%E6%B7%A1%E6%B7%A1%E7%9A%84%E5%9F%9F%E5%90%8D/</loc>
+    <loc>https://www.ptsh.cf/2022/11/07/%E6%88%91%E7%9A%84HEXO%E5%8D%9A%E5%AE%A2/</loc>
     
-    <lastmod>2022-08-21</lastmod>
+    <lastmod>2022-11-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://www.ptsh.cf/2022/08/19/Github%E4%B8%8EGitee%E7%9A%84%E8%BF%9E%E6%8E%A5/</loc>
     
-    <lastmod>2022-08-19</lastmod>
+    <lastmod>2022-11-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -125,6 +125,13 @@
   
   <url>
     <loc>https://www.ptsh.cf/categories/Github%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ptsh.cf/categories/hexo/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

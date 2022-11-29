@@ -1,4 +1,4 @@
-https://www.ptsh.cf/2022/08/07/%E6%88%91%E7%9A%84%E6%B7%A1%E6%B7%A1%E7%9A%84%E5%9F%9F%E5%90%8D/
+https://www.ptsh.cf/2022/11/07/%E6%88%91%E7%9A%84HEXO%E5%8D%9A%E5%AE%A2/
 https://www.ptsh.cf/2022/08/19/Github%E4%B8%8EGitee%E7%9A%84%E8%BF%9E%E6%8E%A5/
 https://www.ptsh.cf/2022/08/19/node-modules%E7%98%A6%E8%BA%AB%E6%96%B9%E6%B3%95/
 https://www.ptsh.cf/2022/08/08/Hexo+Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/
@@ -13,3 +13,4 @@ https://www.ptsh.cf/tags/Hexo/
 https://www.ptsh.cf/tags/Github/
 https://www.ptsh.cf/tags/%E6%90%AD%E5%BB%BA/
 https://www.ptsh.cf/categories/Github%E4%BD%BF%E7%94%A8/
+https://www.ptsh.cf/categories/hexo/
