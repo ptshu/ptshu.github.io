@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ptsh.cf/2022/11/07/%E6%88%91%E7%9A%84HEXO%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://www.ptsh.cf/2022/12/02/%E6%88%91%E7%9A%84HEXO%E5%8D%9A%E5%AE%A2/</loc>
     
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +85,7 @@
 
   <url>
     <loc>https://www.ptsh.cf/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,21 +93,21 @@
   
   <url>
     <loc>https://www.ptsh.cf/tags/Hexo/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/Github/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/tags/%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -116,21 +116,21 @@
   
   <url>
     <loc>https://www.ptsh.cf/categories/Github%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/categories/hexo/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.ptsh.cf/categories/Git/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
