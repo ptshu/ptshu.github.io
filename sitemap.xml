@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ptsh.cf/2022/08/08/Hexo+Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2022-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ptsh.cf/2022/12/11/Hexo%E4%B8%8EGithub%E7%9A%84%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8B/</loc>
     
     <lastmod>2022-12-11</lastmod>
@@ -75,15 +84,6 @@
   
   <url>
     <loc>https://www.ptsh.cf/2022/08/16/HEXO%E6%B7%BB%E5%8A%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ptsh.cf/2022/08/08/Hexo+Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2022-12-01</lastmod>
     
