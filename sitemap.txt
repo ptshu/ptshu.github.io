@@ -1,6 +1,6 @@
-https://ptsh.gitee.io/2022/08/08/Hexo+Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/
+https://ptsh.gitee.io/2022/12/02/%E4%BD%BF%E7%94%A8Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/
+https://ptsh.gitee.io/2022/08/08/Hexo%E8%AF%B4%E6%98%8E/
 https://ptsh.gitee.io/2022/12/11/Hexo%E4%B8%8EGithub%E7%9A%84%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8B/
-https://ptsh.gitee.io/2022/12/02/%E6%88%91%E7%9A%84HEXO%E5%8D%9A%E5%AE%A2/
 https://ptsh.gitee.io/about/index.html
 https://ptsh.gitee.io/2022/11/07/%E6%9E%81%E7%8B%90GitLab%E4%B8%8EGitLab%E7%9A%84%E5%8C%BA%E5%88%AB/
 https://ptsh.gitee.io/categories/index.html
@@ -15,3 +15,4 @@ https://ptsh.gitee.io/tags/%E6%90%AD%E5%BB%BA/
 https://ptsh.gitee.io/categories/Github%E4%BD%BF%E7%94%A8/
 https://ptsh.gitee.io/categories/hexo/
 https://ptsh.gitee.io/categories/Git/
+https://ptsh.gitee.io/categories/Hexo/
