@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ptsh.gitee.io/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</loc>
+    
+    <lastmod>2023-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ptsh.gitee.io/2022/12/02/%E4%BD%BF%E7%94%A8Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
     
-    <lastmod>2023-10-29</lastmod>
+    <lastmod>2023-10-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://ptsh.gitee.io/2022/08/08/Hexo%E8%AF%B4%E6%98%8E/</loc>
+    <loc>https://ptsh.gitee.io/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/</loc>
     
-    <lastmod>2023-10-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ptsh.gitee.io/2022/12/11/Hexo%E4%B8%8EGithub%E7%9A%84%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8B/</loc>
-    
-    <lastmod>2022-12-11</lastmod>
+    <lastmod>2023-10-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -32,15 +32,6 @@
     <loc>https://ptsh.gitee.io/about/index.html</loc>
     
     <lastmod>2022-12-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ptsh.gitee.io/2022/11/07/%E6%9E%81%E7%8B%90GitLab%E4%B8%8EGitLab%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -73,80 +64,41 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://ptsh.gitee.io/2022/08/19/node-modules%E7%98%A6%E8%BA%AB%E6%96%B9%E6%B3%95/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ptsh.gitee.io/2022/08/16/HEXO%E6%B7%BB%E5%8A%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://ptsh.gitee.io/</loc>
-    <lastmod>2023-10-29</lastmod>
+    <lastmod>2023-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
-  <url>
-    <loc>https://ptsh.gitee.io/tags/Hexo/</loc>
-    <lastmod>2023-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ptsh.gitee.io/tags/Github/</loc>
-    <lastmod>2023-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ptsh.gitee.io/tags/%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2023-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://ptsh.gitee.io/categories/Github%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2023-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ptsh.gitee.io/categories/hexo/</loc>
-    <lastmod>2023-10-29</lastmod>
+    <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ptsh.gitee.io/categories/Git/</loc>
-    <lastmod>2023-10-29</lastmod>
+    <loc>https://ptsh.gitee.io/categories/hexo/Git/</loc>
+    <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ptsh.gitee.io/categories/Hexo/</loc>
-    <lastmod>2023-10-29</lastmod>
+    <loc>https://ptsh.gitee.io/categories/hexo/GitHub/</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ptsh.gitee.io/categories/hexo/Gitee/</loc>
+    <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo与Github的网络教程 | 菩提树 - ptsh.gitee.io</title>
+  <title>Hexo使用心得 | 菩提树 - ptsh.gitee.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
     <meta name="description" content="菩提的个人小站">
@@ -90,7 +90,7 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-Hexo与Github的网络教程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Hexo使用心得" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner">
     
     
@@ -98,7 +98,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      Hexo与Github的网络教程
+      Hexo使用心得
     </h1>
   
 
@@ -112,6 +112,11 @@
   <time class="dt-published" datetime="2022-12-11T12:54:53.000Z" itemprop="datePublished">2022年12月11日</time>
 </span>
       
+  <div class="article-category">
+    <i class="fa fa-classify"></i>
+    <a class="article-category-link" href="/categories/hexo/">hexo</a> > <a class="article-category-link" href="/categories/hexo/Git/">Git</a>
+  </div>
+
       
         <span class="article-views">
   <i class="fa fa-views"></i>
@@ -122,10 +127,10 @@
 
       
       
-<a href="/2022/12/11/Hexo%E4%B8%8EGithub%E7%9A%84%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8B/#comments" class="article-comment-link">
+<a href="/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/#comments" class="article-comment-link">
   
     
-      <span class="post-comments-count valine-comment-count" data-xid="/2022/12/11/Hexo%E4%B8%8EGithub%E7%9A%84%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8B/" itemprop="commentCount"></span>
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/" itemprop="commentCount"></span>
     
     
     
@@ -140,13 +145,25 @@
     </div>
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>使用 Hexo+GitHub 搭建个人免费博客教程（小白向）<br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/60578464">https://zhuanlan.zhihu.com/p/60578464</a><br>5分钟快速 搭建免费好用的图床（Picx +github）<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_45701199/article/details/125801816">https://blog.csdn.net/weixin_45701199/article/details/125801816</a></p>
+        <h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p>hexo new “name”       # 新建文章<br>hexo new page “name”  # 新建页面<br>hexo g                # 生成页面<br>hexo d                # 部署<br>hexo g -d             # 生成页面并部署<br>hexo s                # 本地预览<br>hexo clean            # 清除缓存和已生成的静态文件<br>hexo help             # 帮助</p>
 <span id="more"></span>
+<h1 id="文件夹目录说明："><a href="#文件夹目录说明：" class="headerlink" title="文件夹目录说明："></a>文件夹目录说明：</h1><p>node_modules: 依赖包<br>public：存放生成的页面<br>scaffolds：生成文章的一些模板<br>source：用来存放你的文章<br>themes：主题<br>文件_config.yml: 博客的配置文件</p>
+<h1 id="博客菜单显示中文的设置方法："><a href="#博客菜单显示中文的设置方法：" class="headerlink" title="博客菜单显示中文的设置方法："></a>博客菜单显示中文的设置方法：</h1><p>1、在博客根目录的_config.yml文件中，找到language项改为zh-CN。<br>2、主题目录的_config.yml文件中，找到language项改为zh-CN。<br>注：部分主题的_config.yml文件中没有language项的设置。</p>
+<h1 id="Hexo与Github的网络教程"><a href="#Hexo与Github的网络教程" class="headerlink" title="Hexo与Github的网络教程"></a>Hexo与Github的网络教程</h1><p>使用 Hexo+GitHub 搭建个人免费博客教程（小白向）<br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/60578464">https://zhuanlan.zhihu.com/p/60578464</a><br>5分钟快速 搭建免费好用的图床（Picx +github）<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_45701199/article/details/125801816">https://blog.csdn.net/weixin_45701199/article/details/125801816</a></p>
+<!--more-->
 <p>报错信息hexo YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key<br>报错信息是提示hexo的yml配置文件 冒号后面少了空格<br>解决方案：到提示行将对应的空格补上即可<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_39026548/article/details/104729964">https://blog.csdn.net/qq_39026548/article/details/104729964</a></p>
 <p>Hexo使用攻略-添加分类及标签<br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/e17711e44e00">https://www.jianshu.com/p/e17711e44e00</a></p>
 <p>Hexo 改变 tag 因为大小写问题而 404 的解决方法<br><a target="_blank" rel="noopener" href="https://blog.zhheo.com/p/5511910d.html">https://blog.zhheo.com/p/5511910d.html</a><br>hexo d 上传后about首字母变大写的原因：第一次上传时是大写，覆盖上传还就按第一次的大写写入。解决方法：把文件夹about重命名为其他（如：about2），hexo d 上传，然后再重命名回about，再hexo d 上传就完美解决了。</p>
 <p>为你的Hexo加上评论系统-Valine<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/blue_zy/article/details/79071414">https://blog.csdn.net/blue_zy/article/details/79071414</a></p>
 <p>GIT PULL 错误：[REMOTE REJECTED] MASTER -&gt; MASTER (PRE-RECEIVE HOOK DECLINED)<br>解决办法：关闭分支的保护机制<br><a target="_blank" rel="noopener" href="https://www.freesion.com/article/7986556587/">https://www.freesion.com/article/7986556587/</a></p>
+<h1 id="HEXO添加置顶功能"><a href="#HEXO添加置顶功能" class="headerlink" title="HEXO添加置顶功能"></a>HEXO添加置顶功能</h1><p>目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。(cmd 到博客根目录，nmp运行)<br>$ npm uninstall hexo-generator-index<br>$ npm install hexo-generator-index-pin-top<br>然后在需要置顶的文章的Front-matter中加上top: true即可。</p>
+<h2 id="比如下面这篇文章："><a href="#比如下面这篇文章：" class="headerlink" title="比如下面这篇文章："></a>比如下面这篇文章：</h2><p>title: hexo+GitHub博客搭建实战<br>date: 2017-09-08 12:00:25<br>categories: 博客搭建系列<br>top: true</p>
+<hr>
+<p>到目前为止，置顶功能已经可以实现了。</p>
+<h1 id="node-modules瘦身方法"><a href="#node-modules瘦身方法" class="headerlink" title="node_modules瘦身方法"></a>node_modules瘦身方法</h1><p>首先，说明下node_modules文件夹的作用：下载了npm或gulp的一些插件后，打开node_modules可以发现，里面有很多的文件夹，会导致我们将项目拷贝给别人的时候，传输速度会很慢。在拷贝给别人项目的时候，node_modules这个文件夹是不需要一起拷贝的，因为有package.json、package-lock.json。<br>package.json记录当前项目所依赖模块的版本信息，更新模块时锁定模块的大版本号（版本号的第一位）。package-lock.json记录了node_modules目录下所有模块的具体来源和版本号以及其他的信息，就不做详细讲解了（相信写代码的一看就能大概明白），也可以参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_34295211/article/details/103858589">https://blog.csdn.net/qq_34295211/article/details/103858589</a><br>详细步骤如下：(初次尝试时 请先备份！请先备份！请先备份！)<br>npm install rimraf -g   		&#x2F;&#x2F;安装rimraf工具<br>rimraf node_modules     		&#x2F;&#x2F;使用rimraf删除node_modules文件<br>npm cache clean –force		&#x2F;&#x2F;清除缓存<br>npm config set registry <a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a>	&#x2F;&#x2F;设置国内镜像，防止下载缓慢卡住<br>npm  install			&#x2F;&#x2F;初始化项目</p>
+<p>每次上传项目至服务器备份时，删除node_modules文件夹，要修改项目时再重新初始化项目，安装依赖包。</p>
+<p>另外，npm prune 命令的功能是根据package.json里的依赖项，删除不需要的模块文件。<br>执行npm audit fix，可以查看是否少了什么组件</p>
+<h1 id="极狐GitLab与GitLab的区别"><a href="#极狐GitLab与GitLab的区别" class="headerlink" title="极狐GitLab与GitLab的区别"></a>极狐GitLab与GitLab的区别</h1><p>一、产品方面<br>GitLab 在全球范围内有三个版本：社区版（CE）、企业版（EE）、极狐版 (JH)。极狐GitLab（极狐版JH）是在中国大陆和港澳地区发行的企业级GitLab版本，拥有GitLab技术和品牌独家授权，基于GitLab EE和极狐(GitLab)持有独立知识产权的——JH代码仓库构建，由极狐(GitLab)公司在国内独立运营。<br>极狐GitLab支持私有化部署（self-managed）版本和SaaS服务。极狐GitLab的企业级订阅许可证、源代码管理、支付系统等均在中国境内管理，受中国法律保护。<br>二、代码及仓库管理方面<br>极狐(GitLab)公司与GitLab公司使用两个独立的代码仓，极狐(GitLab)的代码仓存放在中国境内。<br>GitLab社区版（CE）和企业版（EE）的更改将单向镜像到极狐发行版——极狐GitLab（JH），极狐GitLab版本的更改则会以社区贡献的形式反哺，通过GitLab维护者的审批后合并到GitLab。<br>三、SaaS 服务方面<br>极狐GitLab的SaaS服务和GitLab Inc.的SaaS服务（GitLab.com）不共享任何基础设施、网络连接、系统、服务、数据或资源。极狐(GitLab)作为一家独立的中国公司，将在国内管理自己的技术和基础设施。</p>
 
         
             <div id="toc-article">
@@ -154,7 +171,7 @@
   <div class="widget-wrap" id="toc-wrap">
     <h3 class="widget-title"><i class="fa fa-toc"></i> 文章目录</h3>
     <div class="widget">
-      
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="toc-text">hexo常用命令</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9B%AE%E5%BD%95%E8%AF%B4%E6%98%8E%EF%BC%9A"><span class="toc-text">文件夹目录说明：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2%E8%8F%9C%E5%8D%95%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87%E7%9A%84%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="toc-text">博客菜单显示中文的设置方法：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Hexo%E4%B8%8EGithub%E7%9A%84%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8B"><span class="toc-text">Hexo与Github的网络教程</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#HEXO%E6%B7%BB%E5%8A%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD"><span class="toc-text">HEXO添加置顶功能</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AF%94%E5%A6%82%E4%B8%8B%E9%9D%A2%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%EF%BC%9A"><span class="toc-text">比如下面这篇文章：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#node-modules%E7%98%A6%E8%BA%AB%E6%96%B9%E6%B3%95"><span class="toc-text">node_modules瘦身方法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9E%81%E7%8B%90GitLab%E4%B8%8EGitLab%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-text">极狐GitLab与GitLab的区别</span></a></li></ol>
     </div>
   </div>
 
@@ -163,7 +180,7 @@
         
         
           <blockquote id="copyright">
-              <p>原文链接: <a href="https://ptsh.gitee.io/2022/12/11/Hexo与Github的网络教程/">https://ptsh.gitee.io/2022/12/11/Hexo与Github的网络教程/</a></p>
+              <p>原文链接: <a href="https://ptsh.gitee.io/2022/12/11/Hexo使用心得/">https://ptsh.gitee.io/2022/12/11/Hexo使用心得/</a></p>
               <p>版权声明: 转载请注明出处。</p>
           </blockquote>
         
@@ -216,6 +233,15 @@
     </a>
   
   
+    <a href="/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">newer</strong>
+      <div class="article-nav-title">
+        
+          部署Gitee的Git和Hexo
+        
+      </div>
+    </a>
+  
 </nav>
 
       
@@ -246,23 +272,15 @@
       <ul>
         
           <li>
-            <a href="/2022/12/11/Hexo%E4%B8%8EGithub%E7%9A%84%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8B/">Hexo与Github的网络教程</a>
+            <a href="/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/">部署Gitee的Git和Hexo</a>
+          </li>
+        
+          <li>
+            <a href="/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/">Hexo使用心得</a>
           </li>
         
           <li>
             <a href="/2022/12/02/%E4%BD%BF%E7%94%A8Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">使用Hexo+GitHub搭建博客</a>
-          </li>
-        
-          <li>
-            <a href="/2022/11/07/%E6%9E%81%E7%8B%90GitLab%E4%B8%8EGitLab%E7%9A%84%E5%8C%BA%E5%88%AB/">极狐GitLab与GitLab的区别</a>
-          </li>
-        
-          <li>
-            <a href="/2022/08/19/node-modules%E7%98%A6%E8%BA%AB%E6%96%B9%E6%B3%95/">node_modules瘦身方法</a>
-          </li>
-        
-          <li>
-            <a href="/2022/08/16/HEXO%E6%B7%BB%E5%8A%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/">HEXO添加置顶功能</a>
           </li>
         
       </ul>
@@ -272,19 +290,12 @@
 
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title"><i class="fa fa-tag"></i> 标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/%E6%90%AD%E5%BB%BA/" style="font-size: 10px;">搭建</a>
-    </div>
-  </div>
-
   
     
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-classify"></i> 分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Github%E4%BD%BF%E7%94%A8/">Github使用</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">1</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/Git/">Git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/GitHub/">GitHub</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/Gitee/">Gitee</a><span class="category-list-count">1</span></li></ul></li></ul>
     </div>
   </div>
 
@@ -294,7 +305,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-archive"></i> 归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">6</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023年</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
