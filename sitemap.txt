@@ -1,5 +1,5 @@
-https://ptsh.gitee.io/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/
 https://ptsh.gitee.io/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/
+https://ptsh.gitee.io/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/
 https://ptsh.gitee.io/2022/12/02/%E4%BD%BF%E7%94%A8Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/
 https://ptsh.gitee.io/about/index.html
 https://ptsh.gitee.io/categories/index.html
