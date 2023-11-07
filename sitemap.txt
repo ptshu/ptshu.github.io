@@ -12,11 +12,11 @@ https://ptshu.github.io/
 https://ptshu.github.io/tags/CSS/
 https://ptshu.github.io/tags/Hexo/
 https://ptshu.github.io/tags/%E5%BF%83%E5%BE%97/
-https://ptshu.github.io/tags/GitHub/
-https://ptshu.github.io/tags/Git/
 https://ptshu.github.io/tags/MarkDown/
-https://ptshu.github.io/tags/Gitee/
 https://ptshu.github.io/tags/tags/
 https://ptshu.github.io/tags/categories/
-https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/
+https://ptshu.github.io/tags/GitHub/
+https://ptshu.github.io/tags/Git/
+https://ptshu.github.io/tags/Gitee/
 https://ptshu.github.io/categories/HTML%E4%B8%8EMarkDown/
+https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/
