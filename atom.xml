@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>菩提树</title>
   
-  <subtitle>ptsh.gitee.io</subtitle>
-  <link href="https://ptsh.gitee.io/atom.xml" rel="self"/>
+  <subtitle>ptshu.github.io</subtitle>
+  <link href="https://ptshu.github.io/atom.xml" rel="self"/>
   
-  <link href="https://ptsh.gitee.io/"/>
+  <link href="https://ptshu.github.io/"/>
   <updated>2023-11-07T13:04:24.498Z</updated>
-  <id>https://ptsh.gitee.io/</id>
+  <id>https://ptshu.github.io/</id>
   
   <author>
     <name>菩提</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>tags与categories的用法</title>
-    <link href="https://ptsh.gitee.io/2023/11/07/tags%E4%B8%8Ecategories%E7%9A%84%E7%94%A8%E6%B3%95/"/>
-    <id>https://ptsh.gitee.io/2023/11/07/tags%E4%B8%8Ecategories%E7%9A%84%E7%94%A8%E6%B3%95/</id>
+    <link href="https://ptshu.github.io/2023/11/07/tags%E4%B8%8Ecategories%E7%9A%84%E7%94%A8%E6%B3%95/"/>
+    <id>https://ptshu.github.io/2023/11/07/tags%E4%B8%8Ecategories%E7%9A%84%E7%94%A8%E6%B3%95/</id>
     <published>2023-11-07T12:59:52.000Z</published>
     <updated>2023-11-07T13:04:24.498Z</updated>
     
@@ -31,19 +31,19 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="tags" scheme="https://ptsh.gitee.io/tags/tags/"/>
+    <category term="tags" scheme="https://ptshu.github.io/tags/tags/"/>
     
-    <category term="categories" scheme="https://ptsh.gitee.io/tags/categories/"/>
+    <category term="categories" scheme="https://ptshu.github.io/tags/categories/"/>
     
   </entry>
   
   <entry>
     <title>CSS不更新的原因和解决方法</title>
-    <link href="https://ptsh.gitee.io/2023/11/07/CSS%E4%B8%8D%E6%9B%B4%E6%96%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%92%8C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    <id>https://ptsh.gitee.io/2023/11/07/CSS%E4%B8%8D%E6%9B%B4%E6%96%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%92%8C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <link href="https://ptshu.github.io/2023/11/07/CSS%E4%B8%8D%E6%9B%B4%E6%96%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%92%8C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://ptshu.github.io/2023/11/07/CSS%E4%B8%8D%E6%9B%B4%E6%96%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%92%8C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
     <published>2023-11-07T12:24:07.000Z</published>
     <updated>2023-11-07T12:53:28.037Z</updated>
     
@@ -56,17 +56,17 @@
     
     
     
-    <category term="HTML与MarkDown" scheme="https://ptsh.gitee.io/categories/HTML%E4%B8%8EMarkDown/"/>
+    <category term="HTML与MarkDown" scheme="https://ptshu.github.io/categories/HTML%E4%B8%8EMarkDown/"/>
     
     
-    <category term="CSS" scheme="https://ptsh.gitee.io/tags/CSS/"/>
+    <category term="CSS" scheme="https://ptshu.github.io/tags/CSS/"/>
     
   </entry>
   
   <entry>
     <title>部署Gitee的Git和Hexo</title>
-    <link href="https://ptsh.gitee.io/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/"/>
-    <id>https://ptsh.gitee.io/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/</id>
+    <link href="https://ptshu.github.io/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/"/>
+    <id>https://ptshu.github.io/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/</id>
     <published>2023-10-29T11:58:41.000Z</published>
     <updated>2023-11-07T12:45:33.287Z</updated>
     
@@ -77,21 +77,21 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Hexo" scheme="https://ptsh.gitee.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://ptshu.github.io/tags/Hexo/"/>
     
-    <category term="Git" scheme="https://ptsh.gitee.io/tags/Git/"/>
+    <category term="Git" scheme="https://ptshu.github.io/tags/Git/"/>
     
-    <category term="Gitee" scheme="https://ptsh.gitee.io/tags/Gitee/"/>
+    <category term="Gitee" scheme="https://ptshu.github.io/tags/Gitee/"/>
     
   </entry>
   
   <entry>
     <title>MarkDown语法使用心得</title>
-    <link href="https://ptsh.gitee.io/2023/10/02/MarkDown%E8%AF%AD%E6%B3%95%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
-    <id>https://ptsh.gitee.io/2023/10/02/MarkDown%E8%AF%AD%E6%B3%95%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
+    <link href="https://ptshu.github.io/2023/10/02/MarkDown%E8%AF%AD%E6%B3%95%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
+    <id>https://ptshu.github.io/2023/10/02/MarkDown%E8%AF%AD%E6%B3%95%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
     <published>2023-10-02T03:22:53.000Z</published>
     <updated>2023-11-07T12:53:16.675Z</updated>
     
@@ -103,17 +103,17 @@
     
     
     
-    <category term="HTML与MarkDown" scheme="https://ptsh.gitee.io/categories/HTML%E4%B8%8EMarkDown/"/>
+    <category term="HTML与MarkDown" scheme="https://ptshu.github.io/categories/HTML%E4%B8%8EMarkDown/"/>
     
     
-    <category term="MarkDown" scheme="https://ptsh.gitee.io/tags/MarkDown/"/>
+    <category term="MarkDown" scheme="https://ptshu.github.io/tags/MarkDown/"/>
     
   </entry>
   
   <entry>
     <title>Hexo使用心得</title>
-    <link href="https://ptsh.gitee.io/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
-    <id>https://ptsh.gitee.io/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
+    <link href="https://ptshu.github.io/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
+    <id>https://ptshu.github.io/2022/12/11/Hexo%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
     <published>2022-12-11T12:54:53.000Z</published>
     <updated>2023-11-07T12:41:38.505Z</updated>
     
@@ -125,19 +125,19 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Hexo" scheme="https://ptsh.gitee.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://ptshu.github.io/tags/Hexo/"/>
     
-    <category term="心得" scheme="https://ptsh.gitee.io/tags/%E5%BF%83%E5%BE%97/"/>
+    <category term="心得" scheme="https://ptshu.github.io/tags/%E5%BF%83%E5%BE%97/"/>
     
   </entry>
   
   <entry>
     <title>使用Hexo+GitHub搭建博客（问题）</title>
-    <link href="https://ptsh.gitee.io/2022/12/02/%E4%BD%BF%E7%94%A8Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E9%97%AE%E9%A2%98%EF%BC%89/"/>
-    <id>https://ptsh.gitee.io/2022/12/02/%E4%BD%BF%E7%94%A8Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E9%97%AE%E9%A2%98%EF%BC%89/</id>
+    <link href="https://ptshu.github.io/2022/12/02/%E4%BD%BF%E7%94%A8Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E9%97%AE%E9%A2%98%EF%BC%89/"/>
+    <id>https://ptshu.github.io/2022/12/02/%E4%BD%BF%E7%94%A8Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E9%97%AE%E9%A2%98%EF%BC%89/</id>
     <published>2022-12-02T11:58:41.000Z</published>
     <updated>2023-11-07T12:46:12.620Z</updated>
     
@@ -149,14 +149,14 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Hexo" scheme="https://ptsh.gitee.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://ptshu.github.io/tags/Hexo/"/>
     
-    <category term="GitHub" scheme="https://ptsh.gitee.io/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://ptshu.github.io/tags/GitHub/"/>
     
-    <category term="Git" scheme="https://ptsh.gitee.io/tags/Git/"/>
+    <category term="Git" scheme="https://ptshu.github.io/tags/Git/"/>
     
   </entry>
   
