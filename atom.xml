@@ -135,11 +135,11 @@
   </entry>
   
   <entry>
-    <title>部署Gitee的Hexo</title>
-    <link href="https://ptshu.github.io/2022/12/02/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Hexo/"/>
-    <id>https://ptshu.github.io/2022/12/02/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Hexo/</id>
+    <title>部署Github的Hexo</title>
+    <link href="https://ptshu.github.io/2022/12/02/%E9%83%A8%E7%BD%B2Github%E7%9A%84Hexo/"/>
+    <id>https://ptshu.github.io/2022/12/02/%E9%83%A8%E7%BD%B2Github%E7%9A%84Hexo/</id>
     <published>2022-12-02T11:58:41.000Z</published>
-    <updated>2023-11-07T13:33:47.943Z</updated>
+    <updated>2023-11-07T13:35:19.981Z</updated>
     
     <content type="html"><![CDATA[<h1 id="HEXO博客信息"><a href="#HEXO博客信息" class="headerlink" title="HEXO博客信息"></a>HEXO博客信息</h1><p>博客仓库名：ptshu.github.io<br>备份仓库名：hexo<br>管理地址：<a href="https://github.com/ptshu/">https://github.com/ptshu/</a></p><h1 id="Hexo连接-Github-博客"><a href="#Hexo连接-Github-博客" class="headerlink" title="Hexo连接 Github(博客)"></a>Hexo连接 Github(博客)</h1><span id="more"></span><p>设置用户名和邮箱：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;ptshu&quot;</span><br><span class="line">git config --global user.email &quot;zskang@qq.com&quot;</span><br></pre></td></tr></table></figure><p>创建 SSH 密匙：<br>(如果已经创建了，可以跳过直接用户旧的密匙)<br><code>ssh-keygen -t rsa -C  &quot;zskang@qq.com&quot;</code><br>验证连接：<br><code>ssh -T git@github.com</code></p><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;name&quot;       # 新建文章</span><br><span class="line">hexo new page &quot;name&quot;  # 新建页面</span><br><span class="line">hexo g                # 生成页面</span><br><span class="line">hexo d                # 部署</span><br><span class="line">hexo g -d             # 生成页面并部署</span><br><span class="line">hexo s                # 本地预览</span><br><span class="line">hexo clean            # 清除缓存和已生成的静态文件</span><br><span class="line">hexo help             # 帮助</span><br></pre></td></tr></table></figure>]]></content>
     
