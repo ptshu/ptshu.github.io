@@ -110,13 +110,6 @@
 
   
   <url>
-    <loc>https://ptshu.github.io/tags/CSS/</loc>
-    <lastmod>2023-11-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ptshu.github.io/tags/Hexo/</loc>
     <lastmod>2023-11-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -125,6 +118,13 @@
   
   <url>
     <loc>https://ptshu.github.io/tags/%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2023-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ptshu.github.io/tags/CSS/</loc>
     <lastmod>2023-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -189,14 +189,14 @@
 
   
   <url>
-    <loc>https://ptshu.github.io/categories/HTML%E4%B8%8EMarkDown/</loc>
+    <loc>https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2023-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://ptshu.github.io/categories/HTML%E4%B8%8EMarkDown/</loc>
     <lastmod>2023-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
