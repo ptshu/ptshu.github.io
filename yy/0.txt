@@ -1,0 +1,30 @@
+git clone git@gitee.com:ptsh/hexo.git
+
+ Try running: 'rm -rf node_modules && npm install --force'
+
+4. 本地安装 Hexo 博客程序
+新建一个文件夹用来存放 Hexo 的程序文件，如 Hexo-Blog。打开该文件夹，右键 -> Git Bash Here。
+
+# 4.1 安装 Hexo
+使用 npm 一键安装 Hexo 博客程序：
+
+npm install -g hexo-cli
+Mac 用户需要管理员权限（sudo），运行这条命令：
+
+sudo npm install -g hexo-cli
+安装时间有点久（真的很慢！），界面也没任何反应，耐心等待，安装完成后如下图。
+
+
+# 4.2 Hexo 初始化和本地预览
+初始化并安装所需组件：
+
+hexo init      # 初始化
+npm install    # 安装组件
+完成后依次输入下面命令，启动本地服务器进行预览：
+
+hexo g   # 生成页面
+hexo s   # 启动预览
+访问 http://localhost:4000，出现 Hexo 默认页面，本地博客安装成功！
+
+
+Tips：如果出现页面加载不出来，可能是端口被占用了。Ctrl+C 关闭服务器，运行 hexo server -p 5000 更改端口号后重试。
