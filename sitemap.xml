@@ -239,13 +239,6 @@
   </url>
   
   <url>
-    <loc>https://ptsh.gitee.io/tags/git/</loc>
-    <lastmod>2023-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ptsh.gitee.io/tags/%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A/</loc>
     <lastmod>2023-11-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -270,6 +263,13 @@
   
   <url>
     <loc>https://ptsh.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/</loc>
+    <lastmod>2023-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ptsh.gitee.io/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/</loc>
     <lastmod>2023-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
