@@ -1,6 +1,6 @@
+https://ptsh.gitee.io/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/
 https://ptsh.gitee.io/2023/11/10/%E9%9D%99%E6%80%81HTML%E7%BD%91%E9%A1%B5%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E5%90%8E%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/
 https://ptsh.gitee.io/2022/12/02/%E9%83%A8%E7%BD%B2Github%E7%9A%84Hexo/
-https://ptsh.gitee.io/2023/10/29/%E9%83%A8%E7%BD%B2Gitee%E7%9A%84Git%E5%92%8CHexo/
 https://ptsh.gitee.io/2023/11/07/CSS%E4%B8%8D%E6%9B%B4%E6%96%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%92%8C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/
 https://ptsh.gitee.io/2023/10/02/MarkDown%E8%AF%AD%E6%B3%95%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/
 https://ptsh.gitee.io/2023/11/10/%E5%85%AB%E5%A4%A7%E5%BF%83%E7%90%86%E5%AE%9A%E5%BE%8B%EF%BC%9A%E5%B8%AE%E4%BD%A0%E8%A7%A3%E9%99%A4%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%9B%B0%E6%89%B0/
@@ -29,6 +29,7 @@ https://ptsh.gitee.io/tags/Git/
 https://ptsh.gitee.io/tags/Gitee/
 https://ptsh.gitee.io/tags/%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A/
 https://ptsh.gitee.io/tags/GitHub/
+https://ptsh.gitee.io/tags/%E4%B9%B1%E7%A0%81/
 https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/
 https://ptsh.gitee.io/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/
 https://ptsh.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/
