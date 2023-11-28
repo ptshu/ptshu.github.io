@@ -6,7 +6,7 @@
   <link href="https://ptsh.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://ptsh.gitee.io/"/>
-  <updated>2023-11-19T13:30:34.517Z</updated>
+  <updated>2023-11-28T12:59:20.426Z</updated>
   <id>https://ptsh.gitee.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>蓝奏云上传大于100M文件的方法</title>
+    <link href="https://ptsh.gitee.io/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://ptsh.gitee.io/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</id>
+    <published>2023-11-28T12:48:14.000Z</published>
+    <updated>2023-11-28T12:59:20.426Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、把大文件压缩成分卷大小小于100M（如98M）的压缩文件，这时扩展名为.001等。<br>2、把所有压缩文件的扩展名改为.zip。<br>3、然后把所有.zip压缩文件全部上传。</p><span id="more"></span><p>4、想下载使用的话，要把所有.zip文件下载并把全部文件的扩展名改为.001等。<br>5、这时就可以打开压缩文件进行解压了。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;1、把大文件压缩成分卷大小小于100M（如98M）的压缩文件，这时扩展名为.001等。&lt;br&gt;2、把所有压缩文件的扩展名改为.zip。&lt;br&gt;3、然后把所有.zip压缩文件全部上传。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptsh.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>使用HTML音频标签</title>
