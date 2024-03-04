@@ -112,6 +112,11 @@
   <time class="dt-published" datetime="2024-03-04T12:26:02.000Z" itemprop="datePublished">2024年03月04日</time>
 </span>
       
+  <div class="article-category">
+    <i class="fa fa-classify"></i>
+    <a class="article-category-link" href="/categories/hexo%E5%8D%9A%E5%AE%A2/">hexo博客</a>
+  </div>
+
       
         <span class="article-views">
   <i class="fa fa-views"></i>
@@ -148,8 +153,11 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">encrypt:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
 <p>3、博客文章添加加密字段<br>设置加密之后，不要忘记在新建博文的时候，在头部添加加密的设置信息：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">password: 设置的密码</span><br><span class="line">abstract: 摘要中密码提示内容</span><br><span class="line">message: 输入密码界面提示说明</span><br><span class="line">wrong_pass_message: 输入密码错误的提示内容</span><br></pre></td></tr></table></figure>
+<p>如果插件已优化（汉化），则博文头部添加密码即可：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">password: 设置的密码</span><br></pre></td></tr></table></figure>
 <p>4、对博文禁用加密<br>只需要将博文头部的 password 设置为 <code>&quot;&quot;</code> 即可取消加密.</p>
-
+<p>5、插件优化（汉化）<br>修改以下文章内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">\node_modules\hexo-blog-encrypt\lib\hbe.js</span><br><span class="line">      hideButton.textContent = &#x27;重新加密文章&#x27;;</span><br><span class="line"></span><br><span class="line">\node_modules\hexo-blog-encrypt\index.js</span><br><span class="line"></span><br><span class="line">const defaultConfig = &#123;</span><br><span class="line">  &#x27;abstract&#x27;: &#x27;文章已被加密，请不要打开查看！&#x27;,</span><br><span class="line">  &#x27;message&#x27;: &#x27;请在这里输入密码！&#x27;,</span><br><span class="line">  &#x27;theme&#x27;: &#x27;default&#x27;,</span><br><span class="line">  &#x27;wrong_pass_message&#x27;: &#x27;抱歉, 这个密码看着不太对, 请再试试！&#x27;,</span><br><span class="line">  &#x27;wrong_hash_message&#x27;: &#x27;OOPS, these decrypted content may changed, but you can still have a look.&#x27;,</span><br><span class="line">  &#x27;silent&#x27;: false,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
         
             <div id="toc-article">
                 
@@ -195,8 +203,6 @@
 
 
           
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo%E5%8D%9A%E5%AE%A2/" rel="tag">hexo博客</a></li></ul>
-
           
     <div class="social-share">
       <span>分享到:</span>
@@ -219,6 +225,15 @@
       </div>
     </a>
   
+  
+    <a href="/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">newer</strong>
+      <div class="article-nav-title">
+        
+          站长笔记
+        
+      </div>
+    </a>
   
 </nav>
 
@@ -247,7 +262,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-classify"></i> 文章分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/hexo%E5%8D%9A%E5%AE%A2/">hexo博客</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/">家庭健康</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/">教育教学</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/">网络智能</a><span class="category-list-count">2</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/hexo%E5%8D%9A%E5%AE%A2/">hexo博客</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/">家庭健康</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/">教育教学</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/">网络智能</a><span class="category-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -258,6 +273,10 @@
     <h3 class="widget-title"><i class="fa fa-posts"></i> 最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/">站长笔记</a>
+          </li>
         
           <li>
             <a href="/2024/03/04/Hexo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%8F%92%E4%BB%B6%EF%BC%9Ahexo-blog-encrypt/">Hexo文章加密插件：hexo-blog-encrypt</a>
@@ -275,10 +294,6 @@
             <a href="/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/">蓝奏云上传大于100M文件的方法</a>
           </li>
         
-          <li>
-            <a href="/2023/11/19/%E4%BD%BF%E7%94%A8HTML%E9%9F%B3%E9%A2%91%E6%A0%87%E7%AD%BE/">使用HTML音频标签</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -289,7 +304,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-tag"></i> 标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/CSS/" style="font-size: 10px;">CSS</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/Gitee/" style="font-size: 10px;">Gitee</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a> <a href="/tags/categories/" style="font-size: 10px;">categories</a> <a href="/tags/gitee/" style="font-size: 10px;">gitee</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/hexo%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">hexo博客</a> <a href="/tags/tags/" style="font-size: 10px;">tags</a> <a href="/tags/%E4%B9%B1%E7%A0%81/" style="font-size: 10px;">乱码</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A/" style="font-size: 10px;">无法接通</a>
+      <a href="/tags/CSS/" style="font-size: 10px;">CSS</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/Gitee/" style="font-size: 10px;">Gitee</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a> <a href="/tags/categories/" style="font-size: 10px;">categories</a> <a href="/tags/gitee/" style="font-size: 10px;">gitee</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/tags/" style="font-size: 10px;">tags</a> <a href="/tags/%E4%B9%B1%E7%A0%81/" style="font-size: 10px;">乱码</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A/" style="font-size: 10px;">无法接通</a>
     </div>
   </div>
 
@@ -298,7 +313,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-archive"></i> 归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/">2024年</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023年</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/">2024年</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023年</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 

@@ -169,10 +169,10 @@
 <p>每次上传项目至服务器备份时，删除node_modules文件夹，要修改项目时再重新初始化项目，安装依赖包。</p>
 <p>另外，npm prune 命令的功能是根据package.json里的依赖项，删除不需要的模块文件。<br>执行npm audit fix，可以查看是否少了什么组件</p>
 <h1 id="极狐GitLab与GitLab的区别"><a href="#极狐GitLab与GitLab的区别" class="headerlink" title="极狐GitLab与GitLab的区别"></a>极狐GitLab与GitLab的区别</h1><p>一、产品方面<br>GitLab 在全球范围内有三个版本：社区版（CE）、企业版（EE）、极狐版 (JH)。极狐GitLab（极狐版JH）是在中国大陆和港澳地区发行的企业级GitLab版本，拥有GitLab技术和品牌独家授权，基于GitLab EE和极狐(GitLab)持有独立知识产权的——JH代码仓库构建，由极狐(GitLab)公司在国内独立运营。<br>极狐GitLab支持私有化部署（self-managed）版本和SaaS服务。极狐GitLab的企业级订阅许可证、源代码管理、支付系统等均在中国境内管理，受中国法律保护。<br>二、代码及仓库管理方面<br>极狐(GitLab)公司与GitLab公司使用两个独立的代码仓，极狐(GitLab)的代码仓存放在中国境内。<br>GitLab社区版（CE）和企业版（EE）的更改将单向镜像到极狐发行版——极狐GitLab（JH），极狐GitLab版本的更改则会以社区贡献的形式反哺，通过GitLab维护者的审批后合并到GitLab。<br>三、SaaS 服务方面<br>极狐GitLab的SaaS服务和GitLab Inc.的SaaS服务（GitLab.com）不共享任何基础设施、网络连接、系统、服务、数据或资源。极狐(GitLab)作为一家独立的中国公司，将在国内管理自己的技术和基础设施。</p>
-<h1 id="解决需要输入git-或者hexo-的用户名和密码"><a href="#解决需要输入git-或者hexo-的用户名和密码" class="headerlink" title="解决需要输入git(或者hexo)的用户名和密码"></a>解决需要输入git(或者hexo)的用户名和密码</h1><p>原因：是因为用 https 协议进行本地仓库和远程仓库的连接，https协议每次都需要进行用户验证，如下修改解决问题，换成ssh方式：<br>把<a target="_blank" rel="noopener" href="https://gitee.com/ptsh/ptsh.git">https://gitee.com/ptsh/ptsh.git</a><br>改成<a href="mailto:&#x67;&#x69;&#116;&#64;&#103;&#x69;&#116;&#101;&#x65;&#46;&#x63;&#111;&#x6d;">&#x67;&#x69;&#116;&#64;&#103;&#x69;&#116;&#101;&#x65;&#46;&#x63;&#111;&#x6d;</a>:ptsh&#x2F;hexo.git<br>git:在cmd控制台添加或者修改远程仓库命令<br>添加：git remote add origin <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#101;&#x65;&#x2e;&#x63;&#111;&#x6d;">&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#101;&#x65;&#x2e;&#x63;&#111;&#x6d;</a>:ptsh&#x2F;hexo.git<br>修改：git remote set-url origin <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x65;&#x65;&#46;&#99;&#x6f;&#109;">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x65;&#x65;&#46;&#99;&#x6f;&#109;</a>:ptsh&#x2F;hexo.git<br>hexo:修改根目录_config.yml配置</p>
+<h1 id="解决需要输入git-或者hexo-的用户名和密码"><a href="#解决需要输入git-或者hexo-的用户名和密码" class="headerlink" title="解决需要输入git(或者hexo)的用户名和密码"></a>解决需要输入git(或者hexo)的用户名和密码</h1><p>原因：是因为用 https 协议进行本地仓库和远程仓库的连接，https协议每次都需要进行用户验证，如下修改解决问题，换成ssh方式：<br>把<a target="_blank" rel="noopener" href="https://gitee.com/ptsh/ptsh.git">https://gitee.com/ptsh/ptsh.git</a><br>改成<a href="mailto:&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x65;&#101;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x65;&#101;&#x2e;&#x63;&#111;&#x6d;</a>:ptsh&#x2F;hexo.git<br>git:在cmd控制台添加或者修改远程仓库命令<br>添加：git remote add origin <a href="mailto:&#x67;&#105;&#116;&#x40;&#103;&#105;&#116;&#x65;&#101;&#x2e;&#99;&#111;&#x6d;">&#x67;&#105;&#116;&#x40;&#103;&#105;&#116;&#x65;&#101;&#x2e;&#99;&#111;&#x6d;</a>:ptsh&#x2F;hexo.git<br>修改：git remote set-url origin <a href="mailto:&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#101;&#101;&#x2e;&#99;&#111;&#109;">&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#101;&#101;&#x2e;&#99;&#111;&#109;</a>:ptsh&#x2F;hexo.git<br>hexo:修改根目录_config.yml配置</p>
 <p>deploy:</p>
 <p>type: git</p>
-<p>repo: <a href="mailto:&#x67;&#x69;&#116;&#x40;&#x67;&#105;&#116;&#101;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#x40;&#x67;&#105;&#116;&#101;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a>:ptsh&#x2F;hexo.git （将地址换成自己的地址）</p>
+<p>repo: <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x65;&#101;&#46;&#x63;&#x6f;&#x6d;">&#103;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x65;&#101;&#46;&#x63;&#x6f;&#x6d;</a>:ptsh&#x2F;hexo.git （将地址换成自己的地址）</p>
 <p>branch: master</p>
 <p>更改完远程仓库链接，第一次使用Git的clone或者push命令连接Gitee时，会得到一个警告。<br>这是因为Git使用SSH连接，而SSH连接在第一次验证Gitee服务器的Key时，需要你确认Gitee的Key的指纹信息是否真的来自Gitee的服务器，输入yes回车即可。Git会输出一个警告，告诉你已经把Gitee的Key添加到本机的一个信任列表里了：这个警告只会出现一次，后面的操作就不会有任何警告了。</p>
 <h1 id="Valine禁止某页面评论"><a href="#Valine禁止某页面评论" class="headerlink" title="Valine禁止某页面评论"></a>Valine禁止某页面评论</h1><h2 id="在-Hexo-博客中，评论的功能在所有页面都默认开启，但是有的时候我们在页面上不需要显示评论功能，例如分类，标记页面我们并不需要评论功能。通过comments属性设置true或false控制该页面或者是文章的评论功能是否打开，如下："><a href="#在-Hexo-博客中，评论的功能在所有页面都默认开启，但是有的时候我们在页面上不需要显示评论功能，例如分类，标记页面我们并不需要评论功能。通过comments属性设置true或false控制该页面或者是文章的评论功能是否打开，如下：" class="headerlink" title="在 Hexo 博客中，评论的功能在所有页面都默认开启，但是有的时候我们在页面上不需要显示评论功能，例如分类，标记页面我们并不需要评论功能。通过comments属性设置true或false控制该页面或者是文章的评论功能是否打开，如下："></a>在 Hexo 博客中，评论的功能在所有页面都默认开启，但是有的时候我们在页面上不需要显示评论功能，例如分类，标记页面我们并不需要评论功能。通过comments属性设置true或false控制该页面或者是文章的评论功能是否打开，如下：</h2><p>title: Tags<br>date: 2019-12-19 16:10:19<br>type: “tags”<br>comments: false</p>
@@ -288,7 +288,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-classify"></i> 文章分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/hexo%E5%8D%9A%E5%AE%A2/">hexo博客</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/">家庭健康</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/">教育教学</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/">网络智能</a><span class="category-list-count">2</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/hexo%E5%8D%9A%E5%AE%A2/">hexo博客</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/">家庭健康</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/">教育教学</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/">网络智能</a><span class="category-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -299,6 +299,10 @@
     <h3 class="widget-title"><i class="fa fa-posts"></i> 最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/">站长笔记</a>
+          </li>
         
           <li>
             <a href="/2024/03/04/Hexo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%8F%92%E4%BB%B6%EF%BC%9Ahexo-blog-encrypt/">Hexo文章加密插件：hexo-blog-encrypt</a>
@@ -316,10 +320,6 @@
             <a href="/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/">蓝奏云上传大于100M文件的方法</a>
           </li>
         
-          <li>
-            <a href="/2023/11/19/%E4%BD%BF%E7%94%A8HTML%E9%9F%B3%E9%A2%91%E6%A0%87%E7%AD%BE/">使用HTML音频标签</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -330,7 +330,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-tag"></i> 标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/CSS/" style="font-size: 10px;">CSS</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/Gitee/" style="font-size: 10px;">Gitee</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a> <a href="/tags/categories/" style="font-size: 10px;">categories</a> <a href="/tags/gitee/" style="font-size: 10px;">gitee</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/hexo%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">hexo博客</a> <a href="/tags/tags/" style="font-size: 10px;">tags</a> <a href="/tags/%E4%B9%B1%E7%A0%81/" style="font-size: 10px;">乱码</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A/" style="font-size: 10px;">无法接通</a>
+      <a href="/tags/CSS/" style="font-size: 10px;">CSS</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/Gitee/" style="font-size: 10px;">Gitee</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a> <a href="/tags/categories/" style="font-size: 10px;">categories</a> <a href="/tags/gitee/" style="font-size: 10px;">gitee</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/tags/" style="font-size: 10px;">tags</a> <a href="/tags/%E4%B9%B1%E7%A0%81/" style="font-size: 10px;">乱码</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 15px;">博客</a> <a href="/tags/%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A/" style="font-size: 10px;">无法接通</a>
     </div>
   </div>
 
@@ -339,7 +339,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><i class="fa fa-archive"></i> 归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/">2024年</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023年</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/">2024年</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023年</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022年</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
