@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ptsh.gitee.io/2023/11/08/gitee%E4%B8%8Egithub%E4%B8%8A%E4%BC%A0Hexo%E5%BF%85%E9%A1%BB%E4%BF%AE%E6%94%B9%E7%9A%84%E6%96%87%E4%BB%B6/</loc>
+    
+    <lastmod>2024-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ptsh.gitee.io/2023/11/09/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/</loc>
     
     <lastmod>2024-03-07</lastmod>
@@ -156,15 +165,6 @@
   
   <url>
     <loc>https://ptsh.gitee.io/2023/11/10/%E5%85%AB%E5%A4%A7%E5%BF%83%E7%90%86%E5%AE%9A%E5%BE%8B%EF%BC%9A%E5%B8%AE%E4%BD%A0%E8%A7%A3%E9%99%A4%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%9B%B0%E6%89%B0/</loc>
-    
-    <lastmod>2023-11-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ptsh.gitee.io/2023/11/08/gitee%E4%B8%8Egithub%E4%B8%8A%E4%BC%A0Hexo%E5%BF%85%E9%A1%BB%E4%BF%AE%E6%94%B9%E7%9A%84%E6%96%87%E4%BB%B6/</loc>
     
     <lastmod>2023-11-10</lastmod>
     
