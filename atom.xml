@@ -6,7 +6,7 @@
   <link href="https://ptsh.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://ptsh.gitee.io/"/>
-  <updated>2024-03-07T13:03:36.003Z</updated>
+  <updated>2024-03-10T11:22:42.421Z</updated>
   <id>https://ptsh.gitee.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>鸭子定律</title>
+    <link href="https://ptsh.gitee.io/2024/03/10/%E9%B8%AD%E5%AD%90%E5%AE%9A%E5%BE%8B/"/>
+    <id>https://ptsh.gitee.io/2024/03/10/%E9%B8%AD%E5%AD%90%E5%AE%9A%E5%BE%8B/</id>
+    <published>2024-03-10T11:21:47.000Z</published>
+    <updated>2024-03-10T11:22:42.421Z</updated>
+    
+    <content type="html"><![CDATA[<p>大多数人看到，鸭子在水上悠然地游动，但他们没看到：在水下，鸭子的鸭蹼在拼命划动。</p><span id="more"></span><p>作家刘同曾说过：“你必须非常努力，才能看起来毫不费力”。<br>每一个光鲜亮丽的背后，都是默默努力和付出。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;大多数人看到，鸭子在水上悠然地游动，但他们没看到：在水下，鸭子的鸭蹼在拼命划动。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教育教学" scheme="https://ptsh.gitee.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>人教版初中数学教材目录</title>
@@ -401,32 +420,6 @@
     
     
     <category term="Hexo" scheme="https://ptsh.gitee.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>gitee与github上传Hexo必须修改的文件</title>
-    <link href="https://ptsh.gitee.io/2023/11/08/gitee%E4%B8%8Egithub%E4%B8%8A%E4%BC%A0Hexo%E5%BF%85%E9%A1%BB%E4%BF%AE%E6%94%B9%E7%9A%84%E6%96%87%E4%BB%B6/"/>
-    <id>https://ptsh.gitee.io/2023/11/08/gitee%E4%B8%8Egithub%E4%B8%8A%E4%BC%A0Hexo%E5%BF%85%E9%A1%BB%E4%BF%AE%E6%94%B9%E7%9A%84%E6%96%87%E4%BB%B6/</id>
-    <published>2023-11-08T03:51:46.000Z</published>
-    <updated>2024-03-07T11:57:51.502Z</updated>
-    
-    <content type="html"><![CDATA[<p>上传之前一定要先修改这两个文件，并且git运行以下命令！</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">github:</span><br><span class="line">git config --global user.name &quot;ptshu&quot;</span><br><span class="line">gitee:</span><br><span class="line">git config --global user.name &quot;ptsh&quot;</span><br></pre></td></tr></table></figure><span id="more"></span><p>根目录<br>文件：_config.yml<br>内容：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">（135/136行）</span><br><span class="line">valine:</span><br><span class="line">  enable: true # if you want use valine,please set this value is true</span><br><span class="line">  appId: 5eQydp6vwosFE2SwAQvpHOPW-gzGzoHsz # leancloud application app id</span><br><span class="line">  appKey: aBcvJDFuxMP9XFjAojz3SCaN # leancloud application app key</span><br></pre></td></tr></table></figure><p>根目录\themes\BlueLake（主题目录）<br>文件：_config.yml<br>内容：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">（16行）</span><br><span class="line">url: https://ptsh.gitee.io/  </span><br><span class="line"></span><br><span class="line">（106行）</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@gitee.com:ptsh/ptsh.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;上传之前一定要先修改这两个文件，并且git运行以下命令！&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;github:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git config --global user.name &amp;quot;ptshu&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gitee:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git config --global user.name &amp;quot;ptsh&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="Hexo" scheme="https://ptsh.gitee.io/tags/Hexo/"/>
-    
-    <category term="gitee" scheme="https://ptsh.gitee.io/tags/gitee/"/>
-    
-    <category term="github" scheme="https://ptsh.gitee.io/tags/github/"/>
     
   </entry>
   
