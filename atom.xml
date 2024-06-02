@@ -6,7 +6,7 @@
   <link href="https://ptshu.github.io/atom.xml" rel="self"/>
   
   <link href="https://ptshu.github.io/"/>
-  <updated>2024-06-02T11:59:28.521Z</updated>
+  <updated>2024-06-02T12:36:40.407Z</updated>
   <id>https://ptshu.github.io/</id>
   
   <author>
@@ -17,16 +17,17 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>11</title>
-    <link href="https://ptshu.github.io/2024/06/02/11/"/>
-    <id>https://ptshu.github.io/2024/06/02/11/</id>
+    <title>hexo d 上传错误</title>
+    <link href="https://ptshu.github.io/2024/06/02/hexo%20d%20%E4%B8%8A%E4%BC%A0%E9%94%99%E8%AF%AF/"/>
+    <id>https://ptshu.github.io/2024/06/02/hexo%20d%20%E4%B8%8A%E4%BC%A0%E9%94%99%E8%AF%AF/</id>
     <published>2024-06-02T11:52:47.000Z</published>
-    <updated>2024-06-02T11:59:28.521Z</updated>
+    <updated>2024-06-02T12:36:40.407Z</updated>
     
-    <content type="html"><![CDATA[<p>特斯特</p><span id="more"></span><p>文章内容</p>]]></content>
+    <content type="html"><![CDATA[<p>hexo d 上传提示错误如下：<br>Fingerprint:<br>SHA256:hsN3FpUinGIRpww5UI4YXk4YD&#x2F;GdIpm5eRoY69NiPEI</p><p>fatal: Could not read from remote repository.</p><span id="more"></span><p>Fingerprint:<br>SHA256:hsN3FpUinGIRpww5UI4YXk4YD&#x2F;GdIpm5eRoY69NiPEI</p><p>fatal: Could not read from remote repository.</p><p>Please make sure you have the correct access rights<br>and the repository exists.<br>FATAL Something’s wrong. Maybe you can find the solution here: <a href="https://hexo.io/docs/troubleshooting.html">https://hexo.io/docs/troubleshooting.html</a><br>approve</p><p>原因：<br>您的SSH密钥未经验证<br>最近的扫描发现了有效的SSH私钥，xx20231026，链接到您的GitHub帐户在提交的内容.为了保护您的数据免受任何未经授权的访问，我们已经撤销了它，因此，您对GitHub的SSH访问可能会中断。</p><p>解决方法：<br>登录github后，approve批准SSH密钥或者生成一个新的SSH密钥</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;特斯特&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;hexo d 上传提示错误如下：&lt;br&gt;Fingerprint:&lt;br&gt;SHA256:hsN3FpUinGIRpww5UI4YXk4YD&amp;#x2F;GdIpm5eRoY69NiPEI&lt;/p&gt;
+&lt;p&gt;fatal: Could not read from remote repository.&lt;/p&gt;</summary>
     
     
     
