@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>菩提树</title>
   
-  <subtitle>ptsh.gitee.io</subtitle>
-  <link href="https://ptsh.gitee.io/atom.xml" rel="self"/>
+  <subtitle>ptshu.github.io</subtitle>
+  <link href="https://ptshu.github.io/atom.xml" rel="self"/>
   
-  <link href="https://ptsh.gitee.io/"/>
-  <updated>2024-03-10T11:22:42.421Z</updated>
-  <id>https://ptsh.gitee.io/</id>
+  <link href="https://ptshu.github.io/"/>
+  <updated>2024-06-02T11:48:24.931Z</updated>
+  <id>https://ptshu.github.io/</id>
   
   <author>
     <name>菩提</name>
@@ -17,9 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>valine错误</title>
+    <link href="https://ptshu.github.io/2024/06/02/valine%E9%94%99%E8%AF%AF/"/>
+    <id>https://ptshu.github.io/2024/06/02/valine%E9%94%99%E8%AF%AF/</id>
+    <published>2024-06-02T11:33:23.000Z</published>
+    <updated>2024-06-02T11:48:24.931Z</updated>
+    
+    <content type="html"><![CDATA[<p>valine提示以下错误：<br>Code 504: The app is archived, please restore in console before use. </p><span id="more"></span><p><img src="/img/2024/06/valine1.png"><br>原因是：valine超过30天没有使用被停止，存储服务数据已归档（连续30天无API请求）<br><img src="/img/2024/06/valine2.png"><br>解决办法：点上图中的激活，然后等10-30分钟后就激活成功。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;valine提示以下错误：&lt;br&gt;Code 504: The app is archived, please restore in console before use. &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>鸭子定律</title>
-    <link href="https://ptsh.gitee.io/2024/03/10/%E9%B8%AD%E5%AD%90%E5%AE%9A%E5%BE%8B/"/>
-    <id>https://ptsh.gitee.io/2024/03/10/%E9%B8%AD%E5%AD%90%E5%AE%9A%E5%BE%8B/</id>
+    <link href="https://ptshu.github.io/2024/03/10/%E9%B8%AD%E5%AD%90%E5%AE%9A%E5%BE%8B/"/>
+    <id>https://ptshu.github.io/2024/03/10/%E9%B8%AD%E5%AD%90%E5%AE%9A%E5%BE%8B/</id>
     <published>2024-03-10T11:21:47.000Z</published>
     <updated>2024-03-10T11:22:42.421Z</updated>
     
@@ -30,15 +49,15 @@
     
     
     
-    <category term="教育教学" scheme="https://ptsh.gitee.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>人教版初中数学教材目录</title>
-    <link href="https://ptsh.gitee.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90%E7%9B%AE%E5%BD%95/"/>
-    <id>https://ptsh.gitee.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90%E7%9B%AE%E5%BD%95/</id>
+    <link href="https://ptshu.github.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90%E7%9B%AE%E5%BD%95/"/>
+    <id>https://ptshu.github.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90%E7%9B%AE%E5%BD%95/</id>
     <published>2024-03-07T13:01:32.000Z</published>
     <updated>2024-03-07T13:03:36.003Z</updated>
     
@@ -49,15 +68,15 @@
     
     
     
-    <category term="教育教学" scheme="https://ptsh.gitee.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>百度文库内容的复制方法</title>
-    <link href="https://ptsh.gitee.io/2024/03/07/%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93-doc%E6%A0%BC%E5%BC%8F%E5%86%85%E5%AE%B9%E7%9A%84%E5%A4%8D%E5%88%B6%E6%96%B9%E6%B3%95/"/>
-    <id>https://ptsh.gitee.io/2024/03/07/%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93-doc%E6%A0%BC%E5%BC%8F%E5%86%85%E5%AE%B9%E7%9A%84%E5%A4%8D%E5%88%B6%E6%96%B9%E6%B3%95/</id>
+    <link href="https://ptshu.github.io/2024/03/07/%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93-doc%E6%A0%BC%E5%BC%8F%E5%86%85%E5%AE%B9%E7%9A%84%E5%A4%8D%E5%88%B6%E6%96%B9%E6%B3%95/"/>
+    <id>https://ptshu.github.io/2024/03/07/%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93-doc%E6%A0%BC%E5%BC%8F%E5%86%85%E5%AE%B9%E7%9A%84%E5%A4%8D%E5%88%B6%E6%96%B9%E6%B3%95/</id>
     <published>2024-03-07T12:33:20.000Z</published>
     <updated>2024-03-07T13:09:32.646Z</updated>
     
@@ -68,15 +87,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptsh.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>人教版初中物理课本目录</title>
-    <link href="https://ptsh.gitee.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E8%AF%BE%E6%9C%AC%E7%9B%AE%E5%BD%95/"/>
-    <id>https://ptsh.gitee.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E8%AF%BE%E6%9C%AC%E7%9B%AE%E5%BD%95/</id>
+    <link href="https://ptshu.github.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E8%AF%BE%E6%9C%AC%E7%9B%AE%E5%BD%95/"/>
+    <id>https://ptshu.github.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E8%AF%BE%E6%9C%AC%E7%9B%AE%E5%BD%95/</id>
     <published>2024-03-07T12:19:15.000Z</published>
     <updated>2024-03-07T12:21:41.049Z</updated>
     
@@ -87,15 +106,15 @@
     
     
     
-    <category term="教育教学" scheme="https://ptsh.gitee.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>食物相忌和不宜吃的食物</title>
-    <link href="https://ptsh.gitee.io/2024/03/07/%E9%A3%9F%E7%89%A9%E7%9B%B8%E5%BF%8C%E5%92%8C%E4%B8%8D%E5%AE%9C%E5%90%83%E7%9A%84%E9%A3%9F%E7%89%A9/"/>
-    <id>https://ptsh.gitee.io/2024/03/07/%E9%A3%9F%E7%89%A9%E7%9B%B8%E5%BF%8C%E5%92%8C%E4%B8%8D%E5%AE%9C%E5%90%83%E7%9A%84%E9%A3%9F%E7%89%A9/</id>
+    <link href="https://ptshu.github.io/2024/03/07/%E9%A3%9F%E7%89%A9%E7%9B%B8%E5%BF%8C%E5%92%8C%E4%B8%8D%E5%AE%9C%E5%90%83%E7%9A%84%E9%A3%9F%E7%89%A9/"/>
+    <id>https://ptshu.github.io/2024/03/07/%E9%A3%9F%E7%89%A9%E7%9B%B8%E5%BF%8C%E5%92%8C%E4%B8%8D%E5%AE%9C%E5%90%83%E7%9A%84%E9%A3%9F%E7%89%A9/</id>
     <published>2024-03-07T11:37:15.000Z</published>
     <updated>2024-03-07T11:38:36.409Z</updated>
     
@@ -110,15 +129,15 @@
     
     
     
-    <category term="家庭健康" scheme="https://ptsh.gitee.io/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/"/>
+    <category term="家庭健康" scheme="https://ptshu.github.io/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/"/>
     
     
   </entry>
   
   <entry>
     <title>初中物理课件人教版20212022</title>
-    <link href="https://ptsh.gitee.io/2024/03/07/%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E8%AF%BE%E4%BB%B6%E4%BA%BA%E6%95%99%E7%89%8820212022/"/>
-    <id>https://ptsh.gitee.io/2024/03/07/%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E8%AF%BE%E4%BB%B6%E4%BA%BA%E6%95%99%E7%89%8820212022/</id>
+    <link href="https://ptshu.github.io/2024/03/07/%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E8%AF%BE%E4%BB%B6%E4%BA%BA%E6%95%99%E7%89%8820212022/"/>
+    <id>https://ptshu.github.io/2024/03/07/%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E8%AF%BE%E4%BB%B6%E4%BA%BA%E6%95%99%E7%89%8820212022/</id>
     <published>2024-03-07T11:33:04.000Z</published>
     <updated>2024-03-07T11:51:56.035Z</updated>
     
@@ -129,15 +148,15 @@
     
     
     
-    <category term="教育教学" scheme="https://ptsh.gitee.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>第一次亲密接触</title>
-    <link href="https://ptsh.gitee.io/2024/03/07/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BA%B2%E5%AF%86%E6%8E%A5%E8%A7%A6/"/>
-    <id>https://ptsh.gitee.io/2024/03/07/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BA%B2%E5%AF%86%E6%8E%A5%E8%A7%A6/</id>
+    <link href="https://ptshu.github.io/2024/03/07/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BA%B2%E5%AF%86%E6%8E%A5%E8%A7%A6/"/>
+    <id>https://ptshu.github.io/2024/03/07/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BA%B2%E5%AF%86%E6%8E%A5%E8%A7%A6/</id>
     <published>2024-03-07T11:27:13.000Z</published>
     <updated>2024-03-07T11:29:03.268Z</updated>
     
@@ -148,17 +167,17 @@
     
     
     
-    <category term="网络智能" scheme="https://ptsh.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="小说" scheme="https://ptsh.gitee.io/tags/%E5%B0%8F%E8%AF%B4/"/>
+    <category term="小说" scheme="https://ptshu.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
     
   </entry>
   
   <entry>
     <title>关于初中物理力的作用点在作图题中的要求</title>
-    <link href="https://ptsh.gitee.io/2024/03/06/%E5%85%B3%E4%BA%8E%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E5%8A%9B%E7%9A%84%E4%BD%9C%E7%94%A8%E7%82%B9%E5%9C%A8%E4%BD%9C%E5%9B%BE%E9%A2%98%E4%B8%AD%E7%9A%84%E8%A6%81%E6%B1%82/"/>
-    <id>https://ptsh.gitee.io/2024/03/06/%E5%85%B3%E4%BA%8E%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E5%8A%9B%E7%9A%84%E4%BD%9C%E7%94%A8%E7%82%B9%E5%9C%A8%E4%BD%9C%E5%9B%BE%E9%A2%98%E4%B8%AD%E7%9A%84%E8%A6%81%E6%B1%82/</id>
+    <link href="https://ptshu.github.io/2024/03/06/%E5%85%B3%E4%BA%8E%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E5%8A%9B%E7%9A%84%E4%BD%9C%E7%94%A8%E7%82%B9%E5%9C%A8%E4%BD%9C%E5%9B%BE%E9%A2%98%E4%B8%AD%E7%9A%84%E8%A6%81%E6%B1%82/"/>
+    <id>https://ptshu.github.io/2024/03/06/%E5%85%B3%E4%BA%8E%E5%88%9D%E4%B8%AD%E7%89%A9%E7%90%86%E5%8A%9B%E7%9A%84%E4%BD%9C%E7%94%A8%E7%82%B9%E5%9C%A8%E4%BD%9C%E5%9B%BE%E9%A2%98%E4%B8%AD%E7%9A%84%E8%A6%81%E6%B1%82/</id>
     <published>2024-03-06T13:06:33.000Z</published>
     <updated>2024-03-07T11:48:55.009Z</updated>
     
@@ -169,15 +188,15 @@
     
     
     
-    <category term="教育教学" scheme="https://ptsh.gitee.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>站长笔记</title>
-    <link href="https://ptsh.gitee.io/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/"/>
-    <id>https://ptsh.gitee.io/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/</id>
+    <link href="https://ptshu.github.io/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/"/>
+    <id>https://ptshu.github.io/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/</id>
     <published>2024-03-04T12:33:38.000Z</published>
     <updated>2024-03-04T13:28:08.607Z</updated>
     
@@ -188,15 +207,15 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
   </entry>
   
   <entry>
     <title>Hexo文章加密插件：hexo-blog-encrypt</title>
-    <link href="https://ptsh.gitee.io/2024/03/04/Hexo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%8F%92%E4%BB%B6%EF%BC%9Ahexo-blog-encrypt/"/>
-    <id>https://ptsh.gitee.io/2024/03/04/Hexo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%8F%92%E4%BB%B6%EF%BC%9Ahexo-blog-encrypt/</id>
+    <link href="https://ptshu.github.io/2024/03/04/Hexo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%8F%92%E4%BB%B6%EF%BC%9Ahexo-blog-encrypt/"/>
+    <id>https://ptshu.github.io/2024/03/04/Hexo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%8F%92%E4%BB%B6%EF%BC%9Ahexo-blog-encrypt/</id>
     <published>2024-03-04T12:26:02.000Z</published>
     <updated>2024-03-04T13:18:02.788Z</updated>
     
@@ -209,15 +228,15 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
   </entry>
   
   <entry>
     <title>2022年八年级第二学期物理工作计划(12篇)</title>
-    <link href="https://ptsh.gitee.io/2024/03/03/2022%E5%B9%B4%E5%85%AB%E5%B9%B4%E7%BA%A7%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E7%89%A9%E7%90%86%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92-12%E7%AF%87/"/>
-    <id>https://ptsh.gitee.io/2024/03/03/2022%E5%B9%B4%E5%85%AB%E5%B9%B4%E7%BA%A7%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E7%89%A9%E7%90%86%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92-12%E7%AF%87/</id>
+    <link href="https://ptshu.github.io/2024/03/03/2022%E5%B9%B4%E5%85%AB%E5%B9%B4%E7%BA%A7%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E7%89%A9%E7%90%86%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92-12%E7%AF%87/"/>
+    <id>https://ptshu.github.io/2024/03/03/2022%E5%B9%B4%E5%85%AB%E5%B9%B4%E7%BA%A7%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F%E7%89%A9%E7%90%86%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92-12%E7%AF%87/</id>
     <published>2024-03-03T13:09:37.000Z</published>
     <updated>2024-03-04T12:32:07.341Z</updated>
     
@@ -228,15 +247,15 @@
     
     
     
-    <category term="教育教学" scheme="https://ptsh.gitee.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>初二物理备课组学期工作计划</title>
-    <link href="https://ptsh.gitee.io/2024/03/03/%E5%88%9D%E4%BA%8C%E7%89%A9%E7%90%86%E5%A4%87%E8%AF%BE%E7%BB%84%E5%AD%A6%E6%9C%9F%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92/"/>
-    <id>https://ptsh.gitee.io/2024/03/03/%E5%88%9D%E4%BA%8C%E7%89%A9%E7%90%86%E5%A4%87%E8%AF%BE%E7%BB%84%E5%AD%A6%E6%9C%9F%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92/</id>
+    <link href="https://ptshu.github.io/2024/03/03/%E5%88%9D%E4%BA%8C%E7%89%A9%E7%90%86%E5%A4%87%E8%AF%BE%E7%BB%84%E5%AD%A6%E6%9C%9F%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92/"/>
+    <id>https://ptshu.github.io/2024/03/03/%E5%88%9D%E4%BA%8C%E7%89%A9%E7%90%86%E5%A4%87%E8%AF%BE%E7%BB%84%E5%AD%A6%E6%9C%9F%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92/</id>
     <published>2024-03-03T13:06:05.000Z</published>
     <updated>2024-03-03T13:08:28.633Z</updated>
     
@@ -247,15 +266,15 @@
     
     
     
-    <category term="教育教学" scheme="https://ptsh.gitee.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>蓝奏云上传大于100M文件的方法</title>
-    <link href="https://ptsh.gitee.io/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>https://ptsh.gitee.io/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</id>
+    <link href="https://ptshu.github.io/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://ptshu.github.io/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</id>
     <published>2023-11-28T12:48:14.000Z</published>
     <updated>2023-11-28T12:59:20.426Z</updated>
     
@@ -266,15 +285,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptsh.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>使用HTML音频标签</title>
-    <link href="https://ptsh.gitee.io/2023/11/19/%E4%BD%BF%E7%94%A8HTML%E9%9F%B3%E9%A2%91%E6%A0%87%E7%AD%BE/"/>
-    <id>https://ptsh.gitee.io/2023/11/19/%E4%BD%BF%E7%94%A8HTML%E9%9F%B3%E9%A2%91%E6%A0%87%E7%AD%BE/</id>
+    <link href="https://ptshu.github.io/2023/11/19/%E4%BD%BF%E7%94%A8HTML%E9%9F%B3%E9%A2%91%E6%A0%87%E7%AD%BE/"/>
+    <id>https://ptshu.github.io/2023/11/19/%E4%BD%BF%E7%94%A8HTML%E9%9F%B3%E9%A2%91%E6%A0%87%E7%AD%BE/</id>
     <published>2023-11-19T13:29:10.000Z</published>
     <updated>2023-11-19T13:30:34.517Z</updated>
     
@@ -287,15 +306,15 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
   </entry>
   
   <entry>
     <title>静态HTML网页部署到gitee后中文乱码</title>
-    <link href="https://ptsh.gitee.io/2023/11/10/%E9%9D%99%E6%80%81HTML%E7%BD%91%E9%A1%B5%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E5%90%8E%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/"/>
-    <id>https://ptsh.gitee.io/2023/11/10/%E9%9D%99%E6%80%81HTML%E7%BD%91%E9%A1%B5%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E5%90%8E%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/</id>
+    <link href="https://ptshu.github.io/2023/11/10/%E9%9D%99%E6%80%81HTML%E7%BD%91%E9%A1%B5%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E5%90%8E%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/"/>
+    <id>https://ptshu.github.io/2023/11/10/%E9%9D%99%E6%80%81HTML%E7%BD%91%E9%A1%B5%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E5%90%8E%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/</id>
     <published>2023-11-10T06:27:37.000Z</published>
     <updated>2023-11-10T06:29:11.771Z</updated>
     
@@ -309,17 +328,17 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="乱码" scheme="https://ptsh.gitee.io/tags/%E4%B9%B1%E7%A0%81/"/>
+    <category term="乱码" scheme="https://ptshu.github.io/tags/%E4%B9%B1%E7%A0%81/"/>
     
   </entry>
   
   <entry>
     <title>八大心理定律：帮你解除人际关系困扰</title>
-    <link href="https://ptsh.gitee.io/2023/11/10/%E5%85%AB%E5%A4%A7%E5%BF%83%E7%90%86%E5%AE%9A%E5%BE%8B%EF%BC%9A%E5%B8%AE%E4%BD%A0%E8%A7%A3%E9%99%A4%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%9B%B0%E6%89%B0/"/>
-    <id>https://ptsh.gitee.io/2023/11/10/%E5%85%AB%E5%A4%A7%E5%BF%83%E7%90%86%E5%AE%9A%E5%BE%8B%EF%BC%9A%E5%B8%AE%E4%BD%A0%E8%A7%A3%E9%99%A4%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%9B%B0%E6%89%B0/</id>
+    <link href="https://ptshu.github.io/2023/11/10/%E5%85%AB%E5%A4%A7%E5%BF%83%E7%90%86%E5%AE%9A%E5%BE%8B%EF%BC%9A%E5%B8%AE%E4%BD%A0%E8%A7%A3%E9%99%A4%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%9B%B0%E6%89%B0/"/>
+    <id>https://ptshu.github.io/2023/11/10/%E5%85%AB%E5%A4%A7%E5%BF%83%E7%90%86%E5%AE%9A%E5%BE%8B%EF%BC%9A%E5%B8%AE%E4%BD%A0%E8%A7%A3%E9%99%A4%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%9B%B0%E6%89%B0/</id>
     <published>2023-11-10T01:41:42.000Z</published>
     <updated>2023-11-10T03:29:53.264Z</updated>
     
@@ -330,15 +349,15 @@
     
     
     
-    <category term="家庭健康" scheme="https://ptsh.gitee.io/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/"/>
+    <category term="家庭健康" scheme="https://ptshu.github.io/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/"/>
     
     
   </entry>
   
   <entry>
     <title>打对方电话暂时无法接通是什么原因</title>
-    <link href="https://ptsh.gitee.io/2023/11/10/%E6%89%93%E5%AF%B9%E6%96%B9%E7%94%B5%E8%AF%9D%E6%9A%82%E6%97%B6%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A%E6%98%AF%E4%BB%80%E4%B9%88%E5%8E%9F%E5%9B%A0/"/>
-    <id>https://ptsh.gitee.io/2023/11/10/%E6%89%93%E5%AF%B9%E6%96%B9%E7%94%B5%E8%AF%9D%E6%9A%82%E6%97%B6%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A%E6%98%AF%E4%BB%80%E4%B9%88%E5%8E%9F%E5%9B%A0/</id>
+    <link href="https://ptshu.github.io/2023/11/10/%E6%89%93%E5%AF%B9%E6%96%B9%E7%94%B5%E8%AF%9D%E6%9A%82%E6%97%B6%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A%E6%98%AF%E4%BB%80%E4%B9%88%E5%8E%9F%E5%9B%A0/"/>
+    <id>https://ptshu.github.io/2023/11/10/%E6%89%93%E5%AF%B9%E6%96%B9%E7%94%B5%E8%AF%9D%E6%9A%82%E6%97%B6%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A%E6%98%AF%E4%BB%80%E4%B9%88%E5%8E%9F%E5%9B%A0/</id>
     <published>2023-11-10T01:36:41.000Z</published>
     <updated>2023-11-10T01:39:07.822Z</updated>
     
@@ -349,17 +368,17 @@
     
     
     
-    <category term="网络智能" scheme="https://ptsh.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="无法接通" scheme="https://ptsh.gitee.io/tags/%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A/"/>
+    <category term="无法接通" scheme="https://ptshu.github.io/tags/%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A/"/>
     
   </entry>
   
   <entry>
     <title>hexo目录结构与配置文件</title>
-    <link href="https://ptsh.gitee.io/2023/11/09/hexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%B8%8E%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
-    <id>https://ptsh.gitee.io/2023/11/09/hexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%B8%8E%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</id>
+    <link href="https://ptshu.github.io/2023/11/09/hexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%B8%8E%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
+    <id>https://ptshu.github.io/2023/11/09/hexo%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%B8%8E%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</id>
     <published>2023-11-09T13:10:22.000Z</published>
     <updated>2023-11-09T13:18:43.601Z</updated>
     
@@ -370,19 +389,19 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="hexo" scheme="https://ptsh.gitee.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://ptshu.github.io/tags/hexo/"/>
     
-    <category term="博客" scheme="https://ptsh.gitee.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://ptshu.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>博客配置文件解读</title>
-    <link href="https://ptsh.gitee.io/2023/11/09/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/"/>
-    <id>https://ptsh.gitee.io/2023/11/09/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/</id>
+    <link href="https://ptshu.github.io/2023/11/09/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/"/>
+    <id>https://ptshu.github.io/2023/11/09/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/</id>
     <published>2023-11-09T12:52:07.000Z</published>
     <updated>2024-03-07T11:55:52.168Z</updated>
     
@@ -393,33 +412,12 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="hexo" scheme="https://ptsh.gitee.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://ptshu.github.io/tags/hexo/"/>
     
-    <category term="博客" scheme="https://ptsh.gitee.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 基本结构介绍</title>
-    <link href="https://ptsh.gitee.io/2023/11/08/Hexo%20%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D/"/>
-    <id>https://ptsh.gitee.io/2023/11/08/Hexo%20%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D/</id>
-    <published>2023-11-08T12:01:45.000Z</published>
-    <updated>2023-11-10T01:40:38.674Z</updated>
-    
-    <content type="html"><![CDATA[<p>.deploy_git<br>在输入 hexo d 部署到 GitHub 后自动创建。该目录的结构和 public 目录基本一致（不一致的情况是由于重新生成，但是没有发布站点造成，此时 public 内容新于 .deploy_git 内容）。</p><span id="more"></span><p>node_modules<br>存放安装的 Hexo 扩展，都是相应的 node 依赖模块。</p><p>public<br>在执行 hexo g 命令时，Hexo 程序会编译 source、theme 目录，生成的静态网页内容目录就是 piblic。</p><p>生成好的 public 文件夹内容就可以直接当成静态网站进行部署。</p><p>在执行 hexo d 命令时，会将 piblic 目录内容复制到 .deploy_git 目录。</p><p>scaffolds<br>scaffolds 是“脚手架、骨架”的意思，当你新建一篇文章（hexo new ‘title’）的时候，Hexo 是根据这个目录下的文件进行构建的。</p><p>source<br>存放用户资源的地方。</p><p>_posts<br>存放博客文章的地方，其中的 markdown 文件、HTML 文件、org 文件等会被解析并放到 public 文件夹，发布到站点。</p><p>其它以 _（下划线）开头的文件 &#x2F; 文件夹<br>将会被忽略。因此可以在 source 目录下创建 _drafts 目录用于存放未完成的草稿，其中内容不会发布到网站。</p><p>其它非 _ 开头的文件 &#x2F; 文件夹<br>会被拷贝到 public 目录并上传到站点。</p><p>可以创建 img 目录来存放在博客引用到的图片等。<br>要添加新的页面（例如 about），执行 hexo new page PageName 命令即会在 source 中自动新建子目录 PageName 。<br>favicon.ico 在主题配置文件中引用 &#x2F;favicon.ico 来设置站点的页面图标。<br>themes<br>网站的主题目录。默认安装 landscape 主题，你可以安装新主题到 themes 目录，也可以自己新建主题。</p><p>_config.yml<br>全局配置文件，网站的很多信息都在这里配置，诸如网站名称，副标题，描述，作者，语言，主题，部署等等参数。</p><p>db.json<br>自动生成的一个文件 JSON 文件，可以对博客的文件进行管理查找的，可以忽略。</p><p>package.json<br>Hexo 框架的参数和所有依赖的插件。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;.deploy_git&lt;br&gt;在输入 hexo d 部署到 GitHub 后自动创建。该目录的结构和 public 目录基本一致（不一致的情况是由于重新生成，但是没有发布站点造成，此时 public 内容新于 .deploy_git 内容）。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo博客" scheme="https://ptsh.gitee.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="Hexo" scheme="https://ptsh.gitee.io/tags/Hexo/"/>
+    <category term="博客" scheme="https://ptshu.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
