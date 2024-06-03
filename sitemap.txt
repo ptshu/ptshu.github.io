@@ -49,6 +49,7 @@ https://ptshu.github.io/tags/Gitee/
 https://ptshu.github.io/tags/GitHub/
 https://ptshu.github.io/tags/%E4%B9%B1%E7%A0%81/
 https://ptshu.github.io/tags/%E5%B0%8F%E8%AF%B4/
+https://ptshu.github.io/tags/Github/
 https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/
 https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/
 https://ptshu.github.io/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/
