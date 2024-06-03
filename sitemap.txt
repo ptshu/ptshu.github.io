@@ -1,3 +1,4 @@
+https://ptshu.github.io/2024/06/03/%E9%83%A8%E7%BD%B2Github%E7%9A%84Hexo%E5%92%8CGit/
 https://ptshu.github.io/2024/06/02/github%E7%BD%91%E9%A1%B5%E8%AE%BE%E7%BD%AE%E6%88%90%E4%B8%AD%E6%96%87/
 https://ptshu.github.io/2024/06/02/hexo%20d%20%E4%B8%8A%E4%BC%A0%E9%94%99%E8%AF%AF/
 https://ptshu.github.io/2024/06/02/valine%E9%94%99%E8%AF%AF/

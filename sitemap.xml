@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ptshu.github.io/2024/06/03/%E9%83%A8%E7%BD%B2Github%E7%9A%84Hexo%E5%92%8CGit/</loc>
+    
+    <lastmod>2024-06-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ptshu.github.io/2024/06/02/github%E7%BD%91%E9%A1%B5%E8%AE%BE%E7%BD%AE%E6%88%90%E4%B8%AD%E6%96%87/</loc>
     
     <lastmod>2024-06-02</lastmod>
@@ -310,7 +319,7 @@
 
   <url>
     <loc>https://ptshu.github.io/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -318,105 +327,105 @@
   
   <url>
     <loc>https://ptshu.github.io/tags/Hexo/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/CSS/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/MarkDown/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/hexo/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/gitee/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/github/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/tags/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/categories/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/%E6%97%A0%E6%B3%95%E6%8E%A5%E9%80%9A/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/Git/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/Gitee/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/GitHub/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/%E4%B9%B1%E7%A0%81/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -425,28 +434,28 @@
   
   <url>
     <loc>https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/</loc>
-    <lastmod>2024-06-02</lastmod>
+    <lastmod>2024-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
