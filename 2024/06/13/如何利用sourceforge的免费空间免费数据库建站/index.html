@@ -149,41 +149,27 @@
 <p><a target="_blank" rel="noopener" href="https://winscp.net/download/WinSCP-6.3.3-Setup.exe/download">https://winscp.net/download/WinSCP-6.3.3-Setup.exe/download</a><br>步骤：</p>
 <p>1、创建一个SourceForge账号并登录</p>
 <span id="more"></span>
-<p>   传送门在这里。</p>
+<p>传送门在这里。</p>
 <p>2、创建一个项目</p>
-<pre><code>右上角 Me → Profile → Create a Project
-
-project name，如firstlog，URL Name，如firstlog，于是你得到一个项目的地址：
-    http://sourceforge.net/p/firstlog
-</code></pre>
+<p>右上角 Me → Profile → Create a Project</p>
+<p>project name，如firstlog，URL Name，如firstlog，于是你得到一个项目的地址：<br><a target="_blank" rel="noopener" href="http://sourceforge.net/p/firstlog">http://sourceforge.net/p/firstlog</a></p>
 <p>3、修改项目属性</p>
-<pre><code>登录https://sourceforge.net/p/firstlog，左侧有下面几个标签，
-    Metadata    Screenshots    Categorization    Tools    User Permissions    Audit Trail
-我们重点用到的是Tools。点击进去~
-</code></pre>
+<p>登录<a target="_blank" rel="noopener" href="https://sourceforge.net/p/firstlog%EF%BC%8C%E5%B7%A6%E4%BE%A7%E6%9C%89%E4%B8%8B%E9%9D%A2%E5%87%A0%E4%B8%AA%E6%A0%87%E7%AD%BE%EF%BC%8C">https://sourceforge.net/p/firstlog，左侧有下面几个标签，</a><br>MetadataScreenshotsCategorizationToolsUser PermissionsAudit Trail<br>我们重点用到的是Tools。点击进去~</p>
 <p>4、配置mysql数据库</p>
-<pre><code>在Tools中找到MySQL Databases并点击进行安装。
-
-安装后到页面最下端找到MySQL，点击Admin MySQL Databases，进入配置数据库阶段。
-
-在配置页面中的Setting部分，可以看到只读、读写、管理员账户的用户名以及mysql的地址https://mysql-f.sourceforge.net，在下面的Password部分需要设置三个账户的密码。
-
-打开https://mysql-f.sourceforge.net，并输入用户名以及上面设置的密码，即可通过网页管理数据库。
-</code></pre>
+<p>在Tools中找到MySQL Databases并点击进行安装。</p>
+<p>安装后到页面最下端找到MySQL，点击Admin MySQL Databases，进入配置数据库阶段。</p>
+<p>在配置页面中的Setting部分，可以看到只读、读写、管理员账户的用户名以及mysql的地址<a target="_blank" rel="noopener" href="https://mysql-f.sourceforge.net,在下面的password部分需要设置三个账户的密码./">https://mysql-f.sourceforge.net，在下面的Password部分需要设置三个账户的密码。</a></p>
+<p>打开<a target="_blank" rel="noopener" href="https://mysql-f.sourceforge.net,并输入用户名以及上面设置的密码,即可通过网页管理数据库./">https://mysql-f.sourceforge.net，并输入用户名以及上面设置的密码，即可通过网页管理数据库。</a></p>
 <p>5、配置svn</p>
-<pre><code>同mysql配置。
-</code></pre>
+<p>同mysql配置。</p>
 <p>6、配置git</p>
-<pre><code>同mysql配置。
-</code></pre>
+<p>同mysql配置。</p>
 <p>7、配置域名</p>
-<pre><code>同样在Tools下安装VHOST，在页面下方找到VHOST，点击Set Project Web vhosts，进入后将你的新域名，如“www.firstlog.net&quot;填到New virtual host中并Create。然后在你的域名服务商那里，我的是万网，在域名解析里增加CNAME值为vhost.sourceforge.net。大概需要等一个多小时，新域名生效。
-</code></pre>
+<p>同样在Tools下安装VHOST，在页面下方找到VHOST，点击Set Project Web vhosts，进入后将你的新域名，如“<a target="_blank" rel="noopener" href="http://www.firstlog.net&quot;填到new/">www.firstlog.net&quot;填到New</a> virtual host中并Create。然后在你的域名服务商那里，我的是万网，在域名解析里增加CNAME值为vhost.sourceforge.net。大概需要等一个多小时，新域名生效。</p>
 <p>8、配置文件传输</p>
-<pre><code>打开WinSCP，协议名SFTP，主机名web.sourceforge.net，用户名为&quot;你的sf账户用户名,项目名&quot;（中间用英文半角逗号隔开），如&quot;zskang,ptshu&quot;，密码为你的sf密码。
-</code></pre>
-<p>9、hello world~<br>    写如下内容到 index.php 中，</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">   echo &quot;hallo world!&quot;;</span><br><span class="line">?&gt;</span><br><span class="line">    上传index.php到htdocs中，在浏览器中输入 www.firstlog.net 即可看到我们的hallo world了。</span><br></pre></td></tr></table></figure>
+<p>打开WinSCP，协议名SFTP，主机名web.sourceforge.net，用户名为”你的sf账户用户名,项目名”（中间用英文半角逗号隔开），如”zskang,ptshu”，密码为你的sf密码。</p>
+<p>9、hello world~<br>写如下内容到 index.php 中，</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">echo &quot;hallo world!&quot;;</span><br><span class="line">?&gt;</span><br><span class="line">上传index.php到htdocs中，在浏览器中输入 www.firstlog.net 即可看到我们的hallo world了。</span><br></pre></td></tr></table></figure>
 <p><a target="_blank" rel="noopener" href="http://ptshu.sourceforge.io/">http://ptshu.sourceforge.io/</a></p>
 
         
