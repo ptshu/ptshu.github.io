@@ -6,7 +6,7 @@
   <link href="https://ptshu.github.io/atom.xml" rel="self"/>
   
   <link href="https://ptshu.github.io/"/>
-  <updated>2024-06-13T12:24:09.511Z</updated>
+  <updated>2024-06-16T12:48:51.228Z</updated>
   <id>https://ptshu.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sourceforge免费空间的优缺点</title>
+    <link href="https://ptshu.github.io/2024/06/16/sourceforge%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9/"/>
+    <id>https://ptshu.github.io/2024/06/16/sourceforge%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9/</id>
+    <published>2024-06-16T12:45:42.000Z</published>
+    <updated>2024-06-16T12:48:51.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>优点：<br>海外知名资源共享存储平台SourceForge提供的针对开发者无限免费空间，可以无限建立站点、使用不限制大小的数据库以及绑定一级域名和二级域名</p><span id="more"></span><p>缺点：<br>1、Project Web Hosting(项目的虚拟主机)很容易被删除<br>2、虚拟主机对很多PHP函数不支持。<br>3、MySQL很多功能不支持，特别是不能用.sql文件导入数据。</p><p>地址：<a href="https://sourceforge.net/">https://sourceforge.net/</a></p><p>上传工具：<br> FileZilla-3.65.0.zip16.4<br> <a href="https://zsk.lanzouq.com/iR1Fa21qx3fg">https://zsk.lanzouq.com/iR1Fa21qx3fg</a><br> WinSCP v6.3.2绿色.zip<br> <a href="https://zsk.lanzouq.com/ieK2Z21qp8ad">https://zsk.lanzouq.com/ieK2Z21qp8ad</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;优点：&lt;br&gt;海外知名资源共享存储平台SourceForge提供的针对开发者无限免费空间，可以无限建立站点、使用不限制大小的数据库以及绑定一级域名和二级域名&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>如何利用sourceforge的免费空间免费数据库建站</title>
@@ -391,25 +410,6 @@
     
     
     <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>蓝奏云上传大于100M文件的方法</title>
-    <link href="https://ptshu.github.io/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>https://ptshu.github.io/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100M%E6%96%87%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</id>
-    <published>2023-11-28T12:48:14.000Z</published>
-    <updated>2023-11-28T12:59:20.426Z</updated>
-    
-    <content type="html"><![CDATA[<p>1、把大文件压缩成分卷大小小于100M（如98M）的压缩文件，这时扩展名为.001等。<br>2、把所有压缩文件的扩展名改为.zip。<br>3、然后把所有.zip压缩文件全部上传。</p><span id="more"></span><p>4、想下载使用的话，要把所有.zip文件下载并把全部文件的扩展名改为.001等。<br>5、这时就可以打开压缩文件进行解压了。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;1、把大文件压缩成分卷大小小于100M（如98M）的压缩文件，这时扩展名为.001等。&lt;br&gt;2、把所有压缩文件的扩展名改为.zip。&lt;br&gt;3、然后把所有.zip压缩文件全部上传。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
