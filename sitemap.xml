@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ptshu.github.io/2024/08/04/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%20Windows10%E7%B3%BB%E7%BB%9F%E5%87%BA%E7%8E%B0%E2%80%9D%E4%BD%A0%E9%9C%80%E8%A6%81%E6%9D%83%E9%99%90%E6%89%8D%E8%83%BD%E6%89%A7%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%E2%80%9C%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ptshu.github.io/2024/08/04/6%E7%A7%8D%E6%96%B9%E6%B3%95%E5%85%B3%E9%97%ADWin10%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ptshu.github.io/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2024-08-03</lastmod>
@@ -445,7 +463,7 @@
 
   <url>
     <loc>https://ptshu.github.io/</loc>
-    <lastmod>2024-08-03</lastmod>
+    <lastmod>2024-08-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -453,21 +471,21 @@
   
   <url>
     <loc>https://ptshu.github.io/tags/win10/</loc>
-    <lastmod>2024-08-03</lastmod>
+    <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/hexo/</loc>
-    <lastmod>2024-08-03</lastmod>
+    <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2024-08-03</lastmod>
+    <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -476,28 +494,28 @@
   
   <url>
     <loc>https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-08-03</lastmod>
+    <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/</loc>
-    <lastmod>2024-08-03</lastmod>
+    <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/</loc>
-    <lastmod>2024-08-03</lastmod>
+    <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.github.io/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/</loc>
-    <lastmod>2024-08-03</lastmod>
+    <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

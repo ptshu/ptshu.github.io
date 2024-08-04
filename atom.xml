@@ -6,7 +6,7 @@
   <link href="https://ptshu.github.io/atom.xml" rel="self"/>
   
   <link href="https://ptshu.github.io/"/>
-  <updated>2024-08-02T10:48:20.455Z</updated>
+  <updated>2024-08-04T01:49:56.064Z</updated>
   <id>https://ptshu.github.io/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何解决 Windows10系统出现”你需要权限才能执行此操作“的问题</title>
+    <link href="https://ptshu.github.io/2024/08/04/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%20Windows10%E7%B3%BB%E7%BB%9F%E5%87%BA%E7%8E%B0%E2%80%9D%E4%BD%A0%E9%9C%80%E8%A6%81%E6%9D%83%E9%99%90%E6%89%8D%E8%83%BD%E6%89%A7%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%E2%80%9C%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://ptshu.github.io/2024/08/04/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%20Windows10%E7%B3%BB%E7%BB%9F%E5%87%BA%E7%8E%B0%E2%80%9D%E4%BD%A0%E9%9C%80%E8%A6%81%E6%9D%83%E9%99%90%E6%89%8D%E8%83%BD%E6%89%A7%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%E2%80%9C%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2024-08-04T01:47:59.000Z</published>
+    <updated>2024-08-04T01:49:56.064Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用Windows10系统，会发现里面有很多设置跟以往的XP、win7相差甚远，例如在修改删除文件的时候，往往会出现“你需要权限才能执行此操作”的提示，让你无法继续操作。那么要如何解决账号无权限的问题呢，本文将针对此问题进行详细说明。</p><span id="more"></span><p>1.右键点击你要修改的文件，选择“属性”。</p><p>2.然后点击“安全”选项卡，再点击“高级”按钮。</p><p>3.进入高级设置中，再点击“更改”。</p><p>4.在选择用户和组中，我们再点击“高级”。</p><p>5.点击“立即查找”，之后会列出用户，我们选择当前帐户，一般都是“Adminitrator” 选中后点击“确认”。</p><p>6.用户选择好，点击“确定”。</p><p>7.这时所有者已经改好了，点击“确定”。</p><p>说明：如果是文件夹，那么还需要勾选“替换子容器和对象所有者”。</p><p>8.确定后回到“文件属性”-“安全界面”，然后我们选中刚刚添加的所有者，也就是你的用户名，然后点击“编辑”。</p><p>9.接着还是选中你的用户名，然后下方权限处勾选允许“完全控制”，然后点击“应用”再点击“确定”。</p><p>10.这样文件就可以修改跟删除了。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;使用Windows10系统，会发现里面有很多设置跟以往的XP、win7相差甚远，例如在修改删除文件的时候，往往会出现“你需要权限才能执行此操作”的提示，让你无法继续操作。那么要如何解决账号无权限的问题呢，本文将针对此问题进行详细说明。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>6种方法关闭Win10系统的自动更新</title>
+    <link href="https://ptshu.github.io/2024/08/04/6%E7%A7%8D%E6%96%B9%E6%B3%95%E5%85%B3%E9%97%ADWin10%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
+    <id>https://ptshu.github.io/2024/08/04/6%E7%A7%8D%E6%96%B9%E6%B3%95%E5%85%B3%E9%97%ADWin10%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</id>
+    <published>2024-08-04T01:23:16.000Z</published>
+    <updated>2024-08-04T01:23:55.739Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里我们将为您分享6种关闭Win10自动更新的方法，分别是通过Windows设置、Windows Update服务、本地组策略编辑器、任务计划程序、注册表编辑器来关闭Win10自动更新。</p><span id="more"></span><p>✔ 方法1. Windows设置<br>要想关闭Win10自动更新，比较简单的一种方法就是进入到Windows设置中，将Windows更新直接关闭。步骤如下：</p><ol><li><p>按“Windows + I”键，打开Windows设置，再单击“更新和安全”。</p></li><li><p>然后，在Windows更新处，单击“高级选项”。</p></li><li><p>在高级选项中，您可以将“更新选项”中项目全部关闭，或者选择“暂停更新”，但此暂停更新至多只能暂停35天，达到暂停限制后需先获取新的更新，然后才能再次暂停更新。</p></li></ol><p>✔ 方法2. 关闭Windows Update服务<br>若您想彻底关闭Win10自动更新，可以在Windows服务中找到Windows Update选项将其设置为禁用即可。您可以按照以下步骤进行操作。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“services.msc”，然后再单击“确定”。</p></li><li><p>在弹出的服务窗口中，找到“Windows Update”选项并双击打开它。</p></li><li><p>在弹出的“Windows Update的属性”对话框中，将“启动类型”设置为“禁用”。</p></li><li><p>然后再单击“恢复”，将图中框选的部分都设置为“无操作”，再单击“应用”和“确定”。</p></li></ol><p>✔ 方法3. 本地组策略编辑器<br>另一种Win10关闭自动更新方法就是通过更改本地组策略编辑器中的“配置自动更新”和“删除使用所有Windows更新功能的访问权限”选项来关闭Win10自动更新。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“gpedit.msc”，然后再单击“确定”。</p></li><li><p>在弹出的本地组策略编辑中，依次单击“计算机配置” &gt; “管理模板” &gt; “Windows组件” &gt; “Windows更新”，然后找到“配置自动更新”并双击打开它。</p></li><li><p>在弹出的“配置自动更新”窗口中，选择“已禁用”，再单击“确定”。</p></li><li><p>然后在“Windows更新”页面找到“删除使用所有Windows更新功能的访问权限”，并双击打开它。</p></li><li><p>在弹出的窗口中，再勾选“已启用”，然后单击“确定”。</p></li></ol><p>✔ 方法4. 任务计划程序<br>您也可以通过任务计划程序，将“Schedule Start”禁用，以实现Win10自动更新的关闭。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“taskschd.msc”，然后再单击“确定”。</p></li><li><p>在任务计划程序窗口中，跳转到该路径“任务计划程序库&#x2F;Microsoft&#x2F;Windows&#x2F;WindowsUpdate”。</p></li><li><p>然后，选中“Schedule Start”，并在“所选项”中单击“禁用”。</p></li></ol><p>✔ 方法5. 注册表编辑器<br>还有一种Win10关闭自动更新方法就是通过注册表编辑器，来彻底关闭Win10自动更新。具体操作步骤如下：</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“regedit.exe”，然后再单击“确定”，在弹出的窗口中再点击“是”。</p></li><li><p>进入注册表编辑器后，跳转到以下路径，并在右侧找到“Start”键并双击打开它。</p></li></ol><p>路径：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UsoSvc</p><ol start="3"><li><p>在弹出的窗口中将“数值数据”改为“4”，并单击“确定”。</p></li><li><p>然后再找到“FailureActions”键并双击进行编辑，将“00000010”和“00000018”行中的第五个数值，由原来的“01”改为“00”，再单击“确定”。</p></li></ol><p>✔ 方法6. 通过工具关闭Win10自动更新<br>还可以使用一些特定工具来关闭Windows自动更新。有Microsoft发布的“显示或隐藏更新”工具，和以下三方软件比如：Windows Update Blocker、Win Update Stop、Win Updates Disabler等，它们都可以起到禁用Windows自动更新的作用。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这里我们将为您分享6种关闭Win10自动更新的方法，分别是通过Windows设置、Windows Update服务、本地组策略编辑器、任务计划程序、注册表编辑器来关闭Win10自动更新。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>两种永久免费域名us.kg和cloudns.net</title>
@@ -362,44 +396,6 @@
     
     
     <summary type="html">&lt;p&gt;在八年级物理下学期的教学过程中，我有了许多新的体会和感悟，也发现了一些需要改进和加强的地方。以下是我对这学期教学工作的反思。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>鸭子定律</title>
-    <link href="https://ptshu.github.io/2024/03/10/%E9%B8%AD%E5%AD%90%E5%AE%9A%E5%BE%8B/"/>
-    <id>https://ptshu.github.io/2024/03/10/%E9%B8%AD%E5%AD%90%E5%AE%9A%E5%BE%8B/</id>
-    <published>2024-03-10T11:21:47.000Z</published>
-    <updated>2024-03-10T11:22:42.421Z</updated>
-    
-    <content type="html"><![CDATA[<p>大多数人看到，鸭子在水上悠然地游动，但他们没看到：在水下，鸭子的鸭蹼在拼命划动。</p><span id="more"></span><p>作家刘同曾说过：“你必须非常努力，才能看起来毫不费力”。<br>每一个光鲜亮丽的背后，都是默默努力和付出。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;大多数人看到，鸭子在水上悠然地游动，但他们没看到：在水下，鸭子的鸭蹼在拼命划动。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>人教版初中数学教材目录</title>
-    <link href="https://ptshu.github.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90%E7%9B%AE%E5%BD%95/"/>
-    <id>https://ptshu.github.io/2024/03/07/%E4%BA%BA%E6%95%99%E7%89%88%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90%E7%9B%AE%E5%BD%95/</id>
-    <published>2024-03-07T13:01:32.000Z</published>
-    <updated>2024-03-07T13:03:36.003Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="七年级上册"><a href="#七年级上册" class="headerlink" title="七年级上册"></a>七年级上册</h1><p>第一章有理数<br>1．1正数和负数<br>1．3有理数的加减法<br>1．4有理数的乘除法<br>1．5有理数的乘方</p><span id="more"></span><p>第二章整式的加减<br>2．1整式<br>2．2整式的加减</p><p>第三章一元一次方程<br>3．1从算式到方程<br>3．2解一元一次方程（一）——合并同类项与移项<br>3．3解一元一次方程（二）——去括号与去分母<br>3．4实际问题与一元一次方程</p><p>第四章图形认识初步<br>4．1多姿多彩的图形<br>4．2直线、射线、线段<br>4．3角<br>4．4课题学习设计制作长方体形状的包装纸盒</p><h1 id="七年级下册"><a href="#七年级下册" class="headerlink" title="七年级下册"></a>七年级下册</h1><p>第五章相交线与平行线<br>5.1相交线<br>5.1.2垂线<br>5.1.3同位角、内错角、同旁内角<br>5.2平行线及其判定<br>5.2.1平行线<br>5.3平行线的性质<br>5.3.1平行线的性质<br>5.3.2命题、定理<br>5.4平移</p><p>第六章平面直角坐标系<br>6.1平面直角坐标系<br>6.2坐标方法的简单应用<br>6.2坐标方法的简单应用</p><p>第七章三角形<br>7.1与三角形有关的线段<br>7.1.2三角形的高、中线与角平分线<br>7.1.3三角形的稳定性<br>7.2与三角形有关的角<br>7.2.2三角形的外角<br>7.3多变形及其内角和<br>7.4课题学习镶嵌</p><p>第八章二元一次方程组<br>8.1二元一次方程组<br>8.2消元——二元一次方程组的解法<br>8.3实际问题与二元一次方程组<br>&#x2F;*8.4三元一次方程组解法举例</p><p>第九章不等式与不等式组<br>9.1不等式<br>9.2实际问题与一元一次不等式<br>9.3一元一次不等式组</p><p>第十章数据的收集、整理与描述<br>10.1统计调查<br>10.2直方图<br>10.3课题学习从数据谈节水</p><h1 id="八年级上册"><a href="#八年级上册" class="headerlink" title="八年级上册"></a>八年级上册</h1><p>第十一章全等三角形<br>11.1全等三角形<br>11.2三角形全等的判定<br>11.3角的平分线的性质</p><p>第十二章轴对称<br>12.1轴对称<br>12.2作轴对称图形<br>12.3等腰三角形</p><p>第十三章实数<br>13.1平方根<br>13.2立方根<br>13.3实数</p><p>第十四章一次函数<br>14.1变量与函数<br>14.2一次函数<br>14.3用函数观点看方程（组）与不等式<br>14.4课题学习选择方案</p><p>第十五章整式的乘除与因式分解<br>15.1整式的乘法<br>15.2乘法公式<br>15.3整式的除法</p><h1 id="八年级下册"><a href="#八年级下册" class="headerlink" title="八年级下册"></a>八年级下册</h1><p>第十六章分式<br>16.1分式<br>16.2分式的运算<br>16.3分式方程</p><p>第十七章反比例函数<br>17.1反比例函数<br>17.2实际问题与反比例函数</p><p>第十八章勾股定理<br>18.1勾股定理<br>18.2勾股定理的逆定理</p><p>第十九章四边形<br>19.1平行四边形<br>19.2特殊的平行四边形<br>19.3梯形<br>19.4课题学习重心</p><p>第二十章数据的分析<br>20.1数据的代表<br>20.2数据的波动<br>20.3课题学习体质健康测试中的数据分析</p><h1 id="九年级上册"><a href="#九年级上册" class="headerlink" title="九年级上册"></a>九年级上册</h1><p>第二十一章二次根式<br>21.1二次根式<br>21.2二次根式的乘除<br>21.3二次根式的加减</p><p>第二十二章一元二次方程<br>22.1一元二次方程<br>22.2降次——解一元二次方程<br>22.3实际问题与一元二次方程</p><p>第二十三章旋转<br>23.1图形的旋转<br>23.2中心对称<br>23.3课题学习图案设计</p><p>第二十四章圆<br>24.1圆<br>24.2点、直线、圆和圆的位置关系<br>24.3正多边形和圆<br>24.4弧长和扇形面积</p><p>第二十五章概率初步<br>25.1随机事件与概率<br>25.2用列举法求概率<br>25.3用频率估计概率<br>25.4课题学习键盘上字母的排列规律</p><h1 id="九年级下册"><a href="#九年级下册" class="headerlink" title="九年级下册"></a>九年级下册</h1><p>第二十六章二次函数<br>26．1二次函数及其图像<br>26．2用函数观点看一元二次方程<br>26．3实际问题与二次函数</p><p>第二十七章相似<br>27．1图形的相似<br>27．2相似三角形<br>27．3位似</p><p>第二十八章锐角三角函数<br>28．1锐角三角函数<br>28．2解直角三角形</p><p>第二十九章投影与视图<br>29．1投影<br>29．2三视图<br>29．3课题学习制作立体模型</p>]]></content>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;七年级上册&quot;&gt;&lt;a href=&quot;#七年级上册&quot; class=&quot;headerlink&quot; title=&quot;七年级上册&quot;&gt;&lt;/a&gt;七年级上册&lt;/h1&gt;&lt;p&gt;第一章有理数&lt;br&gt;1．1正数和负数&lt;br&gt;1．3有理数的加减法&lt;br&gt;1．4有理数的乘除法&lt;br&gt;1．5有理数的乘方&lt;/p&gt;</summary>
     
     
     
