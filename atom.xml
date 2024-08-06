@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>菩提树</title>
   
-  <subtitle>ptshu.github.io</subtitle>
-  <link href="https://ptshu.github.io/atom.xml" rel="self"/>
+  <subtitle>ptshu.us.kg</subtitle>
+  <link href="https://ptshu.us.kg/atom.xml" rel="self"/>
   
-  <link href="https://ptshu.github.io/"/>
-  <updated>2024-08-04T01:49:56.064Z</updated>
-  <id>https://ptshu.github.io/</id>
+  <link href="https://ptshu.us.kg/"/>
+  <updated>2024-08-06T12:41:55.377Z</updated>
+  <id>https://ptshu.us.kg/</id>
   
   <author>
     <name>菩提</name>
@@ -17,9 +17,67 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>GitHub访问神器FastGithub</title>
+    <link href="https://ptshu.us.kg/2024/08/06/GitHub%E8%AE%BF%E9%97%AE%E7%A5%9E%E5%99%A8FastGithub/"/>
+    <id>https://ptshu.us.kg/2024/08/06/GitHub%E8%AE%BF%E9%97%AE%E7%A5%9E%E5%99%A8FastGithub/</id>
+    <published>2024-08-06T12:38:27.000Z</published>
+    <updated>2024-08-06T12:41:55.377Z</updated>
+    
+    <content type="html"><![CDATA[<p>一、 介绍<br>FastGithub 是 GitHub 访问加速神器，主要解决 GitHub 打不开、用户头像无法加载、releases 无法上传下载、git-clone、git-pull、git-push 失败等一系列问题。<br>发现：对cloudflare.com的访问也起到加速作用。</p><span id="more"></span><p>二、 教程<br>2.1下载(蓝奏云)<br>fastgithub_win-x64.zip<br><a href="https://zsk.lanzouq.com/iNMWs26pru8j">https://zsk.lanzouq.com/iNMWs26pru8j</a><br>2.2 安装及使用<br>解压下载的zip包, 将文件夹放到合适位置<br>windows-x64桌面<br>双击运行FastGithub.UI.exe<br>windows-x64服务<br>把fastgithub.exe文件拉入cmd命令框中，再输入空格+start&#x2F;stop<br>1、fastgithub.exe start &#x2F;&#x2F; 以windows服务安装并启动<br>2、fastgithub.exe stop &#x2F;&#x2F; 以windows服务卸载并删除</p><p>三、访问加速原理<br>• 修改本机的 dns 服务指向 FastGithub 自身<br>• 解析匹配的域名为 FastGithub 自身的 ip<br>• 请求安全 dns 服务 (dnscrypt-proxy) 获取域名的 ip<br>• 选择最优的 ip 进行 ssh 代理或 https 反向代理</p><p>四、FastGithub的软件功能<br>1、提供域名的纯净IP解析；<br>2、提供IP测速并选择最快的IP；<br>3、提供域名的tls连接自定义配置；<br>4、google的CDN资源替换，解决大量国外网站无法加载js和css的问题；</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;一、 介绍&lt;br&gt;FastGithub 是 GitHub 访问加速神器，主要解决 GitHub 打不开、用户头像无法加载、releases 无法上传下载、git-clone、git-pull、git-push 失败等一系列问题。&lt;br&gt;发现：对cloudflare.com的访问也起到加速作用。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>通过修改HOSTS文件对github.com进行加速</title>
+    <link href="https://ptshu.us.kg/2024/08/06/%E9%80%9A%E8%BF%87%E4%BF%AE%E6%94%B9HOSTS%E6%96%87%E4%BB%B6%E5%AF%B9github-com%E8%BF%9B%E8%A1%8C%E5%8A%A0%E9%80%9F/"/>
+    <id>https://ptshu.us.kg/2024/08/06/%E9%80%9A%E8%BF%87%E4%BF%AE%E6%94%B9HOSTS%E6%96%87%E4%BB%B6%E5%AF%B9github-com%E8%BF%9B%E8%A1%8C%E5%8A%A0%E9%80%9F/</id>
+    <published>2024-08-06T11:40:26.000Z</published>
+    <updated>2024-08-06T11:41:39.551Z</updated>
+    
+    <content type="html"><![CDATA[<p>手动把cdn和ip地址绑定。</p><span id="more"></span><p>第一步：获取 github 的 global.ssl.fastly 地址访问：<a href="http://github.global.ssl.fastly.net.ipaddress.com/#ipinfo">http://github.global.ssl.fastly.net.ipaddress.com/#ipinfo</a> 获取cdn和ip域名：<br>151.101.1.194 <a href="https://github.global.ssl.fastly.net/">https://github.global.ssl.fastly.net</a><br>第二步：获取github.com地址访问：<a href="https://github.com.ipaddress.com/#ipinfo">https://github.com.ipaddress.com/#ipinfo</a> 获取cdn和ip：<br>140.82.112.3 <a href="http://github.com/">http://github.com</a><br>第三步：修改 host 文件映射上面查找到的 IP<br>windows系统：<br>1、修改C:\Windows\System32\drivers\etc\hosts文件的权限，指定可写入：右击-&gt;hosts-&gt;属性-&gt;安全-&gt;编辑-&gt;点击Users-&gt;在Users的权限“写入”后面打勾。如下：</p><p>然后点击确定。<br>2、右击-&gt;hosts-&gt;打开方式-&gt;选定记事本（或者你喜欢的编辑器）-&gt;在末尾处添加以下内容：151.101.1.194 github.global.ssl.fastly.net<br>140.82.112.3 github.com</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;手动把cdn和ip地址绑定。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用CloudFlare搭建Github加速镜像站</title>
+    <link href="https://ptshu.us.kg/2024/08/06/%E4%BD%BF%E7%94%A8CloudFlare%E6%90%AD%E5%BB%BAGithub%E5%8A%A0%E9%80%9F%E9%95%9C%E5%83%8F%E7%AB%99/"/>
+    <id>https://ptshu.us.kg/2024/08/06/%E4%BD%BF%E7%94%A8CloudFlare%E6%90%AD%E5%BB%BAGithub%E5%8A%A0%E9%80%9F%E9%95%9C%E5%83%8F%E7%AB%99/</id>
+    <published>2024-08-06T10:27:40.000Z</published>
+    <updated>2024-08-06T10:30:57.569Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h1><p>· 拥有一个域名 （国内 workers.dev 无法访问，必须使用域名路由）</p><p>· 注册了CloudFlare账号（没有的话可以去官网注册，本文不介绍注册方法。​<a href="https://dash.cloudflare.com/">https://dash.cloudflare.com/</a></p><span id="more"></span><h1 id="配置-Worker"><a href="#配置-Worker" class="headerlink" title="配置 Worker"></a>配置 Worker</h1><p>进入CloudFlare控制台。</p><p>在编辑页面填写下方js代码，保存并部署即可</p><p>（ps:该代码为通用的反向代理代码，修改域名可以改为其他的镜像站（注：OpenAI无法使用此方法，请理性使用该功能，合法利用）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">const TELEGRAPH_URL = &#x27;https://github.com&#x27;;</span><br><span class="line"></span><br><span class="line">addEventListener(&#x27;fetch&#x27;, event =&gt; &#123;</span><br><span class="line">  event.respondWith(handleRequest(event.request))</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">async function handleRequest(request) &#123;</span><br><span class="line">  const url = new URL(request.url);</span><br><span class="line">  url.host = TELEGRAPH_URL.replace(/^https?:\/\//, &#x27;&#x27;);</span><br><span class="line"></span><br><span class="line">  const modifiedRequest = new Request(url.toString(), &#123;</span><br><span class="line">    headers: request.headers,</span><br><span class="line">    method: request.method,</span><br><span class="line">    body: request.body,</span><br><span class="line">    redirect: &#x27;follow&#x27;</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">  const response = await fetch(modifiedRequest);</span><br><span class="line">  const modifiedResponse = new Response(response.body, response);</span><br><span class="line"></span><br><span class="line">  // 添加允许跨域访问的响应头</span><br><span class="line">  modifiedResponse.headers.set(&#x27;Access-Control-Allow-Origin&#x27;, &#x27;*&#x27;);</span><br><span class="line"></span><br><span class="line">  return modifiedResponse;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="Workers-设置自定义域名"><a href="#Workers-设置自定义域名" class="headerlink" title="Workers 设置自定义域名"></a>Workers 设置自定义域名</h1><p>1.托管域名<br>就是把自己的域名转移到CloudFlare，托管于CloudFlare，这个很简单，不会的可以自己百度，如果没有域名，也可以参考教程Freenom申请免费域名_一曲横笛的博客-CSDN博客申请一个自己的免费域名</p><p>2.新增DNS解析<br>在自己得域名新增一个DNS解析，名称自定义，IPv4随便填，最重要的是打开小黄云（CDN）</p><p>3.创建Workers<br>步骤和原来的步骤一样，教程：利用CF搭建Github下载代理_一曲横笛的博客-CSDN博客</p><p>4.关联域名<br>进入你的域名，不是你的首页！进入Workers，添加路由<br>路由填写上一步的子域名 + &#x2F;*，比如我刚刚DNS解析的域名是gh.ptshu.cn，那在路由一栏则填写gh.ptshu.cn&#x2F;*，服务选择需要自定义域名访问的Worker，就是你刚刚第三步创建的，注意需要先创建Worker再来关联，表示通过这个自定义域名来访问Worker服务：</p><p>完成后就可以通过自定义的域名访问Worker服务了。</p><p>总结一下，两个关键点：<br>域名必须托管于CloudFlare<br>Worker创建后需添加路由关联</p><p>接下来等待10min左右DNS更新。然后就可以访问你的域名来打开镜像站了</p><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1.保护好你的网站信息。免费版 Workers 每天有10w次调用额度，对于个人使用&#x2F;4-5人使用绰绰有余。不建议公开网址，避免造成财产损失</p><p>2.反向代理不要用于 IP 检测较为严格的网站，容易封号。例如不能用于 OpenAI。</p><p>3.禁止用于非法用途。此脚本仅用为 Github 开源镜像加速</p><p>4.镜像站不能正常登陆。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;要求&quot;&gt;&lt;a href=&quot;#要求&quot; class=&quot;headerlink&quot; title=&quot;要求&quot;&gt;&lt;/a&gt;要求&lt;/h1&gt;&lt;p&gt;· 拥有一个域名 （国内 workers.dev 无法访问，必须使用域名路由）&lt;/p&gt;
+&lt;p&gt;· 注册了CloudFlare账号（没有的话可以去官网注册，本文不介绍注册方法。​&lt;a href=&quot;https://dash.cloudflare.com/&quot;&gt;https://dash.cloudflare.com/&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>如何解决 Windows10系统出现”你需要权限才能执行此操作“的问题</title>
-    <link href="https://ptshu.github.io/2024/08/04/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%20Windows10%E7%B3%BB%E7%BB%9F%E5%87%BA%E7%8E%B0%E2%80%9D%E4%BD%A0%E9%9C%80%E8%A6%81%E6%9D%83%E9%99%90%E6%89%8D%E8%83%BD%E6%89%A7%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%E2%80%9C%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>https://ptshu.github.io/2024/08/04/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%20Windows10%E7%B3%BB%E7%BB%9F%E5%87%BA%E7%8E%B0%E2%80%9D%E4%BD%A0%E9%9C%80%E8%A6%81%E6%9D%83%E9%99%90%E6%89%8D%E8%83%BD%E6%89%A7%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%E2%80%9C%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <link href="https://ptshu.us.kg/2024/08/04/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%20Windows10%E7%B3%BB%E7%BB%9F%E5%87%BA%E7%8E%B0%E2%80%9D%E4%BD%A0%E9%9C%80%E8%A6%81%E6%9D%83%E9%99%90%E6%89%8D%E8%83%BD%E6%89%A7%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%E2%80%9C%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://ptshu.us.kg/2024/08/04/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%20Windows10%E7%B3%BB%E7%BB%9F%E5%87%BA%E7%8E%B0%E2%80%9D%E4%BD%A0%E9%9C%80%E8%A6%81%E6%9D%83%E9%99%90%E6%89%8D%E8%83%BD%E6%89%A7%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%E2%80%9C%E7%9A%84%E9%97%AE%E9%A2%98/</id>
     <published>2024-08-04T01:47:59.000Z</published>
     <updated>2024-08-04T01:49:56.064Z</updated>
     
@@ -35,15 +93,15 @@
   
   <entry>
     <title>6种方法关闭Win10系统的自动更新</title>
-    <link href="https://ptshu.github.io/2024/08/04/6%E7%A7%8D%E6%96%B9%E6%B3%95%E5%85%B3%E9%97%ADWin10%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
-    <id>https://ptshu.github.io/2024/08/04/6%E7%A7%8D%E6%96%B9%E6%B3%95%E5%85%B3%E9%97%ADWin10%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</id>
+    <link href="https://ptshu.us.kg/2024/08/04/6%E7%A7%8D%E6%96%B9%E6%B3%95%E5%85%B3%E9%97%ADWin10%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
+    <id>https://ptshu.us.kg/2024/08/04/6%E7%A7%8D%E6%96%B9%E6%B3%95%E5%85%B3%E9%97%ADWin10%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</id>
     <published>2024-08-04T01:23:16.000Z</published>
-    <updated>2024-08-04T01:23:55.739Z</updated>
+    <updated>2024-08-06T11:17:00.149Z</updated>
     
-    <content type="html"><![CDATA[<p>这里我们将为您分享6种关闭Win10自动更新的方法，分别是通过Windows设置、Windows Update服务、本地组策略编辑器、任务计划程序、注册表编辑器来关闭Win10自动更新。</p><span id="more"></span><p>✔ 方法1. Windows设置<br>要想关闭Win10自动更新，比较简单的一种方法就是进入到Windows设置中，将Windows更新直接关闭。步骤如下：</p><ol><li><p>按“Windows + I”键，打开Windows设置，再单击“更新和安全”。</p></li><li><p>然后，在Windows更新处，单击“高级选项”。</p></li><li><p>在高级选项中，您可以将“更新选项”中项目全部关闭，或者选择“暂停更新”，但此暂停更新至多只能暂停35天，达到暂停限制后需先获取新的更新，然后才能再次暂停更新。</p></li></ol><p>✔ 方法2. 关闭Windows Update服务<br>若您想彻底关闭Win10自动更新，可以在Windows服务中找到Windows Update选项将其设置为禁用即可。您可以按照以下步骤进行操作。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“services.msc”，然后再单击“确定”。</p></li><li><p>在弹出的服务窗口中，找到“Windows Update”选项并双击打开它。</p></li><li><p>在弹出的“Windows Update的属性”对话框中，将“启动类型”设置为“禁用”。</p></li><li><p>然后再单击“恢复”，将图中框选的部分都设置为“无操作”，再单击“应用”和“确定”。</p></li></ol><p>✔ 方法3. 本地组策略编辑器<br>另一种Win10关闭自动更新方法就是通过更改本地组策略编辑器中的“配置自动更新”和“删除使用所有Windows更新功能的访问权限”选项来关闭Win10自动更新。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“gpedit.msc”，然后再单击“确定”。</p></li><li><p>在弹出的本地组策略编辑中，依次单击“计算机配置” &gt; “管理模板” &gt; “Windows组件” &gt; “Windows更新”，然后找到“配置自动更新”并双击打开它。</p></li><li><p>在弹出的“配置自动更新”窗口中，选择“已禁用”，再单击“确定”。</p></li><li><p>然后在“Windows更新”页面找到“删除使用所有Windows更新功能的访问权限”，并双击打开它。</p></li><li><p>在弹出的窗口中，再勾选“已启用”，然后单击“确定”。</p></li></ol><p>✔ 方法4. 任务计划程序<br>您也可以通过任务计划程序，将“Schedule Start”禁用，以实现Win10自动更新的关闭。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“taskschd.msc”，然后再单击“确定”。</p></li><li><p>在任务计划程序窗口中，跳转到该路径“任务计划程序库&#x2F;Microsoft&#x2F;Windows&#x2F;WindowsUpdate”。</p></li><li><p>然后，选中“Schedule Start”，并在“所选项”中单击“禁用”。</p></li></ol><p>✔ 方法5. 注册表编辑器<br>还有一种Win10关闭自动更新方法就是通过注册表编辑器，来彻底关闭Win10自动更新。具体操作步骤如下：</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“regedit.exe”，然后再单击“确定”，在弹出的窗口中再点击“是”。</p></li><li><p>进入注册表编辑器后，跳转到以下路径，并在右侧找到“Start”键并双击打开它。</p></li></ol><p>路径：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UsoSvc</p><ol start="3"><li><p>在弹出的窗口中将“数值数据”改为“4”，并单击“确定”。</p></li><li><p>然后再找到“FailureActions”键并双击进行编辑，将“00000010”和“00000018”行中的第五个数值，由原来的“01”改为“00”，再单击“确定”。</p></li></ol><p>✔ 方法6. 通过工具关闭Win10自动更新<br>还可以使用一些特定工具来关闭Windows自动更新。有Microsoft发布的“显示或隐藏更新”工具，和以下三方软件比如：Windows Update Blocker、Win Update Stop、Win Updates Disabler等，它们都可以起到禁用Windows自动更新的作用。</p>]]></content>
+    <content type="html"><![CDATA[<p>目前推荐：本地组策略编辑器20240806<br>这里我们将为您分享6种关闭Win10自动更新的方法，分别是通过Windows设置、Windows Update服务、本地组策略编辑器、任务计划程序、注册表编辑器来关闭Win10自动更新。</p><span id="more"></span><p>✔ 方法1. Windows设置<br>要想关闭Win10自动更新，比较简单的一种方法就是进入到Windows设置中，将Windows更新直接关闭。步骤如下：</p><ol><li><p>按“Windows + I”键，打开Windows设置，再单击“更新和安全”。</p></li><li><p>然后，在Windows更新处，单击“高级选项”。</p></li><li><p>在高级选项中，您可以将“更新选项”中项目全部关闭，或者选择“暂停更新”，但此暂停更新至多只能暂停35天，达到暂停限制后需先获取新的更新，然后才能再次暂停更新。</p></li></ol><p>✔ 方法2. 关闭Windows Update服务<br>若您想彻底关闭Win10自动更新，可以在Windows服务中找到Windows Update选项将其设置为禁用即可。您可以按照以下步骤进行操作。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“services.msc”，然后再单击“确定”。</p></li><li><p>在弹出的服务窗口中，找到“Windows Update”选项并双击打开它。</p></li><li><p>在弹出的“Windows Update的属性”对话框中，将“启动类型”设置为“禁用”。</p></li><li><p>然后再单击“恢复”，将图中框选的部分都设置为“无操作”，再单击“应用”和“确定”。</p></li></ol><p>✔ 方法3. 本地组策略编辑器<br>另一种Win10关闭自动更新方法就是通过更改本地组策略编辑器中的“配置自动更新”和“删除使用所有Windows更新功能的访问权限”选项来关闭Win10自动更新。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“gpedit.msc”，然后再单击“确定”。</p></li><li><p>在弹出的本地组策略编辑中，依次单击“计算机配置” &gt; “管理模板” &gt; “Windows组件” &gt; “Windows更新”，然后找到“配置自动更新”并双击打开它。</p></li><li><p>在弹出的“配置自动更新”窗口中，选择“已禁用”，再单击“确定”。</p></li><li><p>然后在“Windows更新”页面找到“删除使用所有Windows更新功能的访问权限”，并双击打开它。</p></li><li><p>在弹出的窗口中，再勾选“已启用”，然后单击“确定”。</p></li></ol><p>✔ 方法4. 任务计划程序<br>您也可以通过任务计划程序，将“Schedule Start”禁用，以实现Win10自动更新的关闭。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“taskschd.msc”，然后再单击“确定”。</p></li><li><p>在任务计划程序窗口中，跳转到该路径“任务计划程序库&#x2F;Microsoft&#x2F;Windows&#x2F;WindowsUpdate”。</p></li><li><p>然后，选中“Schedule Start”，并在“所选项”中单击“禁用”。</p></li></ol><p>✔ 方法5. 注册表编辑器<br>还有一种Win10关闭自动更新方法就是通过注册表编辑器，来彻底关闭Win10自动更新。具体操作步骤如下：</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“regedit.exe”，然后再单击“确定”，在弹出的窗口中再点击“是”。</p></li><li><p>进入注册表编辑器后，跳转到以下路径，并在右侧找到“Start”键并双击打开它。</p></li></ol><p>路径：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UsoSvc</p><ol start="3"><li><p>在弹出的窗口中将“数值数据”改为“4”，并单击“确定”。</p></li><li><p>然后再找到“FailureActions”键并双击进行编辑，将“00000010”和“00000018”行中的第五个数值，由原来的“01”改为“00”，再单击“确定”。</p></li></ol><p>✔ 方法6. 通过工具关闭Win10自动更新<br>还可以使用一些特定工具来关闭Windows自动更新。有Microsoft发布的“显示或隐藏更新”工具，和以下三方软件比如：Windows Update Blocker、Win Update Stop、Win Updates Disabler等，它们都可以起到禁用Windows自动更新的作用。</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;这里我们将为您分享6种关闭Win10自动更新的方法，分别是通过Windows设置、Windows Update服务、本地组策略编辑器、任务计划程序、注册表编辑器来关闭Win10自动更新。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;目前推荐：本地组策略编辑器20240806&lt;br&gt;这里我们将为您分享6种关闭Win10自动更新的方法，分别是通过Windows设置、Windows Update服务、本地组策略编辑器、任务计划程序、注册表编辑器来关闭Win10自动更新。&lt;/p&gt;</summary>
     
     
     
@@ -52,8 +110,8 @@
   
   <entry>
     <title>两种永久免费域名us.kg和cloudns.net</title>
-    <link href="https://ptshu.github.io/2024/08/02/%E4%B8%A4%E7%A7%8D%E6%B0%B8%E4%B9%85%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8Dus-kg%E5%92%8Ccloudns-net/"/>
-    <id>https://ptshu.github.io/2024/08/02/%E4%B8%A4%E7%A7%8D%E6%B0%B8%E4%B9%85%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8Dus-kg%E5%92%8Ccloudns-net/</id>
+    <link href="https://ptshu.us.kg/2024/08/02/%E4%B8%A4%E7%A7%8D%E6%B0%B8%E4%B9%85%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8Dus-kg%E5%92%8Ccloudns-net/"/>
+    <id>https://ptshu.us.kg/2024/08/02/%E4%B8%A4%E7%A7%8D%E6%B0%B8%E4%B9%85%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8Dus-kg%E5%92%8Ccloudns-net/</id>
     <published>2024-08-02T10:47:35.000Z</published>
     <updated>2024-08-02T10:48:20.455Z</updated>
     
@@ -64,15 +122,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>win10的windows资源管理器无反应</title>
-    <link href="https://ptshu.github.io/2024/07/31/win10%E7%9A%84windows%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E6%97%A0%E5%8F%8D%E5%BA%94/"/>
-    <id>https://ptshu.github.io/2024/07/31/win10%E7%9A%84windows%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E6%97%A0%E5%8F%8D%E5%BA%94/</id>
+    <link href="https://ptshu.us.kg/2024/07/31/win10%E7%9A%84windows%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E6%97%A0%E5%8F%8D%E5%BA%94/"/>
+    <id>https://ptshu.us.kg/2024/07/31/win10%E7%9A%84windows%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E6%97%A0%E5%8F%8D%E5%BA%94/</id>
     <published>2024-07-31T14:50:15.000Z</published>
     <updated>2024-07-31T14:51:05.374Z</updated>
     
@@ -83,17 +141,17 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="win10" scheme="https://ptshu.github.io/tags/win10/"/>
+    <category term="win10" scheme="https://ptshu.us.kg/tags/win10/"/>
     
   </entry>
   
   <entry>
     <title>最全DNS服务器汇总（包含国内外大部分的DNS服务器）</title>
-    <link href="https://ptshu.github.io/2024/07/31/%E6%9C%80%E5%85%A8DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B1%87%E6%80%BB%EF%BC%88%E5%8C%85%E5%90%AB%E5%9B%BD%E5%86%85%E5%A4%96%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89/"/>
-    <id>https://ptshu.github.io/2024/07/31/%E6%9C%80%E5%85%A8DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B1%87%E6%80%BB%EF%BC%88%E5%8C%85%E5%90%AB%E5%9B%BD%E5%86%85%E5%A4%96%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89/</id>
+    <link href="https://ptshu.us.kg/2024/07/31/%E6%9C%80%E5%85%A8DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B1%87%E6%80%BB%EF%BC%88%E5%8C%85%E5%90%AB%E5%9B%BD%E5%86%85%E5%A4%96%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89/"/>
+    <id>https://ptshu.us.kg/2024/07/31/%E6%9C%80%E5%85%A8DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B1%87%E6%80%BB%EF%BC%88%E5%8C%85%E5%90%AB%E5%9B%BD%E5%86%85%E5%A4%96%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89/</id>
     <published>2024-07-31T14:18:37.000Z</published>
     <updated>2024-07-31T14:27:53.618Z</updated>
     
@@ -104,15 +162,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>win10系统怎么设置文件默认打开方式</title>
-    <link href="https://ptshu.github.io/2024/07/31/win10%E7%B3%BB%E7%BB%9F%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E6%96%87%E4%BB%B6%E9%BB%98%E8%AE%A4%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/"/>
-    <id>https://ptshu.github.io/2024/07/31/win10%E7%B3%BB%E7%BB%9F%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E6%96%87%E4%BB%B6%E9%BB%98%E8%AE%A4%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</id>
+    <link href="https://ptshu.us.kg/2024/07/31/win10%E7%B3%BB%E7%BB%9F%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E6%96%87%E4%BB%B6%E9%BB%98%E8%AE%A4%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/"/>
+    <id>https://ptshu.us.kg/2024/07/31/win10%E7%B3%BB%E7%BB%9F%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E6%96%87%E4%BB%B6%E9%BB%98%E8%AE%A4%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</id>
     <published>2024-07-31T13:48:37.000Z</published>
     <updated>2024-07-31T14:43:46.026Z</updated>
     
@@ -123,17 +181,17 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="win10" scheme="https://ptshu.github.io/tags/win10/"/>
+    <category term="win10" scheme="https://ptshu.us.kg/tags/win10/"/>
     
   </entry>
   
   <entry>
     <title>主题BlueLake配置文件_config.yml说明</title>
-    <link href="https://ptshu.github.io/2024/07/03/%E4%B8%BB%E9%A2%98BlueLake%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6_config.yml%E8%AF%B4%E6%98%8E/"/>
-    <id>https://ptshu.github.io/2024/07/03/%E4%B8%BB%E9%A2%98BlueLake%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6_config.yml%E8%AF%B4%E6%98%8E/</id>
+    <link href="https://ptshu.us.kg/2024/07/03/%E4%B8%BB%E9%A2%98BlueLake%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6_config.yml%E8%AF%B4%E6%98%8E/"/>
+    <id>https://ptshu.us.kg/2024/07/03/%E4%B8%BB%E9%A2%98BlueLake%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6_config.yml%E8%AF%B4%E6%98%8E/</id>
     <published>2024-07-03T14:48:37.000Z</published>
     <updated>2024-07-31T14:23:19.139Z</updated>
     
@@ -145,15 +203,15 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.us.kg/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
   </entry>
   
   <entry>
     <title>几种常用的电脑快捷键</title>
-    <link href="https://ptshu.github.io/2024/07/02/%E5%87%A0%E7%A7%8D%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    <id>https://ptshu.github.io/2024/07/02/%E5%87%A0%E7%A7%8D%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
+    <link href="https://ptshu.us.kg/2024/07/02/%E5%87%A0%E7%A7%8D%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>https://ptshu.us.kg/2024/07/02/%E5%87%A0%E7%A7%8D%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%B5%E8%84%91%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
     <published>2024-07-02T15:58:37.000Z</published>
     <updated>2024-07-31T14:30:36.750Z</updated>
     
@@ -165,15 +223,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>电脑常用命令</title>
-    <link href="https://ptshu.github.io/2024/07/02/%E7%94%B5%E8%84%91%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    <id>https://ptshu.github.io/2024/07/02/%E7%94%B5%E8%84%91%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+    <link href="https://ptshu.us.kg/2024/07/02/%E7%94%B5%E8%84%91%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>https://ptshu.us.kg/2024/07/02/%E7%94%B5%E8%84%91%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
     <published>2024-07-02T15:48:37.000Z</published>
     <updated>2024-07-31T14:30:27.161Z</updated>
     
@@ -184,15 +242,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>快速打开电脑网络连接的方法</title>
-    <link href="https://ptshu.github.io/2024/07/02/%E5%BF%AB%E9%80%9F%E6%89%93%E5%BC%80%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>https://ptshu.github.io/2024/07/02/%E5%BF%AB%E9%80%9F%E6%89%93%E5%BC%80%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E7%9A%84%E6%96%B9%E6%B3%95/</id>
+    <link href="https://ptshu.us.kg/2024/07/02/%E5%BF%AB%E9%80%9F%E6%89%93%E5%BC%80%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://ptshu.us.kg/2024/07/02/%E5%BF%AB%E9%80%9F%E6%89%93%E5%BC%80%E7%94%B5%E8%84%91%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E7%9A%84%E6%96%B9%E6%B3%95/</id>
     <published>2024-07-02T14:48:37.000Z</published>
     <updated>2024-07-31T14:07:40.214Z</updated>
     
@@ -204,15 +262,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>HTML页面完美适应手机浏览</title>
-    <link href="https://ptshu.github.io/2024/06/26/HTML%E9%A1%B5%E9%9D%A2%E5%AE%8C%E7%BE%8E%E9%80%82%E5%BA%94%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88/"/>
-    <id>https://ptshu.github.io/2024/06/26/HTML%E9%A1%B5%E9%9D%A2%E5%AE%8C%E7%BE%8E%E9%80%82%E5%BA%94%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88/</id>
+    <link href="https://ptshu.us.kg/2024/06/26/HTML%E9%A1%B5%E9%9D%A2%E5%AE%8C%E7%BE%8E%E9%80%82%E5%BA%94%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88/"/>
+    <id>https://ptshu.us.kg/2024/06/26/HTML%E9%A1%B5%E9%9D%A2%E5%AE%8C%E7%BE%8E%E9%80%82%E5%BA%94%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88/</id>
     <published>2024-06-26T14:48:37.000Z</published>
     <updated>2024-07-31T14:03:21.633Z</updated>
     
@@ -224,15 +282,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>电脑网页下载酷狗音乐</title>
-    <link href="https://ptshu.github.io/2024/06/20/%E7%94%B5%E8%84%91%E7%BD%91%E9%A1%B5%E4%B8%8B%E8%BD%BD%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90/"/>
-    <id>https://ptshu.github.io/2024/06/20/%E7%94%B5%E8%84%91%E7%BD%91%E9%A1%B5%E4%B8%8B%E8%BD%BD%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90/</id>
+    <link href="https://ptshu.us.kg/2024/06/20/%E7%94%B5%E8%84%91%E7%BD%91%E9%A1%B5%E4%B8%8B%E8%BD%BD%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90/"/>
+    <id>https://ptshu.us.kg/2024/06/20/%E7%94%B5%E8%84%91%E7%BD%91%E9%A1%B5%E4%B8%8B%E8%BD%BD%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90/</id>
     <published>2024-06-20T14:48:37.000Z</published>
     <updated>2024-07-31T13:59:04.458Z</updated>
     
@@ -243,15 +301,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>几个免费可用的图床网站</title>
-    <link href="https://ptshu.github.io/2024/06/20/%E5%87%A0%E4%B8%AA%E5%85%8D%E8%B4%B9%E5%8F%AF%E7%94%A8%E7%9A%84%E5%9B%BE%E5%BA%8A%E7%BD%91%E7%AB%99/"/>
-    <id>https://ptshu.github.io/2024/06/20/%E5%87%A0%E4%B8%AA%E5%85%8D%E8%B4%B9%E5%8F%AF%E7%94%A8%E7%9A%84%E5%9B%BE%E5%BA%8A%E7%BD%91%E7%AB%99/</id>
+    <link href="https://ptshu.us.kg/2024/06/20/%E5%87%A0%E4%B8%AA%E5%85%8D%E8%B4%B9%E5%8F%AF%E7%94%A8%E7%9A%84%E5%9B%BE%E5%BA%8A%E7%BD%91%E7%AB%99/"/>
+    <id>https://ptshu.us.kg/2024/06/20/%E5%87%A0%E4%B8%AA%E5%85%8D%E8%B4%B9%E5%8F%AF%E7%94%A8%E7%9A%84%E5%9B%BE%E5%BA%8A%E7%BD%91%E7%AB%99/</id>
     <published>2024-06-20T13:48:37.000Z</published>
     <updated>2024-07-31T13:53:29.646Z</updated>
     
@@ -263,15 +321,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>HTML页内定位链接</title>
-    <link href="https://ptshu.github.io/2024/06/11/HTML%E9%A1%B5%E5%86%85%E5%AE%9A%E4%BD%8D%E9%93%BE%E6%8E%A5/"/>
-    <id>https://ptshu.github.io/2024/06/11/HTML%E9%A1%B5%E5%86%85%E5%AE%9A%E4%BD%8D%E9%93%BE%E6%8E%A5/</id>
+    <link href="https://ptshu.us.kg/2024/06/11/HTML%E9%A1%B5%E5%86%85%E5%AE%9A%E4%BD%8D%E9%93%BE%E6%8E%A5/"/>
+    <id>https://ptshu.us.kg/2024/06/11/HTML%E9%A1%B5%E5%86%85%E5%AE%9A%E4%BD%8D%E9%93%BE%E6%8E%A5/</id>
     <published>2024-06-11T11:55:48.000Z</published>
     <updated>2024-06-11T11:56:35.631Z</updated>
     
@@ -282,15 +340,15 @@
     
     
     
-    <category term="网络智能" scheme="https://ptshu.github.io/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
     
   </entry>
   
   <entry>
     <title>确定最小动力的方法</title>
-    <link href="https://ptshu.github.io/2024/06/05/%E7%A1%AE%E5%AE%9A%E6%9C%80%E5%B0%8F%E5%8A%A8%E5%8A%9B%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>https://ptshu.github.io/2024/06/05/%E7%A1%AE%E5%AE%9A%E6%9C%80%E5%B0%8F%E5%8A%A8%E5%8A%9B%E7%9A%84%E6%96%B9%E6%B3%95/</id>
+    <link href="https://ptshu.us.kg/2024/06/05/%E7%A1%AE%E5%AE%9A%E6%9C%80%E5%B0%8F%E5%8A%A8%E5%8A%9B%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://ptshu.us.kg/2024/06/05/%E7%A1%AE%E5%AE%9A%E6%9C%80%E5%B0%8F%E5%8A%A8%E5%8A%9B%E7%9A%84%E6%96%B9%E6%B3%95/</id>
     <published>2024-06-05T03:54:26.000Z</published>
     <updated>2024-06-05T03:55:15.462Z</updated>
     
@@ -301,15 +359,15 @@
     
     
     
-    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    <category term="教育教学" scheme="https://ptshu.us.kg/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>部署Github的Hexo和Git</title>
-    <link href="https://ptshu.github.io/2024/06/03/%E9%83%A8%E7%BD%B2Github%E7%9A%84Hexo%E5%92%8CGit/"/>
-    <id>https://ptshu.github.io/2024/06/03/%E9%83%A8%E7%BD%B2Github%E7%9A%84Hexo%E5%92%8CGit/</id>
+    <link href="https://ptshu.us.kg/2024/06/03/%E9%83%A8%E7%BD%B2Github%E7%9A%84Hexo%E5%92%8CGit/"/>
+    <id>https://ptshu.us.kg/2024/06/03/%E9%83%A8%E7%BD%B2Github%E7%9A%84Hexo%E5%92%8CGit/</id>
     <published>2024-06-03T08:24:25.000Z</published>
     <updated>2024-07-31T14:38:45.395Z</updated>
     
@@ -320,17 +378,17 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="hexo博客" scheme="https://ptshu.us.kg/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="hexo" scheme="https://ptshu.github.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://ptshu.us.kg/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>github网页设置成中文</title>
-    <link href="https://ptshu.github.io/2024/06/02/github%E7%BD%91%E9%A1%B5%E8%AE%BE%E7%BD%AE%E6%88%90%E4%B8%AD%E6%96%87/"/>
-    <id>https://ptshu.github.io/2024/06/02/github%E7%BD%91%E9%A1%B5%E8%AE%BE%E7%BD%AE%E6%88%90%E4%B8%AD%E6%96%87/</id>
+    <link href="https://ptshu.us.kg/2024/06/02/github%E7%BD%91%E9%A1%B5%E8%AE%BE%E7%BD%AE%E6%88%90%E4%B8%AD%E6%96%87/"/>
+    <id>https://ptshu.us.kg/2024/06/02/github%E7%BD%91%E9%A1%B5%E8%AE%BE%E7%BD%AE%E6%88%90%E4%B8%AD%E6%96%87/</id>
     <published>2024-06-02T13:27:10.000Z</published>
     <updated>2024-06-02T13:27:52.738Z</updated>
     
@@ -341,65 +399,7 @@
     
     
     
-    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hexo d 上传错误</title>
-    <link href="https://ptshu.github.io/2024/06/02/hexo%20d%20%E4%B8%8A%E4%BC%A0%E9%94%99%E8%AF%AF/"/>
-    <id>https://ptshu.github.io/2024/06/02/hexo%20d%20%E4%B8%8A%E4%BC%A0%E9%94%99%E8%AF%AF/</id>
-    <published>2024-06-02T11:52:47.000Z</published>
-    <updated>2024-06-02T12:36:40.407Z</updated>
-    
-    <content type="html"><![CDATA[<p>hexo d 上传提示错误如下：<br>Fingerprint:<br>SHA256:hsN3FpUinGIRpww5UI4YXk4YD&#x2F;GdIpm5eRoY69NiPEI</p><p>fatal: Could not read from remote repository.</p><span id="more"></span><p>Fingerprint:<br>SHA256:hsN3FpUinGIRpww5UI4YXk4YD&#x2F;GdIpm5eRoY69NiPEI</p><p>fatal: Could not read from remote repository.</p><p>Please make sure you have the correct access rights<br>and the repository exists.<br>FATAL Something’s wrong. Maybe you can find the solution here: <a href="https://hexo.io/docs/troubleshooting.html">https://hexo.io/docs/troubleshooting.html</a><br>approve</p><p>原因：<br>您的SSH密钥未经验证<br>最近的扫描发现了有效的SSH私钥，xx20231026，链接到您的GitHub帐户在提交的内容.为了保护您的数据免受任何未经授权的访问，我们已经撤销了它，因此，您对GitHub的SSH访问可能会中断。</p><p>解决方法：<br>登录github后，approve批准SSH密钥或者生成一个新的SSH密钥</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;hexo d 上传提示错误如下：&lt;br&gt;Fingerprint:&lt;br&gt;SHA256:hsN3FpUinGIRpww5UI4YXk4YD&amp;#x2F;GdIpm5eRoY69NiPEI&lt;/p&gt;
-&lt;p&gt;fatal: Could not read from remote repository.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>valine错误</title>
-    <link href="https://ptshu.github.io/2024/06/02/valine%E9%94%99%E8%AF%AF/"/>
-    <id>https://ptshu.github.io/2024/06/02/valine%E9%94%99%E8%AF%AF/</id>
-    <published>2024-06-02T11:33:23.000Z</published>
-    <updated>2024-06-02T11:48:24.931Z</updated>
-    
-    <content type="html"><![CDATA[<p>valine提示以下错误：<br>Code 504: The app is archived, please restore in console before use. </p><span id="more"></span><p><img src="/img/2024/06/valine1.png"><br>原因是：valine超过30天没有使用被停止，存储服务数据已归档（连续30天无API请求）<br><img src="/img/2024/06/valine2.png"><br>解决办法：点上图中的激活，然后等10-30分钟后就激活成功。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;valine提示以下错误：&lt;br&gt;Code 504: The app is archived, please restore in console before use. &lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo博客" scheme="https://ptshu.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>八年级物理下学期教学反思</title>
-    <link href="https://ptshu.github.io/2024/06/02/%E5%85%AB%E5%B9%B4%E7%BA%A7%E7%89%A9%E7%90%86%E4%B8%8B%E5%AD%A6%E6%9C%9F%E6%95%99%E5%AD%A6%E5%8F%8D%E6%80%9D/"/>
-    <id>https://ptshu.github.io/2024/06/02/%E5%85%AB%E5%B9%B4%E7%BA%A7%E7%89%A9%E7%90%86%E4%B8%8B%E5%AD%A6%E6%9C%9F%E6%95%99%E5%AD%A6%E5%8F%8D%E6%80%9D/</id>
-    <published>2024-06-02T04:48:37.000Z</published>
-    <updated>2024-07-31T14:21:10.448Z</updated>
-    
-    <content type="html"><![CDATA[<p>在八年级物理下学期的教学过程中，我有了许多新的体会和感悟，也发现了一些需要改进和加强的地方。以下是我对这学期教学工作的反思。</p><span id="more"></span><p>一、成功之处</p><p>（一）激发学生兴趣</p><p>通过引入实际生活中的物理现象和有趣的实验，成功地激发了学生对物理学科的兴趣。例如，在讲解浮力的概念时，让学生亲手将鸡蛋放入不同浓度的盐水中，观察鸡蛋的浮沉情况，使学生直观地感受到浮力的存在和变化，极大地提高了他们的学习积极性。</p><p>（二）多样化教学方法</p><p>采用了多样化的教学方法，如讲授法、讨论法、实验法等，以满足不同学生的学习需求。在讲解较为抽象的物理概念时，先进行理论讲授，然后组织学生进行小组讨论，让他们分享自己的理解和困惑，最后通过实验加以验证和巩固。这种方式有助于学生更好地理解和掌握知识。</p><p>（三）关注个体差异</p><p>在教学中，我尽量关注到每个学生的学习情况和进步，对学习困难的学生给予更多的指导和鼓励。通过课后辅导、单独交流等方式，帮助他们解决学习中遇到的问题，增强他们的学习信心。</p><p>二、不足之处</p><p>（一）教学进度把控</p><p>在教学过程中，有时会因为某些知识点的深入讲解而导致教学进度稍显滞后，影响了后续内容的学习。这需要我在今后的教学中更加合理地安排教学时间，把握好教学的重点和难点，确保教学进度的顺利进行。</p><p>（二）实验教学效果</p><p>虽然安排了较多的实验，但部分实验由于实验器材的限制或学生操作不熟练等原因，没有达到预期的教学效果。在今后的实验教学中，需要提前做好充分的准备，加强对学生实验操作的指导和训练，提高实验教学的质量。</p><p>（三）学生思维培养</p><p>在培养学生的物理思维能力方面还有所欠缺。有些学生在解决问题时，只是机械地套用公式，缺乏对问题的深入分析和思考。在今后的教学中，要注重引导学生从物理现象中抽象出物理模型，培养他们的逻辑思维和创新能力。</p><p>三、改进措施</p><p>（一）精心规划教学进度</p><p>在学期开始前，详细制定教学计划，合理分配每个章节的教学时间。在教学过程中，根据实际情况及时调整教学进度，确保教学内容的完整性和系统性。</p><p>（二）优化实验教学</p><p>提前检查实验器材，确保其完好无损。在实验前，向学生详细讲解实验目的、步骤和注意事项，并进行示范操作。在学生实验过程中，加强巡视和指导，及时纠正学生的错误操作，鼓励学生积极思考和探索。</p><p>（三）强化思维训练</p><p>在课堂教学中，增加问题引导和讨论环节，鼓励学生提出自己的见解和想法。布置具有一定难度和开放性的作业，培养学生的独立思考和解决问题的能力。同时，加强对学生解题思路和方法的指导，提高他们的思维水平。</p><p>总之，通过对八年级物理下学期教学工作的反思，我认识到了自己的优点和不足。在今后的教学中，我将不断改进教学方法，提高教学质量，努力让学生在物理学习中取得更好的成绩。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;在八年级物理下学期的教学过程中，我有了许多新的体会和感悟，也发现了一些需要改进和加强的地方。以下是我对这学期教学工作的反思。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="教育教学" scheme="https://ptshu.github.io/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    <category term="hexo博客" scheme="https://ptshu.us.kg/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
   </entry>
