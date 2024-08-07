@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   
   
-  <title>guestbook | 菩提树 - ptshu.us.kg</title>
+  <title>cloudflare访问不了CF如何破解屏蔽正常访问 | 菩提树 - ptshu.us.kg</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
     <meta name="description" content="菩提博客">
@@ -90,58 +90,145 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="page-" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-cloudflare访问不了CF如何破解屏蔽正常访问" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner">
     
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/guestbook/index.html">guestbook</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      cloudflare访问不了CF如何破解屏蔽正常访问
     </h1>
   
 
-,
+
       </header>
     
-    <div class="e-content article-entry" itemprop="articleBody">
-      <div class="author-page">
-        <div class="photo"><img src="/themeauthor.jpg"></div>
-        <div class="author">
-          <div><i class="fa fa-user">昵称：</i>菩提</div>
-          
-            <div>
-              <i class="fa fa-email">email：</i>
-              <a href="mailto:zskang@qq.com" target="_blank">zskang@qq.com</a>
-            </div>
-          
-            <div>
-              <i class="fa fa-github">github：</i>
-              <a href="https://ptshu.github.io" target="_blank">菩提树(github)</a>
-            </div>
-          
-        </div>
-      </div>
-      <p align="center" style="color:blue;font-size:24px;">
+    <div class="article-meta">
       
-      菩提树<br>
+      <span class="article-date">
+  <i class="fa fa-date"></i>
+  <time class="dt-published" datetime="2024-08-07T01:02:44.000Z" itemprop="datePublished">2024年08月07日</time>
+</span>
+      
+  <div class="article-category">
+    <i class="fa fa-classify"></i>
+    <a class="article-category-link" href="/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/">网络智能</a>
+  </div>
 
-      菩提本无树，明镜亦非台。<br>
+      
+        <span class="article-views">
+  <i class="fa fa-views"></i>
+  <i id="busuanzi_container_page_pv">
+      <i id="busuanzi_value_page_pv"></i>
+  </i>
+</span>
 
-      佛性常清净，何处有尘埃！<br>
+      
+      
+<a href="/2024/08/07/cloudflare%E8%AE%BF%E9%97%AE%E4%B8%8D%E4%BA%86CF%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E5%B1%8F%E8%94%BD%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE/#comments" class="article-comment-link">
+  
+    
+      <span class="post-comments-count valine-comment-count" data-xid="/2024/08/07/cloudflare%E8%AE%BF%E9%97%AE%E4%B8%8D%E4%BA%86CF%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E5%B1%8F%E8%94%BD%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE/" itemprop="commentCount"></span>
+    
+    
+    
+    
+    
+  
+  <i class="fa fa-commt"></i>
+  留言
+</a>
 
-      身是菩提树，心如明镜台。<br>
 
-      明镜本清净，何处染尘埃！<br>
+    </div>
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>之前主机中国的域名DNS也一直存放在cloudflare进行解析,经常被运营商屏蔽导致访问不了,今天主机中国教你一招如何解决CF被解屏蔽正常访问!</p>
+<span id="more"></span>
 
-      菩提本无树，明镜亦非台。<br>
+<p>你之所以无法访问Cloudflare 后台,是因为域名默认解析为 IP:198.41.215.161 、198.41.214.161<br>但是这两个 IP 被针对了,所以访问时就会提示 “链接被重置” 之类的错误,不过只要指向任意一个 Cloudflare CDN IP 就能正常访问了。<br>我只知道大半年之前这个域名还能访问的,不过后来我写了 CloudflareSpeedTest 工具后,就改 Hosts 来提高访问速度了,也是前段时间才发现这个域名被。。。</p>
+<p>随便找个 Cloudflare CDN 的 IP 加在 Hosts 里。<br>我帮你随便找了个 IP 吧,把以下内容写入到 Hosts 文件中(记得要单独一行):<br>104.21.61.174 dash.cloudflare.com<br>如果你经常访问使用 Cloudflare CDN 的网站,那么建议你用这个工具测速获得最快的 Cloudflare CDN IP ( IPv4+IPv6)并加到 Hosts 文件中获得最快的体验,毕竟很多网站用的都是这个 CDN 。<br>github.com&#x2F;XIU2&#x2F;CloudflareSpeedTest</p>
+<p>Hosts 文件地址</p>
+<p>1.在Windows系统中,包括XP、Win7、Win8以及最新的Win10系统中,hosts文件都是位于系统盘的Windows文件夹夹下,文件位置路径如下。</p>
+<p>C:\WINDOWS\system32\drivers\etc<br>2.最前面的C:中的C代表系统C盘,如果系统安装在非C盘,如D&#x2F;E&#x2F;F盘等,请以系统安装的盘符为准。</p>
+<p>3.我们可以不必一个一个文件夹的打开,将路径复制粘贴到如图所示的红色区域内,单击右侧的向右箭头即可</p>
+<p>4.除了可以根据上面的Hosts文件路径去找到hosts文件外,还可以用更简单的一种方法快速找到hosts文件,具体方法如下。</p>
+<p>5.首先使用 Win + R 组合快捷键打开运行命令框,然后在打开后面键入或者粘贴上上面的Hosts文件路径,如图所示。</p>
+<p>6.键入Hosts文件路径后,点击底部的“确定”就可以快速打开hosts文件位置了</p>
 
-      本来无一物，何处惹尘埃！
-      </p>
-      <p style="font-size:24px;">
-      欢迎光临本站，有事可以在下面的评论中留言！
-      </p><br>
+        
+            <div id="toc-article">
+                
+  <div class="widget-wrap" id="toc-wrap">
+    <h3 class="widget-title"><i class="fa fa-toc"></i> 文章目录</h3>
+    <div class="widget">
+      
+    </div>
+  </div>
+
+
+            </div>
+        
+        
+          <blockquote id="copyright">
+              <p>原文链接: <a href="https://ptshu.us.kg/2024/08/07/cloudflare访问不了CF如何破解屏蔽正常访问/">https://ptshu.us.kg/2024/08/07/cloudflare访问不了CF如何破解屏蔽正常访问/</a></p>
+              <p>版权声明: 转载请注明出处。</p>
+          </blockquote>
+        
+      
+    </div>
+    <footer class="article-footer">
+      
+        <div class="article-tag-wrap">
+          
+    <div class="article-reward">
+        <a id="reward-btn" href="javascript:;">打赏</a>
+        <div id="reward-content">
+            <h6 class="reward-tit">“感谢你的支持，我会继续努力！”</h6>
+            <div>
+                <div class="reward-code">
+                    <img class="type-code" src="/css/images/wechat.jpg">
+                    <img class="er-code" src="/css/images/wechat-pay.jpg">
+                </div>
+                <div class="reward-code">
+                    <img class="type-code" src="/css/images/alipay.jpg">
+                    <img class="er-code" src="/css/images/alipay-pay.jpg">
+                </div>
+            </div>
+            <p class="reward-desc">扫码打赏，感谢支持</p>
+        </div>
+    </div>
+
+
+          
+          
+    <div class="social-share">
+      <span>分享到:</span>
+    </div>
+
+
+
+        </div>
+      
+      
+        
+<nav id="article-nav">
+  
+    <a href="/2024/08/06/GitHub%E8%AE%BF%E9%97%AE%E7%A5%9E%E5%99%A8FastGithub/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">
+        
+          GitHub访问神器FastGithub
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+      
       
         
 
@@ -155,10 +242,9 @@
 
 
       
-    </div>
+    </footer>
   </div>
 </article>
-
 </section>
         
           <aside id="sidebar">
@@ -326,6 +412,16 @@
 
 
 
+
+  
+    
+<script src="/localshare/js/social-share.js"></script>
+
+    
+<script src="/localshare/js/qrcode.js"></script>
+
+  
+  
 
 
 

@@ -6,7 +6,7 @@
   <link href="https://ptshu.us.kg/atom.xml" rel="self"/>
   
   <link href="https://ptshu.us.kg/"/>
-  <updated>2024-08-06T12:41:55.377Z</updated>
+  <updated>2024-08-07T01:03:17.045Z</updated>
   <id>https://ptshu.us.kg/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cloudflare访问不了CF如何破解屏蔽正常访问</title>
+    <link href="https://ptshu.us.kg/2024/08/07/cloudflare%E8%AE%BF%E9%97%AE%E4%B8%8D%E4%BA%86CF%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E5%B1%8F%E8%94%BD%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE/"/>
+    <id>https://ptshu.us.kg/2024/08/07/cloudflare%E8%AE%BF%E9%97%AE%E4%B8%8D%E4%BA%86CF%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E5%B1%8F%E8%94%BD%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE/</id>
+    <published>2024-08-07T01:02:44.000Z</published>
+    <updated>2024-08-07T01:03:17.045Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前主机中国的域名DNS也一直存放在cloudflare进行解析,经常被运营商屏蔽导致访问不了,今天主机中国教你一招如何解决CF被解屏蔽正常访问!</p><span id="more"></span><p>你之所以无法访问Cloudflare 后台,是因为域名默认解析为 IP:198.41.215.161 、198.41.214.161<br>但是这两个 IP 被针对了,所以访问时就会提示 “链接被重置” 之类的错误,不过只要指向任意一个 Cloudflare CDN IP 就能正常访问了。<br>我只知道大半年之前这个域名还能访问的,不过后来我写了 CloudflareSpeedTest 工具后,就改 Hosts 来提高访问速度了,也是前段时间才发现这个域名被。。。</p><p>随便找个 Cloudflare CDN 的 IP 加在 Hosts 里。<br>我帮你随便找了个 IP 吧,把以下内容写入到 Hosts 文件中(记得要单独一行):<br>104.21.61.174 dash.cloudflare.com<br>如果你经常访问使用 Cloudflare CDN 的网站,那么建议你用这个工具测速获得最快的 Cloudflare CDN IP ( IPv4+IPv6)并加到 Hosts 文件中获得最快的体验,毕竟很多网站用的都是这个 CDN 。<br>github.com&#x2F;XIU2&#x2F;CloudflareSpeedTest</p><p>Hosts 文件地址</p><p>1.在Windows系统中,包括XP、Win7、Win8以及最新的Win10系统中,hosts文件都是位于系统盘的Windows文件夹夹下,文件位置路径如下。</p><p>C:\WINDOWS\system32\drivers\etc<br>2.最前面的C:中的C代表系统C盘,如果系统安装在非C盘,如D&#x2F;E&#x2F;F盘等,请以系统安装的盘符为准。</p><p>3.我们可以不必一个一个文件夹的打开,将路径复制粘贴到如图所示的红色区域内,单击右侧的向右箭头即可</p><p>4.除了可以根据上面的Hosts文件路径去找到hosts文件外,还可以用更简单的一种方法快速找到hosts文件,具体方法如下。</p><p>5.首先使用 Win + R 组合快捷键打开运行命令框,然后在打开后面键入或者粘贴上上面的Hosts文件路径,如图所示。</p><p>6.键入Hosts文件路径后,点击底部的“确定”就可以快速打开hosts文件位置了</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;之前主机中国的域名DNS也一直存放在cloudflare进行解析,经常被运营商屏蔽导致访问不了,今天主机中国教你一招如何解决CF被解屏蔽正常访问!&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>GitHub访问神器FastGithub</title>
@@ -382,25 +401,6 @@
     
     
     <category term="hexo" scheme="https://ptshu.us.kg/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>github网页设置成中文</title>
-    <link href="https://ptshu.us.kg/2024/06/02/github%E7%BD%91%E9%A1%B5%E8%AE%BE%E7%BD%AE%E6%88%90%E4%B8%AD%E6%96%87/"/>
-    <id>https://ptshu.us.kg/2024/06/02/github%E7%BD%91%E9%A1%B5%E8%AE%BE%E7%BD%AE%E6%88%90%E4%B8%AD%E6%96%87/</id>
-    <published>2024-06-02T13:27:10.000Z</published>
-    <updated>2024-06-02T13:27:52.738Z</updated>
-    
-    <content type="html"><![CDATA[<p>方法：<br>使用谷歌浏览器Chrome<br>第一步：下载并安装油猴（不会搜百度教程）<br>第二步：开启油猴，在获取新脚本搜github汉化插件下载即可</p><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;方法：&lt;br&gt;使用谷歌浏览器Chrome&lt;br&gt;第一步：下载并安装油猴（不会搜百度教程）&lt;br&gt;第二步：开启油猴，在获取新脚本搜github汉化插件下载即可&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo博客" scheme="https://ptshu.us.kg/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
     
   </entry>
   

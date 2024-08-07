@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ptshu.us.kg/2024/08/07/cloudflare%E8%AE%BF%E9%97%AE%E4%B8%8D%E4%BA%86CF%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E5%B1%8F%E8%94%BD%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE/</loc>
+    
+    <lastmod>2024-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ptshu.us.kg/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -490,7 +499,7 @@
 
   <url>
     <loc>https://ptshu.us.kg/</loc>
-    <lastmod>2024-08-06</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -498,21 +507,21 @@
   
   <url>
     <loc>https://ptshu.us.kg/tags/win10/</loc>
-    <lastmod>2024-08-06</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/tags/hexo/</loc>
-    <lastmod>2024-08-06</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2024-08-06</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -521,28 +530,28 @@
   
   <url>
     <loc>https://ptshu.us.kg/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-08-06</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/</loc>
-    <lastmod>2024-08-06</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/</loc>
-    <lastmod>2024-08-06</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/</loc>
-    <lastmod>2024-08-06</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
