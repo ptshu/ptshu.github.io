@@ -158,6 +158,9 @@
 <p>4、对博文禁用加密<br>只需要将博文头部的 password 设置为 <code>&quot;&quot;</code> 即可取消加密.</p>
 <p>5、插件优化（汉化）<br>修改以下文章内容：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">\node_modules\hexo-blog-encrypt\lib\hbe.js</span><br><span class="line">      hideButton.textContent = &#x27;重新加密文章&#x27;;</span><br><span class="line"></span><br><span class="line">\node_modules\hexo-blog-encrypt\index.js</span><br><span class="line"></span><br><span class="line">const defaultConfig = &#123;</span><br><span class="line">  &#x27;abstract&#x27;: &#x27;文章已被加密，请不要打开查看！&#x27;,</span><br><span class="line">  &#x27;message&#x27;: &#x27;请在这里输入密码！&#x27;,</span><br><span class="line">  &#x27;theme&#x27;: &#x27;default&#x27;,</span><br><span class="line">  &#x27;wrong_pass_message&#x27;: &#x27;抱歉, 这个密码看着不太对, 请再试试！&#x27;,</span><br><span class="line">  &#x27;wrong_hash_message&#x27;: &#x27;OOPS, these decrypted content may changed, but you can still have a look.&#x27;,</span><br><span class="line">  &#x27;silent&#x27;: false,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>注意：<br>1、加密插件需要https访问才能正常使用，如果就http访问会出现打不开加密的内容。</p>
+
         
             <div id="toc-article">
                 
