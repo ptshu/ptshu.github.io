@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ptshu.us.kg/2024/11/08/win10%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F%E7%9A%84%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2024-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ptshu.us.kg/2024/10/20/%E5%88%9D%E4%B8%89%E6%A8%A1%E6%8B%9F%E7%89%A9%E7%90%86%E8%AF%95%E5%8D%B7%E5%88%86%E6%9E%90/</loc>
     
     <lastmod>2024-10-20</lastmod>
@@ -517,7 +526,7 @@
 
   <url>
     <loc>https://ptshu.us.kg/</loc>
-    <lastmod>2024-10-20</lastmod>
+    <lastmod>2024-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -525,21 +534,21 @@
   
   <url>
     <loc>https://ptshu.us.kg/tags/win10/</loc>
-    <lastmod>2024-10-20</lastmod>
+    <lastmod>2024-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/tags/hexo/</loc>
-    <lastmod>2024-10-20</lastmod>
+    <lastmod>2024-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2024-10-20</lastmod>
+    <lastmod>2024-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -548,28 +557,28 @@
   
   <url>
     <loc>https://ptshu.us.kg/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-10-20</lastmod>
+    <lastmod>2024-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/</loc>
-    <lastmod>2024-10-20</lastmod>
+    <lastmod>2024-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/</loc>
-    <lastmod>2024-10-20</lastmod>
+    <lastmod>2024-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ptshu.us.kg/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/</loc>
-    <lastmod>2024-10-20</lastmod>
+    <lastmod>2024-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
