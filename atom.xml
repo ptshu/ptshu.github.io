@@ -6,7 +6,7 @@
   <link href="https://ptshu.us.kg/atom.xml" rel="self"/>
   
   <link href="https://ptshu.us.kg/"/>
-  <updated>2024-11-08T11:31:42.351Z</updated>
+  <updated>2024-11-10T16:32:37.629Z</updated>
   <id>https://ptshu.us.kg/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WPS中设置信纸格式的方法</title>
+    <link href="https://ptshu.us.kg/2024/11/11/WPS%E4%B8%AD%E8%AE%BE%E7%BD%AE%E4%BF%A1%E7%BA%B8%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://ptshu.us.kg/2024/11/11/WPS%E4%B8%AD%E8%AE%BE%E7%BD%AE%E4%BF%A1%E7%BA%B8%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%B9%E6%B3%95/</id>
+    <published>2024-11-10T16:28:24.000Z</published>
+    <updated>2024-11-10T16:32:37.629Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、打开WPS文档，切换至“页面布局”菜单。<br>2、单击选择“稿纸设置”。</p><span id="more"></span><p>3、勾选“使用稿纸方式”，选择规格、网格类型和颜色。<br>4、选择纸张方向，单击“确定”按钮。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;1、打开WPS文档，切换至“页面布局”菜单。&lt;br&gt;2、单击选择“稿纸设置”。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>win10修改默认打开方式的方法</title>
@@ -374,26 +393,6 @@
     
     
     <summary type="html">&lt;p&gt;搜索自己想要找的音乐&lt;br&gt;选择播放，鼠标右键，选择“检查”&lt;br&gt;找到代码，&lt;br&gt;&lt;code&gt;&amp;lt;audio class=&amp;quot;music&amp;quot; id=&amp;quot;myAudio&amp;quot; src=&amp;quot;&lt;/code&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>几个免费可用的图床网站</title>
-    <link href="https://ptshu.us.kg/2024/06/20/%E5%87%A0%E4%B8%AA%E5%85%8D%E8%B4%B9%E5%8F%AF%E7%94%A8%E7%9A%84%E5%9B%BE%E5%BA%8A%E7%BD%91%E7%AB%99/"/>
-    <id>https://ptshu.us.kg/2024/06/20/%E5%87%A0%E4%B8%AA%E5%85%8D%E8%B4%B9%E5%8F%AF%E7%94%A8%E7%9A%84%E5%9B%BE%E5%BA%8A%E7%BD%91%E7%AB%99/</id>
-    <published>2024-06-20T13:48:37.000Z</published>
-    <updated>2024-07-31T13:53:29.646Z</updated>
-    
-    <content type="html"><![CDATA[<p>Picgo<br>网址：<a href="https://www.picgo.net/">https://www.picgo.net/</a></p><p>不用注册也可上传图片，注册登录后可更方便管理图片，支持最大 25 M的图片，可设置定时删除图像。</p><span id="more"></span><p>路过图床<br>网址：<a href="https://imgse.com/">https://imgse.com</a></p><p>需要注册，不过注册很简单，使用邮箱注册即可使用。单个文件最大10M，支持上传各种格式的图片，不过不支持gif。</p><p>风筝图床<br>网址：<a href="https://www.imgbed.link/">https://www.imgbed.link/</a></p><p>不登录上传图片有效期为 3 天 ，注册登录后链接长期有效，总储存1GB，单个文件支持最大 1G，单次最大上传10个。</p><p>Hello图床<br>网址：<a href="https://www.helloimg.com/">https://www.helloimg.com/</a></p><p>不登录也可上传图片，注册登录后链接长期有效，总储存1GB，免费版仅支持最大1M的图片。</p><p>ImageHub<br>网址：<a href="https://www.imagehub.cc/">https://www.imagehub.cc/</a></p><p>可以免注册上传，游客最大 2MB，注册用户最大 10MB 图片，使用香港服务器，速度非常快，就是不知道能否持续运营下去。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Picgo&lt;br&gt;网址：&lt;a href=&quot;https://www.picgo.net/&quot;&gt;https://www.picgo.net/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;不用注册也可上传图片，注册登录后可更方便管理图片，支持最大 25 M的图片，可设置定时删除图像。&lt;/p&gt;</summary>
     
     
     
