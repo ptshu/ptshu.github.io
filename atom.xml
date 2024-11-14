@@ -6,7 +6,7 @@
   <link href="https://ptshu.us.kg/atom.xml" rel="self"/>
   
   <link href="https://ptshu.us.kg/"/>
-  <updated>2024-11-10T16:32:37.629Z</updated>
+  <updated>2024-11-14T09:17:37.000Z</updated>
   <id>https://ptshu.us.kg/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>京东手机号频繁使用多久解除</title>
+    <link href="https://ptshu.us.kg/2024/11/14/%E4%BA%AC%E4%B8%9C%E6%89%8B%E6%9C%BA%E5%8F%B7%E9%A2%91%E7%B9%81%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B9%85%E8%A7%A3%E9%99%A4/"/>
+    <id>https://ptshu.us.kg/2024/11/14/%E4%BA%AC%E4%B8%9C%E6%89%8B%E6%9C%BA%E5%8F%B7%E9%A2%91%E7%B9%81%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B9%85%E8%A7%A3%E9%99%A4/</id>
+    <published>2024-11-14T09:16:35.000Z</published>
+    <updated>2024-11-14T09:17:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>京东会将手机号频繁使用的限制期限设为30天。</p><span id="more"></span><p>京东要求用户通过手机号注册登录，以确保账户的安全性和便捷性。偶尔，用户可能会遇到提示手机号频繁使用的状况，这通常意味着近期频繁使用同一个手机号进行了登录或注册操作。为确保账户安全，京东会暂时限制该手机号的使用。这种情况下，用户需要更换手机号进行登录。京东手机号频繁使用多久解除？一般来说，京东会将手机号频繁使用的限制期限设为30天，即30天后，该手机号将自动恢复正常使用。用户只需等待30天，重新注册登录即可。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;京东会将手机号频繁使用的限制期限设为30天。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>WPS中设置信纸格式的方法</title>
@@ -374,25 +393,6 @@
     
     <summary type="html">&lt;p&gt;把以下代码（一行）插入HTML文件的&lt;head&gt;&lt;/head&gt;之间&lt;/p&gt;
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;meta content=&amp;quot;width=device-width,initial-scale=1.0,minimum-scale=1.0,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;maximum-scale=2.0,user-scalable=yes&amp;quot; name=&amp;quot;viewport&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>电脑网页下载酷狗音乐</title>
-    <link href="https://ptshu.us.kg/2024/06/20/%E7%94%B5%E8%84%91%E7%BD%91%E9%A1%B5%E4%B8%8B%E8%BD%BD%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90/"/>
-    <id>https://ptshu.us.kg/2024/06/20/%E7%94%B5%E8%84%91%E7%BD%91%E9%A1%B5%E4%B8%8B%E8%BD%BD%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90/</id>
-    <published>2024-06-20T14:48:37.000Z</published>
-    <updated>2024-07-31T13:59:04.458Z</updated>
-    
-    <content type="html"><![CDATA[<p>搜索自己想要找的音乐<br>选择播放，鼠标右键，选择“检查”<br>找到代码，<br><code>&lt;audio class=&quot;music&quot; id=&quot;myAudio&quot; src=&quot;</code></p><span id="more"></span><p>复制带.mp3的地址，在浏览器打开，点三条杠的图标下载音乐</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;搜索自己想要找的音乐&lt;br&gt;选择播放，鼠标右键，选择“检查”&lt;br&gt;找到代码，&lt;br&gt;&lt;code&gt;&amp;lt;audio class=&amp;quot;music&amp;quot; id=&amp;quot;myAudio&amp;quot; src=&amp;quot;&lt;/code&gt;&lt;/p&gt;</summary>
     
     
     
