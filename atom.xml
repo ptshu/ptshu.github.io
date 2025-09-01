@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>菩提树</title>
   
-  <subtitle>ptshu.us.kg</subtitle>
+  <subtitle>ptshu.github.io</subtitle>
   <link href="https://ptshu.us.kg/atom.xml" rel="self"/>
   
   <link href="https://ptshu.us.kg/"/>
-  <updated>2025-02-22T01:07:12.782Z</updated>
+  <updated>2025-09-01T02:54:35.939Z</updated>
   <id>https://ptshu.us.kg/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>enbx格式怎么改成ppt格式</title>
+    <link href="https://ptshu.us.kg/2025/09/01/enbx%E6%A0%BC%E5%BC%8F%E6%80%8E%E4%B9%88%E6%94%B9%E6%88%90ppt%E6%A0%BC%E5%BC%8F/"/>
+    <id>https://ptshu.us.kg/2025/09/01/enbx%E6%A0%BC%E5%BC%8F%E6%80%8E%E4%B9%88%E6%94%B9%E6%88%90ppt%E6%A0%BC%E5%BC%8F/</id>
+    <published>2025-09-01T02:52:28.000Z</published>
+    <updated>2025-09-01T02:54:35.939Z</updated>
+    
+    <content type="html"><![CDATA[<p>这样做就可以了 :</p><p>1.用希沃白板打开enbx文件,然后点击左上角的“希沃白板”。</p><p>2.选择“导出课件”。</p><span id="more"></span><p>3.在弹出的窗口更改保存类型为“PPT文件”。</p><p>4.点击“保存”,然后看到软件自动帮我们转换为PPT文件。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这样做就可以了 :&lt;/p&gt;
+&lt;p&gt;1.用希沃白板打开enbx文件,然后点击左上角的“希沃白板”。&lt;/p&gt;
+&lt;p&gt;2.选择“导出课件”。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教育教学" scheme="https://ptshu.us.kg/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>初三物理备课组教学计划（精选6篇）</title>
@@ -374,25 +395,6 @@
     
     <summary type="html">&lt;p&gt;快捷键是很多电脑高手操作电脑最常用到的，通常我们会发现，实际电脑操作中，很多麻烦的电脑操作，完全可以通过简简单单的组合快捷键轻松完成，并且看起来特牛逼。&lt;/p&gt;
 &lt;p&gt;以下分享一些电脑老手最常使用的一些键盘快捷键，希望对菜鸟朋友有所帮助，有些或许你也知道，感兴趣的你可以了解下哦！&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网络智能" scheme="https://ptshu.us.kg/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>电脑常用命令</title>
-    <link href="https://ptshu.us.kg/2024/07/02/%E7%94%B5%E8%84%91%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    <id>https://ptshu.us.kg/2024/07/02/%E7%94%B5%E8%84%91%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
-    <published>2024-07-02T15:48:37.000Z</published>
-    <updated>2024-07-31T14:30:27.161Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gpedit.msc—–组策略</span><br><span class="line">Nslookup——-IP地址侦测器</span><br><span class="line">explorer——-打开资源管理器</span><br></pre></td></tr></table></figure><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br></pre></td><td class="code"><pre><span class="line">logoff———注销命令</span><br><span class="line">tsshutdn——-60秒倒计时关机命令</span><br><span class="line">lusrmgr.msc—-本机用户和组</span><br><span class="line">services.msc—</span><br><span class="line">oobe/msoobe /a—-检查XP是否激活</span><br><span class="line">notepad——–打开记事本</span><br><span class="line">cleanmgr——-垃圾整理</span><br><span class="line">net start messenger—-开始信使服务</span><br><span class="line">compmgmt.msc—计算机管理</span><br><span class="line">net stop messenger—–停止信使服务</span><br><span class="line">conf———–启动netmeeting</span><br><span class="line">dvdplay——–DVD播放器</span><br><span class="line">charmap——–启动字符映射表</span><br><span class="line">diskmgmt.msc—磁盘管理实用程序</span><br><span class="line">calc———–启动计算器</span><br><span class="line">dfrg.msc——-磁盘碎片整理程序</span><br><span class="line">chkdsk.exe—–Chkdsk磁盘检查</span><br><span class="line">devmgmt.msc— 设备管理器</span><br><span class="line">regsvr32 /u *.dll—-停止dll文件运行</span><br><span class="line">drwtsn32—— 系统医生</span><br><span class="line">rononce -p —-15秒关机</span><br><span class="line">dxdiag———检查DirectX信息</span><br><span class="line">Msconfig.exe—系统配置实用程序</span><br><span class="line">mem.exe——–显示内存使用情况</span><br><span class="line">regedit.exe—-注册表</span><br><span class="line">winchat——–XP自带局域网聊天</span><br><span class="line">progman——–程序管理器</span><br><span class="line">winmsd———系统信息</span><br><span class="line">perfmon.msc—-计算机性能监测程序</span><br><span class="line">winver———检查Windows版本</span><br><span class="line">sfc /scannow—–扫描错误并复原</span><br><span class="line">taskmgr—–任务管理器（2000／xp／2003</span><br><span class="line">winver———检查Windows版本</span><br><span class="line">wmimgmt.msc—-打开windows管理体系结构(WMI)</span><br><span class="line">wupdmgr——–windows更新程序</span><br><span class="line">wscript——–windows脚本宿主设置</span><br><span class="line">write———-写字板</span><br><span class="line">winmsd———系统信息</span><br><span class="line">wiaacmgr——-扫描仪和照相机向导</span><br><span class="line">winchat——–XP自带局域网聊天</span><br><span class="line">mem.exe——–显示内存使用情况</span><br><span class="line">Msconfig.exe—系统配置实用程序</span><br><span class="line">mplayer2——-简易widnows media player</span><br><span class="line">mspaint——–画图板</span><br><span class="line">mstsc———-远程桌面连接</span><br><span class="line">mplayer2——-媒体播放机</span><br><span class="line">magnify——–放大镜实用程序</span><br><span class="line">mmc————打开控制台</span><br><span class="line">mobsync——–同步命令</span><br><span class="line">dxdiag———检查DirectX信息</span><br><span class="line">drwtsn32—— 系统医生</span><br><span class="line">devmgmt.msc— 设备管理器</span><br><span class="line">dfrg.msc——-磁盘碎片整理程序</span><br><span class="line">diskmgmt.msc—磁盘管理实用程序</span><br><span class="line">dcomcnfg——-打开系统组件服务</span><br><span class="line">ddeshare——-打开DDE共享设置</span><br><span class="line">net stop messenger—–停止信使服务</span><br><span class="line">net start messenger—-开始信使服务</span><br><span class="line">notepad——–打开记事本</span><br><span class="line">nslookup——-网络管理的工具向导</span><br><span class="line">ntbackup——-系统备份和还原</span><br><span class="line">narrator——-屏幕“讲述人”</span><br><span class="line">ntmsmgr.msc—-移动存储管理器</span><br><span class="line">ntmsoprq.msc—移动存储管理员操作请求</span><br><span class="line">netstat -an—-(TC)命令检查接口</span><br><span class="line">syncapp——–创建一个公文包</span><br><span class="line">sysedit——–系统配置编辑器</span><br><span class="line">sigverif——-文件签名验证程序</span><br><span class="line">sndrec32——-录音机</span><br><span class="line">shrpubw——–创建共享文件夹</span><br><span class="line">secpol.msc—–本地安全策略</span><br><span class="line">syskey———系统加密，一旦加密就不能解开，保护windows xp系统的双重密码</span><br><span class="line">services.msc—本地服务设置</span><br><span class="line">Sndvol32——-音量控制程序</span><br><span class="line">sfc.exe——–系统文件检查器</span><br><span class="line">sfc /scannow—windows文件保护</span><br><span class="line">tourstart——xp简介（安装完成后出现的漫游xp程序）</span><br><span class="line">taskmgr——–任务管理器</span><br><span class="line">eventvwr——-事件查看器</span><br><span class="line">eudcedit——-造字程序</span><br><span class="line">explorer——-打开资源管理器</span><br><span class="line">packager——-对象包装程序</span><br><span class="line">perfmon.msc—-计算机性能监测程序</span><br><span class="line">progman——–程序管理器</span><br><span class="line">regedit.exe—-注册表</span><br><span class="line">rsop.msc——-组策略结果集</span><br><span class="line">regedt32——-注册表编辑器</span><br><span class="line">regsvr32 /u *.dll—-停止dll文件运行</span><br><span class="line">regsvr32 /u zipfldr.dll——取消ZIP支持</span><br><span class="line">cmd.exe——–CMD命令提示符</span><br><span class="line">chkdsk.exe—–Chkdsk磁盘检查</span><br><span class="line">certmgr.msc—-证书管理实用程序</span><br><span class="line">calc———–启动计算器</span><br><span class="line">charmap——–启动字符映射表</span><br><span class="line">cliconfg——-SQL SERVER 客户端网络实用程序</span><br><span class="line">Clipbrd——–剪贴板查看器</span><br><span class="line">conf———–启动netmeeting</span><br><span class="line">compmgmt.msc—计算机管理</span><br><span class="line">cleanmgr——-垃圾整理</span><br><span class="line">ciadv.msc——索引服务程序</span><br><span class="line">osk————打开屏幕键盘</span><br><span class="line">odbcad32——-ODBC数据源管理器</span><br><span class="line">oobe/msoobe /a—-检查XP是否激活</span><br><span class="line">lusrmgr.msc—-本机用户和组</span><br><span class="line">logoff———注销命令</span><br><span class="line">iexpress——-木马捆绑工具，系统自带</span><br><span class="line">Nslookup——-IP地址侦测器</span><br><span class="line">fsmgmt.msc—–共享文件夹管理器</span><br><span class="line">utilman——–辅助工具管理器</span><br><span class="line">gpedit.msc—–组策略</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;gpedit.msc—–组策略&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Nslookup——-IP地址侦测器&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;explorer——-打开资源管理器&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
