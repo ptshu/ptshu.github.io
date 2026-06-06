@@ -542,6 +542,15 @@
   </url>
   
   <url>
+    <loc>https://ptshu.dpdns.org/tags/index.html</loc>
+    
+    <lastmod>2022-12-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ptshu.dpdns.org/categories/index.html</loc>
     
     <lastmod>2022-12-01</lastmod>
@@ -552,15 +561,6 @@
   
   <url>
     <loc>https://ptshu.dpdns.org/guestbook/index.html</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ptshu.dpdns.org/tags/index.html</loc>
     
     <lastmod>2022-12-01</lastmod>
     
