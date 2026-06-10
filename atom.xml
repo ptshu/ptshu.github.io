@@ -6,7 +6,7 @@
   <link href="https://ptshu.dpdns.org/atom.xml" rel="self"/>
   
   <link href="https://ptshu.dpdns.org/"/>
-  <updated>2026-06-10T13:29:59.619Z</updated>
+  <updated>2026-06-10T14:20:23.802Z</updated>
   <id>https://ptshu.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>命令hexo d不能上传内容</title>
+    <link href="https://ptshu.dpdns.org/2026/06/10/%E5%91%BD%E4%BB%A4hexo-d%E4%B8%8D%E8%83%BD%E4%B8%8A%E4%BC%A0%E5%86%85%E5%AE%B9/"/>
+    <id>https://ptshu.dpdns.org/2026/06/10/%E5%91%BD%E4%BB%A4hexo-d%E4%B8%8D%E8%83%BD%E4%B8%8A%E4%BC%A0%E5%86%85%E5%AE%B9/</id>
+    <published>2026-06-10T14:19:39.000Z</published>
+    <updated>2026-06-10T14:20:23.802Z</updated>
+    
+    <content type="html"><![CDATA[<p>报错”Please make sure you have the correct access rights and the repository exists.”<br>遇到这个 Git 报错，核心原因是‌SSH 密钥没配好或仓库地址有误‌，</p><span id="more"></span><p>这个报错的可能性：<br>1.权限验证没通过‌：Git 用 SSH 密钥来证明”你是你”，如果密钥没配、配错了或过期了，远程仓库就不认你。<br>‌2.仓库地址可能写错了‌：有时候仓库名打错、仓库被删除或你根本没权限访问这个仓库，也会报这个错。<br>远程仓库 URL 错误：<br>检查你的远程仓库 URL 是否正确。可以通过运行 git remote -v 来查看配置的远程仓库 URL。<br>如果 URL 错误，使用 git remote set-url origin <a href="mailto:&#103;&#x69;&#116;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#111;&#109;">&#103;&#x69;&#116;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#111;&#109;</a>:user&#x2F;repo.git<br>3.‌本地密钥和远程不匹配‌：之前配过密钥但后来删了、换了电脑或重装了系统，本地存的密钥和远程仓库记录的对不上。‌‌‌<br>修改报错电脑密钥文件‌：找到能上传电脑里的 .ssh 文件夹（一般在 C:\Users\你的用户名.ssh 或 &#x2F;Users&#x2F;你的用户名&#x2F;.ssh）或者直接备份在云盘里，复制正确的id_rsa和id_rsa.pub文件带到报错电脑的.ssh 文件夹。<br>也可以‌（不推荐）重新生成 SSH 密钥并添加到远程仓库‌，但这样多电脑的话就要把所有电脑的 .ssh 文件夹内容都改成相同的。‌‌‌</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;报错”Please make sure you have the correct access rights and the repository exists.”&lt;br&gt;遇到这个 Git 报错，核心原因是‌SSH 密钥没配好或仓库地址有误‌，&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>提示Invalid Captcha的原因和解决方法</title>
@@ -377,26 +394,6 @@
     
     
     <category term="win10" scheme="https://ptshu.dpdns.org/tags/win10/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>主题BlueLake配置文件_config.yml说明</title>
-    <link href="https://ptshu.dpdns.org/2024/07/03/%E4%B8%BB%E9%A2%98BlueLake%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6_config.yml%E8%AF%B4%E6%98%8E/"/>
-    <id>https://ptshu.dpdns.org/2024/07/03/%E4%B8%BB%E9%A2%98BlueLake%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6_config.yml%E8%AF%B4%E6%98%8E/</id>
-    <published>2024-07-03T14:48:37.000Z</published>
-    <updated>2024-07-31T14:23:19.139Z</updated>
-    
-    <content type="html"><![CDATA[<p>打开themes&#x2F;BlueLake&#x2F;_config.yml进行配置</p><p>version - 用于自动刷新CDN上的静态文件。<br>dark - 深色&#x2F;浅色 切换。<br>favicon - 浏览器标签页图标</p><span id="more"></span><p>banner&#x2F;banner-dark：背景图<br>menu - 导航菜单。<br>Plugins - 需要安装的（网站地图）插件<br>sitemap - 网站地图文件路径<br>excerpt_link - 阅读更多按钮文本<br>fancybox - 图片查看器<br>copyright - 文章版权信息<br>date_formats - 日期格式<br>sidebar - 侧边栏位置<br>widgets - 侧边栏中的窗口小部件。<br>archive_type - 侧边栏归档显示方式(yearly&#x2F;monthly)<br>archive_format - 侧边栏归档显示日期格式<br>show_count - 侧边栏是否显示计数<br>recent_posts_limits - 侧边栏最新文章显示条数<br>Toc - 文章目录<br>share - 分享<br>reward - 打赏功能.<br>about - 关于我页面配置<br>gitalk - Gitalk评论配置<br>valine - Valine评论配置<br>changyan - 畅言评论配置<br>comment- 其他评论配置<br>links - 友情链接</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;打开themes&amp;#x2F;BlueLake&amp;#x2F;_config.yml进行配置&lt;/p&gt;
-&lt;p&gt;version - 用于自动刷新CDN上的静态文件。&lt;br&gt;dark - 深色&amp;#x2F;浅色 切换。&lt;br&gt;favicon - 浏览器标签页图标&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo博客" scheme="https://ptshu.dpdns.org/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
     
   </entry>
   
