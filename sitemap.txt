@@ -1,3 +1,4 @@
+https://ptshu.dpdns.org/2026/06/10/%E6%8F%90%E7%A4%BAInvalid-Captcha%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%92%8C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/
 https://ptshu.dpdns.org/2024/03/04/%E7%AB%99%E9%95%BF%E7%AC%94%E8%AE%B0/
 https://ptshu.dpdns.org/2025/09/01/enbx%E6%A0%BC%E5%BC%8F%E6%80%8E%E4%B9%88%E6%94%B9%E6%88%90ppt%E6%A0%BC%E5%BC%8F/
 https://ptshu.dpdns.org/2025/02/22/%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%E7%89%A9%E7%90%86%E6%95%99%E5%AD%A6%E8%AE%A1%E5%88%927%E7%AF%87/
@@ -58,14 +59,14 @@ https://ptshu.dpdns.org/2023/11/28/%E8%93%9D%E5%A5%8F%E4%BA%91%E4%B8%8A%E4%BC%A0
 https://ptshu.dpdns.org/2023/11/19/%E4%BD%BF%E7%94%A8HTML%E9%9F%B3%E9%A2%91%E6%A0%87%E7%AD%BE/
 https://ptshu.dpdns.org/2023/11/10/%E5%85%AB%E5%A4%A7%E5%BF%83%E7%90%86%E5%AE%9A%E5%BE%8B%EF%BC%9A%E5%B8%AE%E4%BD%A0%E8%A7%A3%E9%99%A4%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%9B%B0%E6%89%B0/
 https://ptshu.dpdns.org/about/index.html
-https://ptshu.dpdns.org/tags/index.html
 https://ptshu.dpdns.org/categories/index.html
 https://ptshu.dpdns.org/guestbook/index.html
+https://ptshu.dpdns.org/tags/index.html
 https://ptshu.dpdns.org/
 https://ptshu.dpdns.org/tags/win10/
 https://ptshu.dpdns.org/tags/hexo/
 https://ptshu.dpdns.org/tags/%E5%B0%8F%E8%AF%B4/
 https://ptshu.dpdns.org/categories/hexo%E5%8D%9A%E5%AE%A2/
-https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/
 https://ptshu.dpdns.org/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/
+https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/
 https://ptshu.dpdns.org/categories/%E5%AE%B6%E5%BA%AD%E5%81%A5%E5%BA%B7/
