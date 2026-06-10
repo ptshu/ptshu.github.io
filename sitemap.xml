@@ -610,14 +610,14 @@
 
   
   <url>
-    <loc>https://ptshu.dpdns.org/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://ptshu.dpdns.org/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ptshu.dpdns.org/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/</loc>
+    <loc>https://ptshu.dpdns.org/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
