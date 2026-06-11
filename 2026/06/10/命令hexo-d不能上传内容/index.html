@@ -130,11 +130,11 @@
 <a href="/2026/06/10/%E5%91%BD%E4%BB%A4hexo-d%E4%B8%8D%E8%83%BD%E4%B8%8A%E4%BC%A0%E5%86%85%E5%AE%B9/#comments" class="article-comment-link">
   
     
-      <span class="post-comments-count valine-comment-count" data-xid="/2026/06/10/%E5%91%BD%E4%BB%A4hexo-d%E4%B8%8D%E8%83%BD%E4%B8%8A%E4%BC%A0%E5%86%85%E5%AE%B9/" itemprop="commentCount"></span>
     
     
     
     
+      <i id="changyan_count_unit" data-xid="/2026/06/10/%E5%91%BD%E4%BB%A4hexo-d%E4%B8%8D%E8%83%BD%E4%B8%8A%E4%BC%A0%E5%86%85%E5%AE%B9/"></i>
     
   
   <i class="fa fa-commt"></i>
@@ -147,7 +147,7 @@
       
         <p>报错”Please make sure you have the correct access rights and the repository exists.”<br>遇到这个 Git 报错，核心原因是‌SSH 密钥没配好或仓库地址有误‌，</p>
 <span id="more"></span>
-<p>这个报错的可能性：<br>1.权限验证没通过‌：Git 用 SSH 密钥来证明”你是你”，如果密钥没配、配错了或过期了，远程仓库就不认你。<br>‌2.仓库地址可能写错了‌：有时候仓库名打错、仓库被删除或你根本没权限访问这个仓库，也会报这个错。<br>远程仓库 URL 错误：<br>检查你的远程仓库 URL 是否正确。可以通过运行 git remote -v 来查看配置的远程仓库 URL。<br>如果 URL 错误，使用 git remote set-url origin <a href="mailto:&#103;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#109;">&#103;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#109;</a>:user&#x2F;repo.git<br>3.‌本地密钥和远程不匹配‌：之前配过密钥但后来删了、换了电脑或重装了系统，本地存的密钥和远程仓库记录的对不上。‌‌‌<br>修改报错电脑密钥文件‌：找到能上传电脑里的 .ssh 文件夹（一般在 C:\Users\你的用户名.ssh 或 &#x2F;Users&#x2F;你的用户名&#x2F;.ssh）或者直接备份在云盘里，复制正确的id_rsa和id_rsa.pub文件带到报错电脑的.ssh 文件夹。<br>也可以‌（不推荐）重新生成 SSH 密钥并添加到远程仓库‌，但这样多电脑的话就要把所有电脑的 .ssh 文件夹内容都改成相同的。‌‌‌</p>
+<p>这个报错的可能性：<br>1.权限验证没通过‌：Git 用 SSH 密钥来证明”你是你”，如果密钥没配、配错了或过期了，远程仓库就不认你。<br>‌2.仓库地址可能写错了‌：有时候仓库名打错、仓库被删除或你根本没权限访问这个仓库，也会报这个错。<br>远程仓库 URL 错误：<br>检查你的远程仓库 URL 是否正确。可以通过运行 git remote -v 来查看配置的远程仓库 URL。<br>如果 URL 错误，使用 git remote set-url origin <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#x63;&#111;&#109;">&#103;&#x69;&#116;&#64;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#x63;&#111;&#109;</a>:user&#x2F;repo.git<br>3.‌本地密钥和远程不匹配‌：之前配过密钥但后来删了、换了电脑或重装了系统，本地存的密钥和远程仓库记录的对不上。‌‌‌<br>修改报错电脑密钥文件‌：找到能上传电脑里的 .ssh 文件夹（一般在 C:\Users\你的用户名.ssh 或 &#x2F;Users&#x2F;你的用户名&#x2F;.ssh）或者直接备份在云盘里，复制正确的id_rsa和id_rsa.pub文件带到报错电脑的.ssh 文件夹。<br>也可以‌（不推荐）重新生成 SSH 密钥并添加到远程仓库‌，但这样多电脑的话就要把所有电脑的 .ssh 文件夹内容都改成相同的。‌‌‌</p>
 
         
             <div id="toc-article">
@@ -233,12 +233,12 @@
         
 
 
-  <section id="comments" class="vcomment"></section>
 
 
 
 
 
+  <div id="comments"><div id="SOHUCS" sid="2026/06/10/命令hexo-d不能上传内容/"></div></div>
 
 
       
@@ -256,7 +256,7 @@
       <ul>
         
           <li>
-            <a href="/2026/06/11/ccccddddd/">sssssddddd</a>
+            <a href="/2026/06/11/ddddd/">sssssddddd</a>
           </li>
         
           <li>
@@ -434,37 +434,78 @@
   
 
   
-    
-<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
 
+  
+
+  
+
+  
+
+  
+
+  
     <script>
-      var GUEST_INFO = ['nick','mail','link'];
-      var guest_info = 'nick,mail,link'.split(',').filter(function(item){
-          return GUEST_INFO.indexOf(item) > -1
-      });
-      var notify = 'false' == true;
-      var verify = 'false' == true;
-      new Valine({
-          el: '.vcomment',
-          notify: notify,
-          verify: verify,
-          appId: "5eQydp6vwosFE2SwAQvpHOPW-gzGzoHsz",
-          appKey: "aBcvJDFuxMP9XFjAojz3SCaN",
-          placeholder: "欢迎你的评论！",
-          pageSize:'10',
-          avatar:'mm',
-          lang:'zh-cn'
-      });
+      window._config = { showScore: true };
+      (function(){
+        var appid = 'cywe7rcnf';
+        var conf = '21bb7410226a2e28f5d812cc468d0e90';
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        var nodes =document.getElementsByTagName("head")[0]||document.head||document.documentElement;
+        if (/(Android|iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) && width < 750) {
+            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
+        }
+        else {
+          var loadJs=function(d,a){
+            var b=document.createElement("script");b.setAttribute("type","text/javascript");
+            b.setAttribute("charset","UTF-8");
+            b.setAttribute("src",d);
+            if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}
+            nodes.appendChild(b)
+          };
+          loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})});
+        }
+        var loadCss = function(cssString){
+          var style=document.createElement("style");
+          style.setAttribute("type", "text/css");
+          if(style.styleSheet){// IE
+              style.styleSheet.cssText = cssString;
+          } else {// w3c
+              var cssText = document.createTextNode(cssString);
+              style.appendChild(cssText);
+          }
+          nodes.appendChild(style);
+        }
+      })();
+      function removeElement(_element){
+          var _parentElement = _element.parentNode;
+          if(_parentElement){
+                  _parentElement.removeChild(_element);
+          }
+      }
+      var removeAD = document.createElement("div");
+      removeAD.id = 'removeAD';
+      var adInterval1 = setInterval(function() {
+        if(document.querySelector("#feedAv")){
+          document.querySelector("[node-type=cmt-list]").appendChild(removeAD);
+          document.querySelector("#removeAD").appendChild(document.querySelector("#feedAv"));
+          //- removeElement(document.querySelectorAll("#feedAv")[0]);
+          var feedAv = document.querySelector("#feedAv").children;
+          for( item of feedAv){
+            item.style.display = 'none'
+          }
+          document.querySelector("#removeAD").style.display="none"
+          clearInterval(adInterval1);
+        }
+      },1000);
+      var adInterval2 = setInterval(function() {
+        if(document.querySelector("#pop_ad")){
+          removeElement(document.querySelector("#pop_ad"));
+          clearInterval(adInterval2);
+        }
+      }, 1000);
     </script>
-  
-
-  
-
-  
-
-  
-
-  
+    
+<script src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
 
   
   
