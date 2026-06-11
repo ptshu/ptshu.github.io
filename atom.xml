@@ -6,7 +6,7 @@
   <link href="https://ptshu.dpdns.org/atom.xml" rel="self"/>
   
   <link href="https://ptshu.dpdns.org/"/>
-  <updated>2026-06-11T09:55:11.754Z</updated>
+  <updated>2026-06-11T10:18:59.585Z</updated>
   <id>https://ptshu.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ddddd</title>
+    <link href="https://ptshu.dpdns.org/2026/06/11/ddddd/"/>
+    <id>https://ptshu.dpdns.org/2026/06/11/ddddd/</id>
+    <published>2026-06-11T10:18:59.000Z</published>
+    <updated>2026-06-11T10:18:59.585Z</updated>
+    
+    <content type="html"><![CDATA[<p>本站文章分类：</p><ul><li>hexo博客</li><li>网络智能</li><li>家庭健康</li><li>教育教学<br>文章摘要<span id="more"></span>文章内容</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;本站文章分类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hexo博客&lt;/li&gt;
+&lt;li&gt;网络智能&lt;/li&gt;
+&lt;li&gt;家庭健康&lt;/li&gt;
+&lt;li&gt;教育教学&lt;br&gt;文章摘要</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hexo-blog-encrypt插件可以用http协议吗</title>
@@ -377,25 +399,6 @@
     
     
     <category term="win10" scheme="https://ptshu.dpdns.org/tags/win10/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>最全DNS服务器汇总（包含国内外大部分的DNS服务器）</title>
-    <link href="https://ptshu.dpdns.org/2024/07/31/%E6%9C%80%E5%85%A8DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B1%87%E6%80%BB%EF%BC%88%E5%8C%85%E5%90%AB%E5%9B%BD%E5%86%85%E5%A4%96%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89/"/>
-    <id>https://ptshu.dpdns.org/2024/07/31/%E6%9C%80%E5%85%A8DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B1%87%E6%80%BB%EF%BC%88%E5%8C%85%E5%90%AB%E5%9B%BD%E5%86%85%E5%A4%96%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89/</id>
-    <published>2024-07-31T14:18:37.000Z</published>
-    <updated>2024-07-31T14:27:53.618Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">UDP传输时间短，加密统一选择：https</span><br><span class="line"></span><br><span class="line">DNS查询：https://dns.ip.cn/</span><br></pre></td></tr></table></figure><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">国内DNS:</span><br><span class="line"></span><br><span class="line">阿里公共DNS：</span><br><span class="line"></span><br><span class="line">223.5.5.5   类型选择：UDP</span><br><span class="line"></span><br><span class="line">223.6.6.6   类型选择：UDP</span><br><span class="line"></span><br><span class="line">阿里加密DNS：alidns_ip/dns-query   类型选择：https</span><br><span class="line"></span><br><span class="line">阿里加密DNS：dns.alidns.com/dns-query   类型选择：https</span><br><span class="line"></span><br><span class="line">DoT 地址:  dns.alidns.com</span><br><span class="line"></span><br><span class="line">DoH 地址: https://dns.alidns.com/dns-query</span><br><span class="line"></span><br><span class="line">腾讯公共DNS:</span><br><span class="line"></span><br><span class="line">DNS：119.29.29.29  类型选择：UDP</span><br><span class="line"></span><br><span class="line">腾讯加密DNS：doh.pub/dns-query  类型选择：https</span><br><span class="line"></span><br><span class="line">腾讯加密DNS：sm2.doh.pub/dns-query  类型选择：https</span><br><span class="line"></span><br><span class="line">DoT 地址:  dot.pub</span><br><span class="line"></span><br><span class="line">DoH 地址: https://doh.pub/dns-query</span><br><span class="line"></span><br><span class="line">DoH (国密 SM2,基于腾讯云政企国密解决方案) 地址:https://sm2.doh.pub/dns-query</span><br><span class="line"></span><br><span class="line">360公共DNS</span><br><span class="line"></span><br><span class="line">中国电信/铁通/移动：  101.226.4.6   218.30.118.6   类型选择：UDP</span><br><span class="line"></span><br><span class="line">中国联通：  123.125.81.6      140.207.198.6   类型选择：UDP</span><br><span class="line"></span><br><span class="line">百度公共DNS：180.76.76.76  类型选择：UDP</span><br><span class="line"></span><br><span class="line">114DNS：114.114.114.114    114.114.115.115   类型选择：UDP</span><br><span class="line"></span><br><span class="line">国外DNS：</span><br><span class="line"></span><br><span class="line">CloudflareDNS：1.1.1.1   类型选择：UDP</span><br><span class="line"></span><br><span class="line">Cloudflare加密DNS：1.1.1.1/dns-query   类型选择：tls</span><br><span class="line"></span><br><span class="line">DoT 地址:  cloudflare-dns.com</span><br><span class="line"></span><br><span class="line">DoH 地址: https://1dot1dot1dot1.cloudflare-dns.com/</span><br><span class="line"></span><br><span class="line">Google DNS：</span><br><span class="line"></span><br><span class="line">8.8.8.8      8.8.4.4    类型选择：UDP</span><br><span class="line"></span><br><span class="line">谷歌加密DNS：https://dns.google/dns-query   类型选择：https</span><br><span class="line"></span><br><span class="line">谷歌加密DNS：dns.google   类型选择：tls</span><br><span class="line"></span><br><span class="line">Norton ConnectSafe： 199.85.126.10    199.85.127.10  类型选择：UDP</span><br><span class="line"></span><br><span class="line">威瑞信：64.6.64.6   64.6.65.6  类型选择：UDP</span><br><span class="line"></span><br><span class="line">Comodo安全DNS：  8.26.56.2    68.20.247.20  类型选择：UDP</span><br><span class="line"></span><br><span class="line">DNS Watch： 84.200.69.80    84.200.70.40  类型选择：UDP</span><br><span class="line"></span><br><span class="line">Quad9：</span><br><span class="line"></span><br><span class="line">Quda9加密DNS：dns11.quad9.net/dns-query</span><br><span class="line"></span><br><span class="line">DoT 地址:  dns.quad9.net</span><br><span class="line"></span><br><span class="line">DoH 地址: https://dns.quad9.net/dns-query</span><br><span class="line"></span><br><span class="line">相关网址：</span><br><span class="line"></span><br><span class="line">https://www.cccitu.com/2205354.html</span><br><span class="line"></span><br><span class="line">https://dns.icoa.cn/dot-doh/</span><br><span class="line"></span><br><span class="line">https://cloud.tencent.com/developer/article/1924976?from=15425</span><br><span class="line"></span><br><span class="line">https://www.techug.com/post/free-dns-server-ip-list/</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;UDP传输时间短，加密统一选择：https&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;DNS查询：https://dns.ip.cn/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="网络智能" scheme="https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
-    
     
   </entry>
   
