@@ -6,7 +6,7 @@
   <link href="https://ptshu.dpdns.org/atom.xml" rel="self"/>
   
   <link href="https://ptshu.dpdns.org/"/>
-  <updated>2026-06-12T05:33:56.242Z</updated>
+  <updated>2026-06-12T13:10:35.039Z</updated>
   <id>https://ptshu.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>换路由器后HP打印机无线连接的重新设置</title>
+    <link href="https://ptshu.dpdns.org/2026/06/12/%E6%8D%A2%E8%B7%AF%E7%94%B1%E5%99%A8%E5%90%8EHP%E6%89%93%E5%8D%B0%E6%9C%BA%E6%97%A0%E7%BA%BF%E8%BF%9E%E6%8E%A5%E7%9A%84%E9%87%8D%E6%96%B0%E8%AE%BE%E7%BD%AE/"/>
+    <id>https://ptshu.dpdns.org/2026/06/12/%E6%8D%A2%E8%B7%AF%E7%94%B1%E5%99%A8%E5%90%8EHP%E6%89%93%E5%8D%B0%E6%9C%BA%E6%97%A0%E7%BA%BF%E8%BF%9E%E6%8E%A5%E7%9A%84%E9%87%8D%E6%96%B0%E8%AE%BE%E7%BD%AE/</id>
+    <published>2026-06-12T12:53:19.000Z</published>
+    <updated>2026-06-12T13:10:35.039Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.打开HP打印机助手（HP DeskJet 4800 series）<br>2.找到“工具&#x2F;设备设置和软件&#x2F;重置配置无线设置”<br>3.按“重置配置无线设置”的要求设置好。</p><span id="more"></span><p><img src="/img/2026/06/1201.png"><br><img src="/img/2026/06/1202.png"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;1.打开HP打印机助手（HP DeskJet 4800 series）&lt;br&gt;2.找到“工具&amp;#x2F;设备设置和软件&amp;#x2F;重置配置无线设置”&lt;br&gt;3.按“重置配置无线设置”的要求设置好。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>启用畅言评论</title>
@@ -375,27 +394,6 @@
     
     <category term="网络智能" scheme="https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>win10的windows资源管理器无反应</title>
-    <link href="https://ptshu.dpdns.org/2024/07/31/win10%E7%9A%84windows%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E6%97%A0%E5%8F%8D%E5%BA%94/"/>
-    <id>https://ptshu.dpdns.org/2024/07/31/win10%E7%9A%84windows%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E6%97%A0%E5%8F%8D%E5%BA%94/</id>
-    <published>2024-07-31T14:50:15.000Z</published>
-    <updated>2024-07-31T14:51:05.374Z</updated>
-    
-    <content type="html"><![CDATA[<p>正确处理方法：<br>在任务管理器中点右键，选择“重新启动”</p><span id="more"></span><p>错误处理方法：<br>在任务管理器中点右键，选择“结束任务”，结果会出现任务栏黑屏，需要注销或者重启电脑。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;正确处理方法：&lt;br&gt;在任务管理器中点右键，选择“重新启动”&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网络智能" scheme="https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
-    
-    
-    <category term="win10" scheme="https://ptshu.dpdns.org/tags/win10/"/>
     
   </entry>
   
