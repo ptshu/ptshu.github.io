@@ -6,7 +6,7 @@
   <link href="https://ptshu.dpdns.org/atom.xml" rel="self"/>
   
   <link href="https://ptshu.dpdns.org/"/>
-  <updated>2026-06-19T08:44:43.671Z</updated>
+  <updated>2026-06-22T01:04:43.850Z</updated>
   <id>https://ptshu.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常见机械的效率公式总结</title>
+    <link href="https://ptshu.dpdns.org/2026/06/22/%E5%B8%B8%E8%A7%81%E6%9C%BA%E6%A2%B0%E7%9A%84%E6%95%88%E7%8E%87%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/"/>
+    <id>https://ptshu.dpdns.org/2026/06/22/%E5%B8%B8%E8%A7%81%E6%9C%BA%E6%A2%B0%E7%9A%84%E6%95%88%E7%8E%87%E5%85%AC%E5%BC%8F%E6%80%BB%E7%BB%93/</id>
+    <published>2026-06-22T01:02:19.000Z</published>
+    <updated>2026-06-22T01:04:43.850Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.滑轮组的机械效率<br>a.滑轮组（竖直）：η&#x3D;Gh&#x2F;FS</p><span id="more"></span><p>（G为物重，h为物体提高高度，F为拉力，S为绳子自由端走的距离）<br>b.滑轮组（水平）：η&#x3D;fl&#x2F;FS<br>（f为摩擦力，l为物体移动距离，F为拉力，S为绳子自由端走的距离）<br>2.斜面的机械效率：η&#x3D;Gh&#x2F;FS<br> (h为斜面高，S斜面长，G为物重，F为沿斜面对物体的拉力）<br><img src="/img/2026/06/2201.png"><br><img src="/img/2026/06/2202.png"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;1.滑轮组的机械效率&lt;br&gt;a.滑轮组（竖直）：η&amp;#x3D;Gh&amp;#x2F;FS&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教育教学" scheme="https://ptshu.dpdns.org/categories/%E6%95%99%E8%82%B2%E6%95%99%E5%AD%A6/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>word最后一页死活删不掉</title>
@@ -99,7 +118,7 @@
     <published>2026-06-10T14:19:39.000Z</published>
     <updated>2026-06-11T09:55:58.158Z</updated>
     
-    <content type="html"><![CDATA[<p>报错”Please make sure you have the correct access rights and the repository exists.”<br>遇到这个 Git 报错，核心原因是‌SSH 密钥没配好或仓库地址有误‌，</p><span id="more"></span><p>这个报错的可能性：<br>1.权限验证没通过‌：Git 用 SSH 密钥来证明”你是你”，如果密钥没配、配错了或过期了，远程仓库就不认你。<br>‌2.仓库地址可能写错了‌：有时候仓库名打错、仓库被删除或你根本没权限访问这个仓库，也会报这个错。<br>远程仓库 URL 错误：<br>检查你的远程仓库 URL 是否正确。可以通过运行 git remote -v 来查看配置的远程仓库 URL。<br>如果 URL 错误，使用 git remote set-url origin <a href="mailto:&#x67;&#105;&#x74;&#64;&#103;&#105;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;">&#x67;&#105;&#x74;&#64;&#103;&#105;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;</a>:user&#x2F;repo.git<br>3.‌本地密钥和远程不匹配‌：之前配过密钥但后来删了、换了电脑或重装了系统，本地存的密钥和远程仓库记录的对不上。‌‌‌<br>修改报错电脑密钥文件‌：找到能上传电脑里的 .ssh 文件夹（一般在 C:\Users\你的用户名.ssh 或 &#x2F;Users&#x2F;你的用户名&#x2F;.ssh）或者直接备份在云盘里，复制正确的id_rsa和id_rsa.pub文件带到报错电脑的.ssh 文件夹。<br>也可以‌（不推荐）重新生成 SSH 密钥并添加到远程仓库‌，但这样多电脑的话就要把所有电脑的 .ssh 文件夹内容都改成相同的。‌‌‌</p>]]></content>
+    <content type="html"><![CDATA[<p>报错”Please make sure you have the correct access rights and the repository exists.”<br>遇到这个 Git 报错，核心原因是‌SSH 密钥没配好或仓库地址有误‌，</p><span id="more"></span><p>这个报错的可能性：<br>1.权限验证没通过‌：Git 用 SSH 密钥来证明”你是你”，如果密钥没配、配错了或过期了，远程仓库就不认你。<br>‌2.仓库地址可能写错了‌：有时候仓库名打错、仓库被删除或你根本没权限访问这个仓库，也会报这个错。<br>远程仓库 URL 错误：<br>检查你的远程仓库 URL 是否正确。可以通过运行 git remote -v 来查看配置的远程仓库 URL。<br>如果 URL 错误，使用 git remote set-url origin <a href="mailto:&#x67;&#105;&#116;&#64;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#105;&#116;&#64;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#x6f;&#x6d;</a>:user&#x2F;repo.git<br>3.‌本地密钥和远程不匹配‌：之前配过密钥但后来删了、换了电脑或重装了系统，本地存的密钥和远程仓库记录的对不上。‌‌‌<br>修改报错电脑密钥文件‌：找到能上传电脑里的 .ssh 文件夹（一般在 C:\Users\你的用户名.ssh 或 &#x2F;Users&#x2F;你的用户名&#x2F;.ssh）或者直接备份在云盘里，复制正确的id_rsa和id_rsa.pub文件带到报错电脑的.ssh 文件夹。<br>也可以‌（不推荐）重新生成 SSH 密钥并添加到远程仓库‌，但这样多电脑的话就要把所有电脑的 .ssh 文件夹内容都改成相同的。‌‌‌</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;报错”Please make sure you have the correct access rights and the repository exists.”&lt;br&gt;遇到这个 Git 报错，核心原因是‌SSH 密钥没配好或仓库地址有误‌，&lt;/p&gt;</summary>
@@ -374,23 +393,6 @@
     
     
     <summary type="html">&lt;p&gt;使用Windows10系统，会发现里面有很多设置跟以往的XP、win7相差甚远，例如在修改删除文件的时候，往往会出现“你需要权限才能执行此操作”的提示，让你无法继续操作。那么要如何解决账号无权限的问题呢，本文将针对此问题进行详细说明。&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>6种方法关闭Win10系统的自动更新</title>
-    <link href="https://ptshu.dpdns.org/2024/08/04/6%E7%A7%8D%E6%96%B9%E6%B3%95%E5%85%B3%E9%97%ADWin10%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
-    <id>https://ptshu.dpdns.org/2024/08/04/6%E7%A7%8D%E6%96%B9%E6%B3%95%E5%85%B3%E9%97%ADWin10%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</id>
-    <published>2024-08-04T01:23:16.000Z</published>
-    <updated>2024-08-06T11:17:00.149Z</updated>
-    
-    <content type="html"><![CDATA[<p>目前推荐：本地组策略编辑器20240806<br>这里我们将为您分享6种关闭Win10自动更新的方法，分别是通过Windows设置、Windows Update服务、本地组策略编辑器、任务计划程序、注册表编辑器来关闭Win10自动更新。</p><span id="more"></span><p>✔ 方法1. Windows设置<br>要想关闭Win10自动更新，比较简单的一种方法就是进入到Windows设置中，将Windows更新直接关闭。步骤如下：</p><ol><li><p>按“Windows + I”键，打开Windows设置，再单击“更新和安全”。</p></li><li><p>然后，在Windows更新处，单击“高级选项”。</p></li><li><p>在高级选项中，您可以将“更新选项”中项目全部关闭，或者选择“暂停更新”，但此暂停更新至多只能暂停35天，达到暂停限制后需先获取新的更新，然后才能再次暂停更新。</p></li></ol><p>✔ 方法2. 关闭Windows Update服务<br>若您想彻底关闭Win10自动更新，可以在Windows服务中找到Windows Update选项将其设置为禁用即可。您可以按照以下步骤进行操作。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“services.msc”，然后再单击“确定”。</p></li><li><p>在弹出的服务窗口中，找到“Windows Update”选项并双击打开它。</p></li><li><p>在弹出的“Windows Update的属性”对话框中，将“启动类型”设置为“禁用”。</p></li><li><p>然后再单击“恢复”，将图中框选的部分都设置为“无操作”，再单击“应用”和“确定”。</p></li></ol><p>✔ 方法3. 本地组策略编辑器<br>另一种Win10关闭自动更新方法就是通过更改本地组策略编辑器中的“配置自动更新”和“删除使用所有Windows更新功能的访问权限”选项来关闭Win10自动更新。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“gpedit.msc”，然后再单击“确定”。</p></li><li><p>在弹出的本地组策略编辑中，依次单击“计算机配置” &gt; “管理模板” &gt; “Windows组件” &gt; “Windows更新”，然后找到“配置自动更新”并双击打开它。</p></li><li><p>在弹出的“配置自动更新”窗口中，选择“已禁用”，再单击“确定”。</p></li><li><p>然后在“Windows更新”页面找到“删除使用所有Windows更新功能的访问权限”，并双击打开它。</p></li><li><p>在弹出的窗口中，再勾选“已启用”，然后单击“确定”。</p></li></ol><p>✔ 方法4. 任务计划程序<br>您也可以通过任务计划程序，将“Schedule Start”禁用，以实现Win10自动更新的关闭。</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“taskschd.msc”，然后再单击“确定”。</p></li><li><p>在任务计划程序窗口中，跳转到该路径“任务计划程序库&#x2F;Microsoft&#x2F;Windows&#x2F;WindowsUpdate”。</p></li><li><p>然后，选中“Schedule Start”，并在“所选项”中单击“禁用”。</p></li></ol><p>✔ 方法5. 注册表编辑器<br>还有一种Win10关闭自动更新方法就是通过注册表编辑器，来彻底关闭Win10自动更新。具体操作步骤如下：</p><ol><li><p>按“Windows + R”键，打开运行对话框，并输入“regedit.exe”，然后再单击“确定”，在弹出的窗口中再点击“是”。</p></li><li><p>进入注册表编辑器后，跳转到以下路径，并在右侧找到“Start”键并双击打开它。</p></li></ol><p>路径：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UsoSvc</p><ol start="3"><li><p>在弹出的窗口中将“数值数据”改为“4”，并单击“确定”。</p></li><li><p>然后再找到“FailureActions”键并双击进行编辑，将“00000010”和“00000018”行中的第五个数值，由原来的“01”改为“00”，再单击“确定”。</p></li></ol><p>✔ 方法6. 通过工具关闭Win10自动更新<br>还可以使用一些特定工具来关闭Windows自动更新。有Microsoft发布的“显示或隐藏更新”工具，和以下三方软件比如：Windows Update Blocker、Win Update Stop、Win Updates Disabler等，它们都可以起到禁用Windows自动更新的作用。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;目前推荐：本地组策略编辑器20240806&lt;br&gt;这里我们将为您分享6种关闭Win10自动更新的方法，分别是通过Windows设置、Windows Update服务、本地组策略编辑器、任务计划程序、注册表编辑器来关闭Win10自动更新。&lt;/p&gt;</summary>
     
     
     
