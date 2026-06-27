@@ -6,7 +6,7 @@
   <link href="https://ptshu.dpdns.org/atom.xml" rel="self"/>
   
   <link href="https://ptshu.dpdns.org/"/>
-  <updated>2026-06-22T01:04:43.850Z</updated>
+  <updated>2026-06-27T14:38:03.693Z</updated>
   <id>https://ptshu.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浏览器网页无法打开</title>
+    <link href="https://ptshu.dpdns.org/2026/06/27/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E9%A1%B5%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80/"/>
+    <id>https://ptshu.dpdns.org/2026/06/27/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E9%A1%B5%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80/</id>
+    <published>2026-06-27T14:37:12.000Z</published>
+    <updated>2026-06-27T14:38:03.693Z</updated>
+    
+    <content type="html"><![CDATA[<p>故障现象:联想笔记本电脑，网络图标显示正常，微信QQ可以登录，但浏览器网页无法打开。</p><span id="more"></span><p>原因分析:使用过VPN后出现此情况，可能是VPN功能异常或者没有正常关闭，导致代理服务器设置成不可上网的代理。<br>解决方案:取消或者更改代理服务器<br>方案一、在控制面板\网络和 Internet\网络连接\Internet 协议版本4(TCP&#x2F;IPv4)属性中，尝试设置DNS地址为114.114.114.114和8.8.8.8。<br>方案二、IE浏览下取消代理服务器。1.打开IE浏览器，点击右上角设置；2.点击Internet选项；3.选择连接，打开局域网设置；4.取消勾选代理服务器。5.此时再打开或刷新IE浏览器，可发现浏览器恢复正常。<br>方案三、WIN10系统下关闭代理服务器的方法。1.设置，网络和Internet。2.选择代理，关闭使用代理服务器。</p><p>实测：方案二最佳。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;故障现象:联想笔记本电脑，网络图标显示正常，微信QQ可以登录，但浏览器网页无法打开。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>谷歌邮箱别名设置</title>
+    <link href="https://ptshu.dpdns.org/2026/06/23/%E8%B0%B7%E6%AD%8C%E9%82%AE%E7%AE%B1%E5%88%AB%E5%90%8D%E8%AE%BE%E7%BD%AE/"/>
+    <id>https://ptshu.dpdns.org/2026/06/23/%E8%B0%B7%E6%AD%8C%E9%82%AE%E7%AE%B1%E5%88%AB%E5%90%8D%E8%AE%BE%E7%BD%AE/</id>
+    <published>2026-06-23T15:47:34.000Z</published>
+    <updated>2026-06-23T15:49:23.903Z</updated>
+    
+    <content type="html"><![CDATA[<p>Gmail支持四种方式实现一账号多收件地址：一是利用点号忽略特性，如<a href="mailto:&#121;&#x6f;&#x75;&#114;&#x2e;&#x6e;&#97;&#109;&#x65;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#121;&#x6f;&#x75;&#114;&#x2e;&#x6e;&#97;&#109;&#x65;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a>与<a href="mailto:&#x79;&#x6f;&#x75;&#x72;&#x6e;&#97;&#109;&#101;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#x79;&#x6f;&#x75;&#x72;&#x6e;&#97;&#109;&#101;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a>等效；二是加号标签法，如<a href="mailto:&#121;&#x6f;&#117;&#114;&#110;&#x61;&#109;&#x65;&#43;&#x6e;&#x65;&#119;&#115;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#121;&#x6f;&#117;&#114;&#110;&#x61;&#109;&#x65;&#43;&#x6e;&#x65;&#119;&#115;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a>；</p><span id="more"></span><p>三是添加并验证备用邮箱作为发送别名；四是通过Google Workspace为自定义域名添加无限别名。<br>谷歌邮箱怎么设置别名 实现一个账号多个收件地址使用教程</p><p>如果您拥有一个谷歌邮箱（Gmail）主账号，但希望使用多个不同的电子邮件地址接收邮件，Gmail 提供了“别名”功能，允许您在不创建新账号的前提下扩展收件地址。以下是实现一个账号多个收件地址的具体操作步骤：</p><p>一、利用 Gmail 的“点号忽略”特性添加别名<br>Gmail 会自动忽略邮箱地址中用户名部分的英文句点（.），这意味着 <a href="mailto:&#x79;&#111;&#x75;&#46;&#x6e;&#x61;&#x6d;&#x65;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x79;&#111;&#x75;&#46;&#x6e;&#x61;&#x6d;&#x65;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a>、<a href="mailto:&#121;&#111;&#117;&#x6e;&#97;&#x6d;&#101;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#121;&#111;&#117;&#x6e;&#97;&#x6d;&#101;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a> 和 <a href="mailto:&#121;&#46;&#x6f;&#46;&#x75;&#x2e;&#x6e;&#46;&#x61;&#46;&#x6d;&#46;&#x65;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#121;&#46;&#x6f;&#46;&#x75;&#x2e;&#x6e;&#46;&#x61;&#46;&#x6d;&#46;&#x65;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a> 实际都指向同一个收件箱。该特性无需任何设置，系统默认启用，所有发往这些变体地址的邮件均会自动归入主账号。</p><p>1、确认您的主 Gmail 地址为 <a href="mailto:&#121;&#111;&#117;&#114;&#x6e;&#97;&#109;&#101;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#121;&#111;&#117;&#114;&#x6e;&#97;&#109;&#101;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a>（以实际为准）。</p><p>2、对外提供任意带点号分隔的变体地址，例如 <a href="mailto:&#x79;&#111;&#x75;&#x72;&#46;&#110;&#x61;&#x6d;&#x65;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x79;&#111;&#x75;&#x72;&#46;&#110;&#x61;&#x6d;&#x65;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a> 或 <a href="mailto:&#x79;&#x2e;&#111;&#x2e;&#117;&#x2e;&#x72;&#x2e;&#x6e;&#46;&#97;&#x2e;&#x6d;&#x2e;&#101;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x79;&#x2e;&#111;&#x2e;&#117;&#x2e;&#x72;&#x2e;&#x6e;&#46;&#97;&#x2e;&#x6d;&#x2e;&#101;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a>。</p><p>3、收到邮件后，可在收件箱中直接查看，无需额外配置或转发规则。</p><p>二、通过“加号标签”（+alias）方式创建动态别名<br>Gmail 支持在用户名后添加加号（+）及任意字符作为标签，所有发往 <a href="mailto:&#x79;&#111;&#117;&#x72;&#110;&#97;&#109;&#x65;&#x2b;&#108;&#97;&#x62;&#101;&#108;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x79;&#111;&#117;&#x72;&#110;&#97;&#109;&#x65;&#x2b;&#108;&#97;&#x62;&#101;&#108;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a> 的邮件均会送达 <a href="mailto:&#x79;&#111;&#x75;&#114;&#110;&#x61;&#x6d;&#x65;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x79;&#111;&#x75;&#114;&#110;&#x61;&#x6d;&#x65;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;</a> 收件箱。此方法可用于分类识别来源，且无需预设或验证。</p><p>1、确定主邮箱为 <a href="mailto:&#121;&#111;&#117;&#114;&#110;&#x61;&#x6d;&#101;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#121;&#111;&#117;&#114;&#110;&#x61;&#x6d;&#101;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;</a>。</p><p>2、向他人提供带 + 号的地址，例如 <a href="mailto:&#121;&#x6f;&#117;&#114;&#110;&#x61;&#x6d;&#101;&#x2b;&#x6e;&#x65;&#119;&#115;&#x6c;&#x65;&#116;&#116;&#x65;&#x72;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#121;&#x6f;&#117;&#114;&#110;&#x61;&#x6d;&#101;&#x2b;&#x6e;&#x65;&#119;&#115;&#x6c;&#x65;&#116;&#116;&#x65;&#x72;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;</a> 或 <a href="mailto:&#x79;&#111;&#x75;&#x72;&#110;&#x61;&#x6d;&#101;&#43;&#115;&#x68;&#111;&#x70;&#112;&#105;&#x6e;&#103;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x79;&#111;&#x75;&#x72;&#110;&#x61;&#x6d;&#101;&#43;&#115;&#x68;&#111;&#x70;&#112;&#105;&#x6e;&#103;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a>。</p><p>3、登录 Gmail 后，在搜索栏输入 to:<a href="mailto:&#x79;&#111;&#117;&#114;&#110;&#x61;&#x6d;&#101;&#x2b;&#x6e;&#x65;&#x77;&#115;&#x6c;&#x65;&#x74;&#116;&#x65;&#x72;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x79;&#111;&#117;&#114;&#110;&#x61;&#x6d;&#101;&#x2b;&#x6e;&#x65;&#x77;&#115;&#x6c;&#x65;&#x74;&#116;&#x65;&#x72;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a> 即可筛选对应来源的全部来信。</p><p>三、添加已验证的备用电子邮件地址作为发送别名<br>此方法允许您从同一 Gmail 账户界面，以不同邮箱地址（如公司邮箱或自定义域名邮箱）对外发送邮件，同时仍能统一管理收件。需提前验证该备用地址所有权。</p><p>1、登录 Gmail 网页版，点击右上角头像 → “管理您的 Google 账户”。</p><p>2、左侧菜单选择“个人信息” → “联系信息” → “电子邮件” → “添加其他电子邮件地址”。</p><p>3、输入待添加的邮箱（例如 <a href="mailto:&#99;&#x6f;&#x6e;&#116;&#x61;&#99;&#x74;&#x40;&#121;&#x6f;&#117;&#114;&#x64;&#111;&#109;&#x61;&#x69;&#110;&#x2e;&#x63;&#x6f;&#109;">&#99;&#x6f;&#x6e;&#116;&#x61;&#99;&#x74;&#x40;&#121;&#x6f;&#117;&#114;&#x64;&#111;&#109;&#x61;&#x69;&#110;&#x2e;&#x63;&#x6f;&#109;</a>），点击“下一步”后按提示完成验证码验证。</p><p>4、返回 Gmail 设置 → “查看所有设置” → “账户和导入” → “发送邮件”，勾选刚验证的地址，并设置默认回复地址。</p><p>四、使用 Google Workspace 自定义域名邮箱（需付费订阅）<br>若您已注册并验证了自有域名（如 yourcompany.com），可通过 Google Workspace 订阅服务，为同一账户开通无限数量的 @yourcompany.com 邮箱别名，所有邮件统一汇聚至主 Gmail 收件箱，且支持独立签名与发信身份。</p><p>1、访问 workspace.google.com，注册或登录已有 Workspace 管理控制台。</p><p>2、进入“用户”页面，选择主账号 → “管理用户邮箱别名” → “添加别名”。</p><p>3、输入新别名（例如 <a href="mailto:&#x73;&#x75;&#112;&#112;&#x6f;&#x72;&#116;&#x40;&#x79;&#111;&#x75;&#114;&#x63;&#x6f;&#109;&#112;&#x61;&#x6e;&#121;&#46;&#x63;&#x6f;&#109;">&#x73;&#x75;&#112;&#112;&#x6f;&#x72;&#116;&#x40;&#x79;&#111;&#x75;&#114;&#x63;&#x6f;&#109;&#112;&#x61;&#x6e;&#121;&#46;&#x63;&#x6f;&#109;</a> 或 <a href="mailto:&#104;&#x65;&#x6c;&#x6c;&#x6f;&#64;&#x79;&#111;&#x75;&#114;&#x63;&#x6f;&#109;&#x70;&#97;&#x6e;&#121;&#x2e;&#x63;&#111;&#109;">&#104;&#x65;&#x6c;&#x6c;&#x6f;&#64;&#x79;&#111;&#x75;&#114;&#x63;&#x6f;&#109;&#x70;&#97;&#x6e;&#121;&#x2e;&#x63;&#111;&#109;</a>），保存后即时生效。</p><p>4、无需额外配置收信规则，所有发往该别名的邮件自动进入主账号收件箱。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Gmail支持四种方式实现一账号多收件地址：一是利用点号忽略特性，如&lt;a href=&quot;mailto:&amp;#121;&amp;#x6f;&amp;#x75;&amp;#114;&amp;#x2e;&amp;#x6e;&amp;#97;&amp;#109;&amp;#x65;&amp;#x40;&amp;#103;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#x6c;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#121;&amp;#x6f;&amp;#x75;&amp;#114;&amp;#x2e;&amp;#x6e;&amp;#97;&amp;#109;&amp;#x65;&amp;#x40;&amp;#103;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#x6c;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;与&lt;a href=&quot;mailto:&amp;#x79;&amp;#x6f;&amp;#x75;&amp;#x72;&amp;#x6e;&amp;#97;&amp;#109;&amp;#101;&amp;#64;&amp;#x67;&amp;#x6d;&amp;#97;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&quot;&gt;&amp;#x79;&amp;#x6f;&amp;#x75;&amp;#x72;&amp;#x6e;&amp;#97;&amp;#109;&amp;#101;&amp;#64;&amp;#x67;&amp;#x6d;&amp;#97;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;&lt;/a&gt;等效；二是加号标签法，如&lt;a href=&quot;mailto:&amp;#121;&amp;#x6f;&amp;#117;&amp;#114;&amp;#110;&amp;#x61;&amp;#109;&amp;#x65;&amp;#43;&amp;#x6e;&amp;#x65;&amp;#119;&amp;#115;&amp;#x40;&amp;#103;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#x6c;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&quot;&gt;&amp;#121;&amp;#x6f;&amp;#117;&amp;#114;&amp;#110;&amp;#x61;&amp;#109;&amp;#x65;&amp;#43;&amp;#x6e;&amp;#x65;&amp;#119;&amp;#115;&amp;#x40;&amp;#103;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#x6c;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;；&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络智能" scheme="https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>常见机械的效率公式总结</title>
@@ -358,43 +396,6 @@
     
     
     <category term="网络智能" scheme="https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>使用CloudFlare搭建Github加速镜像站</title>
-    <link href="https://ptshu.dpdns.org/2024/08/06/%E4%BD%BF%E7%94%A8CloudFlare%E6%90%AD%E5%BB%BAGithub%E5%8A%A0%E9%80%9F%E9%95%9C%E5%83%8F%E7%AB%99/"/>
-    <id>https://ptshu.dpdns.org/2024/08/06/%E4%BD%BF%E7%94%A8CloudFlare%E6%90%AD%E5%BB%BAGithub%E5%8A%A0%E9%80%9F%E9%95%9C%E5%83%8F%E7%AB%99/</id>
-    <published>2024-08-06T10:27:40.000Z</published>
-    <updated>2024-08-06T10:30:57.569Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h1><p>· 拥有一个域名 （国内 workers.dev 无法访问，必须使用域名路由）</p><p>· 注册了CloudFlare账号（没有的话可以去官网注册，本文不介绍注册方法。​<a href="https://dash.cloudflare.com/">https://dash.cloudflare.com/</a></p><span id="more"></span><h1 id="配置-Worker"><a href="#配置-Worker" class="headerlink" title="配置 Worker"></a>配置 Worker</h1><p>进入CloudFlare控制台。</p><p>在编辑页面填写下方js代码，保存并部署即可</p><p>（ps:该代码为通用的反向代理代码，修改域名可以改为其他的镜像站（注：OpenAI无法使用此方法，请理性使用该功能，合法利用）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">const TELEGRAPH_URL = &#x27;https://github.com&#x27;;</span><br><span class="line"></span><br><span class="line">addEventListener(&#x27;fetch&#x27;, event =&gt; &#123;</span><br><span class="line">  event.respondWith(handleRequest(event.request))</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">async function handleRequest(request) &#123;</span><br><span class="line">  const url = new URL(request.url);</span><br><span class="line">  url.host = TELEGRAPH_URL.replace(/^https?:\/\//, &#x27;&#x27;);</span><br><span class="line"></span><br><span class="line">  const modifiedRequest = new Request(url.toString(), &#123;</span><br><span class="line">    headers: request.headers,</span><br><span class="line">    method: request.method,</span><br><span class="line">    body: request.body,</span><br><span class="line">    redirect: &#x27;follow&#x27;</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">  const response = await fetch(modifiedRequest);</span><br><span class="line">  const modifiedResponse = new Response(response.body, response);</span><br><span class="line"></span><br><span class="line">  // 添加允许跨域访问的响应头</span><br><span class="line">  modifiedResponse.headers.set(&#x27;Access-Control-Allow-Origin&#x27;, &#x27;*&#x27;);</span><br><span class="line"></span><br><span class="line">  return modifiedResponse;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="Workers-设置自定义域名"><a href="#Workers-设置自定义域名" class="headerlink" title="Workers 设置自定义域名"></a>Workers 设置自定义域名</h1><p>1.托管域名<br>就是把自己的域名转移到CloudFlare，托管于CloudFlare，这个很简单，不会的可以自己百度，如果没有域名，也可以参考教程Freenom申请免费域名_一曲横笛的博客-CSDN博客申请一个自己的免费域名</p><p>2.新增DNS解析<br>在自己得域名新增一个DNS解析，名称自定义，IPv4随便填，最重要的是打开小黄云（CDN）</p><p>3.创建Workers<br>步骤和原来的步骤一样，教程：利用CF搭建Github下载代理_一曲横笛的博客-CSDN博客</p><p>4.关联域名<br>进入你的域名，不是你的首页！进入Workers，添加路由<br>路由填写上一步的子域名 + &#x2F;*，比如我刚刚DNS解析的域名是gh.ptshu.cn，那在路由一栏则填写gh.ptshu.cn&#x2F;*，服务选择需要自定义域名访问的Worker，就是你刚刚第三步创建的，注意需要先创建Worker再来关联，表示通过这个自定义域名来访问Worker服务：</p><p>完成后就可以通过自定义的域名访问Worker服务了。</p><p>总结一下，两个关键点：<br>域名必须托管于CloudFlare<br>Worker创建后需添加路由关联</p><p>接下来等待10min左右DNS更新。然后就可以访问你的域名来打开镜像站了</p><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1.保护好你的网站信息。免费版 Workers 每天有10w次调用额度，对于个人使用&#x2F;4-5人使用绰绰有余。不建议公开网址，避免造成财产损失</p><p>2.反向代理不要用于 IP 检测较为严格的网站，容易封号。例如不能用于 OpenAI。</p><p>3.禁止用于非法用途。此脚本仅用为 Github 开源镜像加速</p><p>4.镜像站不能正常登陆。</p>]]></content>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;要求&quot;&gt;&lt;a href=&quot;#要求&quot; class=&quot;headerlink&quot; title=&quot;要求&quot;&gt;&lt;/a&gt;要求&lt;/h1&gt;&lt;p&gt;· 拥有一个域名 （国内 workers.dev 无法访问，必须使用域名路由）&lt;/p&gt;
-&lt;p&gt;· 注册了CloudFlare账号（没有的话可以去官网注册，本文不介绍注册方法。​&lt;a href=&quot;https://dash.cloudflare.com/&quot;&gt;https://dash.cloudflare.com/&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网络智能" scheme="https://ptshu.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%99%BA%E8%83%BD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>如何解决 Windows10系统出现”你需要权限才能执行此操作“的问题</title>
-    <link href="https://ptshu.dpdns.org/2024/08/04/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%20Windows10%E7%B3%BB%E7%BB%9F%E5%87%BA%E7%8E%B0%E2%80%9D%E4%BD%A0%E9%9C%80%E8%A6%81%E6%9D%83%E9%99%90%E6%89%8D%E8%83%BD%E6%89%A7%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%E2%80%9C%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>https://ptshu.dpdns.org/2024/08/04/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%20Windows10%E7%B3%BB%E7%BB%9F%E5%87%BA%E7%8E%B0%E2%80%9D%E4%BD%A0%E9%9C%80%E8%A6%81%E6%9D%83%E9%99%90%E6%89%8D%E8%83%BD%E6%89%A7%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%E2%80%9C%E7%9A%84%E9%97%AE%E9%A2%98/</id>
-    <published>2024-08-04T01:47:59.000Z</published>
-    <updated>2024-08-04T01:49:56.064Z</updated>
-    
-    <content type="html"><![CDATA[<p>使用Windows10系统，会发现里面有很多设置跟以往的XP、win7相差甚远，例如在修改删除文件的时候，往往会出现“你需要权限才能执行此操作”的提示，让你无法继续操作。那么要如何解决账号无权限的问题呢，本文将针对此问题进行详细说明。</p><span id="more"></span><p>1.右键点击你要修改的文件，选择“属性”。</p><p>2.然后点击“安全”选项卡，再点击“高级”按钮。</p><p>3.进入高级设置中，再点击“更改”。</p><p>4.在选择用户和组中，我们再点击“高级”。</p><p>5.点击“立即查找”，之后会列出用户，我们选择当前帐户，一般都是“Adminitrator” 选中后点击“确认”。</p><p>6.用户选择好，点击“确定”。</p><p>7.这时所有者已经改好了，点击“确定”。</p><p>说明：如果是文件夹，那么还需要勾选“替换子容器和对象所有者”。</p><p>8.确定后回到“文件属性”-“安全界面”，然后我们选中刚刚添加的所有者，也就是你的用户名，然后点击“编辑”。</p><p>9.接着还是选中你的用户名，然后下方权限处勾选允许“完全控制”，然后点击“应用”再点击“确定”。</p><p>10.这样文件就可以修改跟删除了。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;使用Windows10系统，会发现里面有很多设置跟以往的XP、win7相差甚远，例如在修改删除文件的时候，往往会出现“你需要权限才能执行此操作”的提示，让你无法继续操作。那么要如何解决账号无权限的问题呢，本文将针对此问题进行详细说明。&lt;/p&gt;</summary>
-    
-    
     
     
   </entry>
